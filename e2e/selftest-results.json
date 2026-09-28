@@ -1,0 +1,548 @@
+[
+  {
+    "id": "1.1",
+    "module": "M1",
+    "name": "Hero advances every 5 seconds",
+    "result": "Pass",
+    "actual": "slide 1 → 2 after 5.4 s"
+  },
+  {
+    "id": "1.2",
+    "module": "M1",
+    "name": "Hero pauses while hovered",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "1.3",
+    "module": "M1",
+    "name": "Hero pauses while focused; dots and arrows work by keyboard",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "1.4",
+    "module": "M1",
+    "name": "Recently viewed: last 5, newest first, no duplicates, survives refresh",
+    "result": "Pass",
+    "actual": "5 items, newest \"Kashmir Willow Cricket Bat\""
+  },
+  {
+    "id": "1.5-1280",
+    "module": "M1",
+    "name": "Grid shows 4 column(s) at 1280 px",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "1.5-800",
+    "module": "M1",
+    "name": "Grid shows 2 column(s) at 800 px",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "1.5-390",
+    "module": "M1",
+    "name": "Grid shows 1 column(s) at 390 px",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "1.6",
+    "module": "M1",
+    "name": "Skeleton stays at least 1.5 s",
+    "result": "Pass",
+    "actual": "skeleton visible 1901 ms (service answered in 300–800 ms)"
+  },
+  {
+    "id": "1.7",
+    "module": "M1",
+    "name": "12 per page with 'Showing X of Y products'",
+    "result": "Pass",
+    "actual": "Showing 12 of 62 products"
+  },
+  {
+    "id": "1.8",
+    "module": "M1",
+    "name": "Card shows image with alt, title, brand, price, rating, Add to cart",
+    "result": "Pass",
+    "actual": "alt=\"English Willow Cricket Bat\""
+  },
+  {
+    "id": "1.9",
+    "module": "M1",
+    "name": "Discount % and struck price only when discounted",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "1.10",
+    "module": "M1",
+    "name": "Out of stock disables Add to cart; 'Only N left' below 5",
+    "result": "Pass",
+    "actual": "Only 3 left"
+  },
+  {
+    "id": "1.11",
+    "module": "M1",
+    "name": "Friendly error with Retry when products can't load (DEV, failure rate 1)",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "4.10",
+    "module": "M4",
+    "name": "Heart changes instantly and rolls back with a toast when saving fails (DEV)",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "2.1",
+    "module": "M2",
+    "name": "Results update while typing, no Enter",
+    "result": "Pass",
+    "actual": "4 results for \"yoga mat\""
+  },
+  {
+    "id": "2.2",
+    "module": "M2",
+    "name": "'/' does not steal focus while typing in another field",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "2.3",
+    "module": "M2",
+    "name": "Category options show counts",
+    "result": "Pass",
+    "actual": "Cricket (10)"
+  },
+  {
+    "id": "2.4",
+    "module": "M2",
+    "name": "Several brands at once, rating and price range filter the results",
+    "result": "Pass",
+    "actual": "8 results; chips: StrikeZone, ZenMat, 4★ & up, From ₹100, Up to ₹3000"
+  },
+  {
+    "id": "2.5",
+    "module": "M2",
+    "name": "Price range applies on Enter, not per keystroke",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "2.6",
+    "module": "M2",
+    "name": "Sort: newest first, and Relevance restores the original order",
+    "result": "Pass",
+    "actual": "newest first: Cricket Abdominal Guard"
+  },
+  {
+    "id": "2.7",
+    "module": "M2",
+    "name": "Chips remove one filter; Clear all removes all",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "2.8",
+    "module": "M2",
+    "name": "Filters survive refresh; Back and Forward step through them",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "2.9",
+    "module": "M2",
+    "name": "Clear empty state suggests removing a filter",
+    "result": "Pass",
+    "actual": "Try removing a filter above, or clear them all to see the whole catalogue."
+  },
+  {
+    "id": "L2",
+    "module": "L2",
+    "name": "Fast typing with 0–2 s search delays: results always match the box",
+    "result": "Pass",
+    "actual": "box \"football\"; screen shows the same 10 results as a clean search"
+  },
+  {
+    "id": "3.1",
+    "module": "M3",
+    "name": "Product already loaded elsewhere appears instantly",
+    "result": "Pass",
+    "actual": "92 ms (service delay is 300–800 ms)"
+  },
+  {
+    "id": "3.2",
+    "module": "M3",
+    "name": "Gallery: arrow keys move between images",
+    "result": "Pass",
+    "actual": "English Willow Cricket Bat, image 2 of 2"
+  },
+  {
+    "id": "3.3",
+    "module": "M3",
+    "name": "Tabs follow the keyboard pattern",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "3.4",
+    "module": "M3",
+    "name": "Quantity: +, −, +5, typing; over-stock focuses and selects the input",
+    "result": "Pass",
+    "actual": "Only 32 more available. You asked for 999."
+  },
+  {
+    "id": "3.5",
+    "module": "M3",
+    "name": "Delivery line uses the PIN, 3 working days",
+    "result": "Pass",
+    "actual": "Delivers to 560001 by Wed, 30 Sept"
+  },
+  {
+    "id": "3.6",
+    "module": "M3",
+    "name": "Review: keyboard stars, shown exactly as typed, average updates, one per shopper",
+    "result": "Pass",
+    "actual": "average now 4.0"
+  },
+  {
+    "id": "3.7",
+    "module": "M3",
+    "name": "Related products use the same card with their own action",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "3.8",
+    "module": "M3",
+    "name": "Not-found page for an unknown id",
+    "result": "Pass",
+    "actual": "Product not found"
+  },
+  {
+    "id": "3.9",
+    "module": "M3",
+    "name": "Stock refreshes every 30 s while the page is open",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "4.1",
+    "module": "M4",
+    "name": "Adding the same product twice merges into one line",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "4.2",
+    "module": "M4",
+    "name": "Badge shows total count",
+    "result": "Pass",
+    "actual": "Cart, 2 items"
+  },
+  {
+    "id": "4.3",
+    "module": "M4",
+    "name": "Totals: subtotal, 18% GST, ₹49 shipping at or below ₹999, rupee format, 'You saved'",
+    "result": "Pass",
+    "actual": "₹873.00 + ₹157.14 GST + ₹49.00 = ₹1,079.14, saved ₹166.28"
+  },
+  {
+    "id": "4.4",
+    "module": "M4",
+    "name": "Remove asks in a dialog above the sticky header; Escape and outside click close; focus returns",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "4.5",
+    "module": "M4",
+    "name": "Cart survives refresh; empty cart links back to shopping",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "4.6",
+    "module": "M4",
+    "name": "Toasts disappear after 3 s",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "L4.1",
+    "module": "L4",
+    "name": "Ten rapid + clicks in the drawer add exactly ten",
+    "result": "Pass",
+    "actual": "1 → 11"
+  },
+  {
+    "id": "L4.2",
+    "module": "L4",
+    "name": "Drawer, product page 'In your cart' and cart page stay in sync",
+    "result": "Pass",
+    "actual": "In your cart: 11 → +1 → cart shows 12"
+  },
+  {
+    "id": "L4.3",
+    "module": "L4",
+    "name": "Removing the first row keeps the other rows' quantities",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "4.7",
+    "module": "M4",
+    "name": "Wishlist page: Move to cart and Remove; persists",
+    "result": "Pass",
+    "actual": "Your wishlist is empty"
+  },
+  {
+    "id": "5.1",
+    "module": "M5",
+    "name": "Empty submit: first invalid field focused, errors announced",
+    "result": "Pass",
+    "actual": "6 fields need attention: Full name, Email, Phone, Address, City, PIN code."
+  },
+  {
+    "id": "5.2",
+    "module": "M5",
+    "name": "Validation on blur (email, phone, PIN)",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "5.3",
+    "module": "M5",
+    "name": "Billing form sits beside delivery on wide screens",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "5.4",
+    "module": "M5",
+    "name": "Enter submits a step; Back keeps the input",
+    "result": "Pass",
+    "actual": "saved address: Aditi Rao"
+  },
+  {
+    "id": "5.5",
+    "module": "M5",
+    "name": "Saved addresses can be edited and deleted",
+    "result": "Pass",
+    "actual": "edited city to Mysuru (delete covered in Account → Addresses, 7.3)"
+  },
+  {
+    "id": "5.6",
+    "module": "M5",
+    "name": "Card: 16 digits and expiry in the future",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "5.7",
+    "module": "M5",
+    "name": "Review has an Edit link for each step",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "5.8",
+    "module": "M5",
+    "name": "Offline: banner and Place order disabled",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "5.9",
+    "module": "M5",
+    "name": "Order placed once despite ~1/3 failures; lands on confirmation",
+    "result": "Pass",
+    "actual": "ORD-L4PBC8 after 3 click(s)"
+  },
+  {
+    "id": "6.1",
+    "module": "M6",
+    "name": "ORD- + 6 characters; savings row under each discounted item; cart cleared",
+    "result": "Pass",
+    "actual": "4 table rows"
+  },
+  {
+    "id": "6.2",
+    "module": "M6",
+    "name": "Refresh shows the same order; only one order was created",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "6.3",
+    "module": "M6",
+    "name": "Print hides header, footer and buttons",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "6.4",
+    "module": "M6",
+    "name": "Cancel with a live countdown in the first 60 s",
+    "result": "Pass",
+    "actual": "Cancel available for 58s"
+  },
+  {
+    "id": "6.5",
+    "module": "M6",
+    "name": "Opening confirmation without an order redirects home",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "6.6",
+    "module": "M6",
+    "name": "Status moves Placed → Packed → Shipped → Delivered every 20 s",
+    "result": "Pass",
+    "actual": "Placed → Packed → Shipped → Delivered"
+  },
+  {
+    "id": "6.7",
+    "module": "M6",
+    "name": "Correct status when opened hours later",
+    "result": "Pass",
+    "actual": "Delivered"
+  },
+  {
+    "id": "L7.1",
+    "module": "L7",
+    "name": "Price changed in another tab: order refused, new price shown, details kept",
+    "result": "Pass",
+    "actual": "Cricket Batting Pads (Pair) is now ₹999.99 (was ₹710.50). Place order blocked until \"Use the new prices\""
+  },
+  {
+    "id": "L7.2",
+    "module": "L7",
+    "name": "Stock dropped below the cart quantity: stopped, with a fix",
+    "result": "Pass",
+    "actual": "Cricket Batting Pads (Pair) : you asked for 2, 1 left."
+  },
+  {
+    "id": "8.9",
+    "module": "M8",
+    "name": "Admin change shows in an already open shopper tab",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "7.1",
+    "module": "M7",
+    "name": "Delivery PIN set once is used on product, cart and checkout",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "7.2",
+    "module": "M7",
+    "name": "Account: shared layout, three nested pages with URLs, active item marked",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "7.3",
+    "module": "M7",
+    "name": "Addresses page adds and deletes (same list as checkout)",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "7.4",
+    "module": "M7",
+    "name": "Dark theme applied before the page is shown (no flash)",
+    "result": "Pass",
+    "actual": "data-theme=dark set before the app script ran"
+  },
+  {
+    "id": "7.5",
+    "module": "M7",
+    "name": "System theme follows the OS live",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "7.6",
+    "module": "M7",
+    "name": "Checkout, Account and admin code loads only when first opened",
+    "result": "Pass",
+    "actual": "home: 0 lazy chunks; /checkout: Checkout-DEeheqiG.js, Checkout-ceLbOnOS.css"
+  },
+  {
+    "id": "8.1",
+    "module": "M8",
+    "name": "Shoppers get a sign-in prompt; switching role returns to the asked page",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "8.2",
+    "module": "M8",
+    "name": "A then B shows B's values",
+    "result": "Pass",
+    "actual": "\"Kashmir Willow Cricket Bat\" → \"English Willow Cricket Bat\""
+  },
+  {
+    "id": "8.3",
+    "module": "M8",
+    "name": "Unsaved changes ask before leaving",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "8.4",
+    "module": "M8",
+    "name": "Save shows Saving… and field errors appear next to fields",
+    "result": "Pass",
+    "actual": "Saving… seen, then saved"
+  },
+  {
+    "id": "8.5",
+    "module": "M8",
+    "name": "Image pick shows a preview; stored image survives refresh",
+    "result": "Pass",
+    "actual": "picked 5 images in a row; saved image shown from IndexedDB after refresh"
+  },
+  {
+    "id": "8.6",
+    "module": "M8",
+    "name": "Table sorts, searches, paginates",
+    "result": "Pass",
+    "actual": "sorted by price ascending; \"yoga\" → 10 rows; Page 1 of 2"
+  },
+  {
+    "id": "8.7",
+    "module": "M8",
+    "name": "Bulk delete: Undo keeps everything; waiting deletes",
+    "result": "Pass",
+    "actual": "62 → Undo → 62; delete 1 and wait → 61"
+  },
+  {
+    "id": "X.1",
+    "module": "Cross",
+    "name": "First Tab reaches 'Skip to content', which moves focus to main",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "X.2",
+    "module": "Cross",
+    "name": "page_view logged once per page visit",
+    "result": "Pass",
+    "actual": "As expected"
+  },
+  {
+    "id": "X.3",
+    "module": "Cross",
+    "name": "No console errors or warnings during these runs",
+    "result": "Pass",
+    "actual": "As expected"
+  }
+]

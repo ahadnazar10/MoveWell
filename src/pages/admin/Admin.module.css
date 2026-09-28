@@ -1,0 +1,297 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.header h1 {
+  margin: 0 0 4px;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  text-transform: uppercase;
+}
+
+.header p {
+  margin: 0;
+}
+
+.tableCard {
+  padding: 24px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.tableControls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px 16px;
+  margin-bottom: 18px;
+}
+
+.tableControls .searchInput {
+  flex: 1 1 260px;
+  max-width: 380px;
+  border-radius: 0;
+}
+
+.selectionInfo {
+  margin-left: auto;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.deleteBtn:not(:disabled):hover {
+  border-color: var(--accent);
+  color: var(--accent-deep);
+}
+
+.deleteBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* The table may be wider than a phone; only it scrolls, never the page. */
+.tableWrapper {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  min-width: 640px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.table th {
+  padding: 0 12px;
+  border-bottom: 2px solid var(--text);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.sortBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 0;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+}
+
+.sortBtn:hover,
+th[aria-sort="ascending"] .sortBtn,
+th[aria-sort="descending"] .sortBtn {
+  color: var(--text);
+}
+
+.table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.92rem;
+}
+
+.checkCol {
+  width: 44px;
+}
+
+.checkCol input {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--accent);
+}
+
+.selectedRow {
+  background: var(--surface-hover);
+}
+
+.titleCell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 220px;
+}
+
+.miniThumb {
+  flex: none;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border: 1px solid var(--border);
+}
+
+.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.stockLow {
+  color: var(--accent-deep);
+  font-weight: 700;
+}
+
+.stockOos {
+  padding: 2px 6px;
+  background: var(--surface-hover);
+  font-weight: 700;
+}
+
+.actionBtn {
+  padding: 5px 12px;
+  border: 1px solid var(--border);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.actionBtn:hover {
+  border-color: var(--accent);
+  color: var(--accent-deep);
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 14px;
+  margin-top: 18px;
+}
+
+/* ---- Product form ---- */
+
+.formCard {
+  margin-bottom: 28px;
+  padding: 28px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-top: 4px solid var(--accent);
+}
+
+.formTitle {
+  grid-column: 1 / -1;
+  margin: 0;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.full {
+  grid-column: 1 / -1;
+}
+
+.field label {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.field input,
+.field select,
+.field textarea {
+  width: 100%;
+  border-radius: var(--radius-sm);
+}
+
+.goalsField {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.goalsField legend {
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.goalsOptions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.goalsOptions label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+}
+
+.field .goalsOptions input {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--accent);
+}
+
+.field [aria-invalid="true"] {
+  border-color: var(--danger);
+}
+
+.fieldError,
+.formError {
+  margin: 0;
+  color: var(--danger);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.formError {
+  grid-column: 1 / -1;
+  margin-bottom: 16px;
+}
+
+.previews {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.previewImg {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  background: var(--surface-hover);
+}
+
+.formActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+@media (max-width: 860px) {
+  .formGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .formGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .tableCard,
+  .formCard {
+    padding: 18px;
+  }
+}

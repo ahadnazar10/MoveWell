@@ -1,0 +1,556 @@
+:root {
+  /* MoveWell brand: deep teal on warm neutrals, with one colour per
+     department (sports, footwear, health) used for chips, card accents and
+     category tiles. Shape system: softly rounded (4-14px); count badges and
+     pills use --radius-full. Every text colour here is >= 4.5:1 on its
+     background in both themes. */
+  --bg: #f5f6f4;
+  --surface: #ffffff;
+  --surface-hover: #eef1ef;
+  --surface-sunk: #e6ebe8;
+  --text: #102220;
+  --text-muted: #4f5e5b;
+  --border: #d9e0dd;
+  --accent: #0f766e;
+  --accent-hover: #0b5f58;
+  --accent-glow: rgba(15, 118, 110, 0.22);
+  --accent-deep: #0b5f58;
+  --accent-contrast: #ffffff;
+  --accent-soft: #e0f2ef;
+  --highlight: #d9f99d;
+  --danger: #dc2626;
+  --success: #0b7a53;
+  --warning: #f59e0b;
+  --radius-sm: 4px;
+  --radius: 8px;
+  --radius-lg: 14px;
+  --radius-full: 9999px;
+
+  /* Department colours (text-safe on white and on their -soft tint). */
+  --dept-sports: #c2410c;
+  --dept-sports-soft: #ffedd5;
+  --dept-footwear: #5b21b6;
+  --dept-footwear-soft: #ede9fe;
+  --dept-health: #0369a1;
+  --dept-health-soft: #e0f2fe;
+
+  --shadow-sm: 0 1px 2px rgba(18, 18, 20, 0.05);
+  --shadow-md: 0 12px 28px -12px rgba(18, 18, 20, 0.18);
+  --shadow-lg: 0 24px 48px -18px rgba(18, 18, 20, 0.28);
+  --shadow: var(--shadow-md);
+
+  --font-heading: "Oswald", "Arial Narrow", "Roboto Condensed", Impact, sans-serif;
+  --font-body:
+    "Barlow", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Header & Footer shell styling */
+  --ink: #0c2421;
+  --ink-soft: #133330;
+  --on-ink: #f1f7f5;
+  --on-ink-muted: #a7bdb8;
+  --on-ink-border: rgba(255, 255, 255, 0.12);
+  --accent-onink: #5eead4;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0a1211;
+  --surface: #121d1b;
+  --surface-hover: #1a2825;
+  --surface-sunk: #16211f;
+  --text: #eef5f3;
+  --text-muted: #a3b5b1;
+  --border: #25332f;
+  --accent: #0f766e;
+  --accent-hover: #14968b;
+  --accent-glow: rgba(45, 212, 191, 0.25);
+  --accent-deep: #5eead4;
+  --accent-contrast: #ffffff;
+  --accent-soft: #123431;
+  --danger: #ff6b70;
+  --success: #34d399;
+  --dept-sports: #fb923c;
+  --dept-sports-soft: #3a1f10;
+  --dept-footwear: #c4b5fd;
+  --dept-footwear-soft: #261c42;
+  --dept-health: #7dd3fc;
+  --dept-health-soft: #0e2a3a;
+  --ink: #06100f;
+  --ink-soft: #0e1a18;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 12px 28px -12px rgba(0, 0, 0, 0.6);
+  --shadow-lg: 0 24px 48px -18px rgba(0, 0, 0, 0.75);
+  --shadow: var(--shadow-md);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  line-height: 1.5;
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  letter-spacing: 0;
+  margin: 0 0 0.5em;
+  color: var(--text);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+/* Skip link: off-screen until focused with the keyboard. */
+.skip-link {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 2000;
+  padding: 10px 16px;
+  background: var(--ink);
+  color: #ffffff;
+  font-weight: 700;
+  transform: translateY(-200%);
+}
+
+.skip-link:focus {
+  transform: none;
+}
+
+main:focus {
+  outline: none;
+}
+
+@media print {
+  .no-print,
+  .skip-link,
+  button,
+  .toast-stack,
+  .dev-controls-toggle,
+  .dev-controls-panel {
+    display: none !important;
+  }
+
+  body {
+    background: #ffffff;
+    color: #000000;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* padding-block, not the padding shorthand: .container's side padding must survive. */
+.section {
+  padding-block: 48px;
+}
+
+.muted {
+  color: var(--text-muted);
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+:root[data-theme="dark"] .glass {
+  background: rgba(19, 27, 46, 0.85);
+}
+
+/* Department chip: <span class="dept-chip" data-dept="footwear">Sandals</span> */
+.dept-chip {
+  --chip: var(--accent);
+  --chip-soft: var(--accent-soft);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  background: var(--chip-soft);
+  color: var(--chip);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+[data-dept="sports"] {
+  --chip: var(--dept-sports);
+  --chip-soft: var(--dept-sports-soft);
+}
+
+[data-dept="footwear"] {
+  --chip: var(--dept-footwear);
+  --chip-soft: var(--dept-footwear-soft);
+}
+
+[data-dept="health"] {
+  --chip: var(--dept-health);
+  --chip-soft: var(--dept-health-soft);
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 11px 22px;
+  border-radius: var(--radius);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: var(--accent-contrast);
+  border-color: var(--accent);
+}
+
+.btn-primary:hover {
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+  box-shadow: 0 4px 14px var(--accent-glow);
+}
+
+.btn-secondary {
+  background: var(--surface);
+  color: var(--text);
+  border-color: var(--border);
+}
+
+.btn-secondary:hover {
+  background: var(--surface-hover);
+  border-color: var(--text-muted);
+}
+
+select,
+input[type="text"],
+input[type="number"],
+input[type="search"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="file"],
+textarea {
+  font-family: inherit;
+  font-size: 0.95rem;
+  padding: 10px 14px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+select:focus,
+input:focus,
+textarea:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-glow);
+  outline: none;
+}
+
+/* Empty / placeholder states */
+.empty-state {
+  text-align: center;
+  padding: 64px 24px;
+  background: var(--surface);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.empty-state h2 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+/* Offline banner */
+.offline-banner {
+  background: var(--danger);
+  color: #fff;
+  text-align: center;
+  padding: 10px 16px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  box-shadow: var(--shadow-sm);
+}
+
+/* Toaster */
+/* Toasts sit above dialogs (1000) so an Undo is never hidden. */
+.toast-stack {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 1100;
+  max-width: min(420px, calc(100vw - 32px));
+}
+
+.toast {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px 18px;
+  box-shadow: var(--shadow-lg);
+  animation: toastSlideIn 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  font-weight: 500;
+  font-size: 0.92rem;
+}
+
+@keyframes toastSlideIn {
+  from {
+    transform: translateY(20px) scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.toast-action {
+  padding: 6px 12px;
+  background: var(--accent);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.toast-action:hover {
+  background: var(--accent-hover);
+}
+
+.toast-dismiss {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: var(--text-muted);
+  padding: 0 4px;
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.toast-dismiss:hover {
+  color: var(--text);
+}
+
+.toast-error {
+  border-left: 4px solid var(--danger);
+}
+
+.toast-success {
+  border-left: 4px solid var(--success);
+}
+
+/* Dev controls (development builds only) */
+.dev-controls-toggle {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 90;
+  padding: 10px 16px;
+  background: var(--ink);
+  color: var(--on-ink);
+  border: 1px solid var(--on-ink-border);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.dev-controls-toggle:hover {
+  border-color: var(--accent-onink);
+}
+
+.dev-controls-panel {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 90;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: min(380px, calc(100vw - 40px));
+  max-height: calc(100dvh - 40px);
+  padding: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-lg);
+  font-size: 0.85rem;
+}
+
+.dev-controls-header,
+.dev-controls-log-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dev-controls-header button {
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.dev-controls-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.dev-controls-grid label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-weight: 600;
+}
+
+.dev-controls-grid input {
+  padding: 6px 8px;
+  border-radius: 0;
+}
+
+.dev-controls-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.dev-controls-actions .btn {
+  padding: 7px 12px;
+  font-size: 0.8rem;
+}
+
+.dev-controls-log {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-height: 0;
+}
+
+.dev-controls-log ol {
+  max-height: 220px;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  list-style: none;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.75rem;
+}
+
+.dev-controls-log li {
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
+  overflow-wrap: anywhere;
+}
+
+.dev-log-error {
+  color: var(--danger);
+}
+
+.dev-log-time {
+  color: var(--text-muted);
+}
+
+.theme-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  border: none;
+  padding: 0;
+  margin-top: 12px;
+}
+
+.theme-picker legend {
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.theme-picker label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}

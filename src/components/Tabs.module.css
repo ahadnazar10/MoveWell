@@ -1,0 +1,56 @@
+.tabList {
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+  border-bottom: 1px solid var(--border);
+  scrollbar-width: none;
+}
+
+.tab {
+  position: relative;
+  padding: 14px 20px;
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-muted);
+  white-space: nowrap;
+  transition: color 0.2s ease;
+}
+
+.tab::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 3px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transition: transform 0.3s var(--ease-out);
+}
+
+.tab:hover {
+  color: var(--text);
+}
+
+.selectedTab {
+  color: var(--text);
+}
+
+.selectedTab::after {
+  transform: scaleX(1);
+}
+
+.tab:focus-visible {
+  outline-offset: -3px;
+}
+
+.tabPanel {
+  padding-top: 28px;
+}
+
+.tabPanel:focus-visible {
+  outline-offset: 4px;
+}

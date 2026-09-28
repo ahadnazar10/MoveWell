@@ -1,0 +1,5051 @@
+[
+  {
+    "id": 1,
+    "title": "English Willow Cricket Bat",
+    "description": "A grade. Built for cricket players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Cricket",
+    "brand": "StrikeZone",
+    "price": 436.5,
+    "discountPercentage": 16,
+    "rating": 4.9,
+    "stock": 32,
+    "specs": {
+      "Material": "English willow",
+      "Weight": "1180g",
+      "Suitable for": "Leather ball",
+      "Skill level": "Intermediate",
+      "Warranty": "6 months"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "1",
+    "thumbnail": "/images/01-English Willow Cricket Bat.jpg",
+    "images": [
+      "/images/01-English Willow Cricket Bat.jpg",
+      "/images/01-English Willow Cricket Bat.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Kashmir Willow Cricket Bat",
+    "description": "Youth size. Built for cricket players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Cricket",
+    "brand": "PowerPlay",
+    "price": 573.5,
+    "discountPercentage": 27,
+    "rating": 4.8,
+    "stock": 21,
+    "specs": {
+      "Material": "Kashmir willow",
+      "Weight": "1050g",
+      "Suitable for": "Tennis ball",
+      "Skill level": "Beginner",
+      "Warranty": "3 months"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "2",
+    "thumbnail": "/images/02-Kashmir Willow Cricket Bat.jpg",
+    "images": [
+      "/images/02-Kashmir Willow Cricket Bat.jpg",
+      "/images/02-Kashmir Willow Cricket Bat.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Cricket Batting Pads (Pair)",
+    "description": "Lightweight. Built for cricket players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Cricket",
+    "brand": "StrikeZone",
+    "price": 710.5,
+    "discountPercentage": 30,
+    "rating": 4.7,
+    "stock": 10,
+    "specs": {
+      "Material": "High-density foam, PU",
+      "Size": "Men's",
+      "Suitable for": "Leather ball",
+      "Warranty": "1 year"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "3",
+    "thumbnail": "/images/03-Cricket Batting Pads (Pair).jpg",
+    "images": [
+      "/images/03-Cricket Batting Pads (Pair).jpg",
+      "/images/03-Cricket Batting Pads (Pair).jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Cricket Batting Gloves",
+    "description": "Extra padding on knuckles. Built for cricket players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Cricket",
+    "brand": "PowerPlay",
+    "price": 847.5,
+    "discountPercentage": 14,
+    "rating": 4.6,
+    "stock": 39,
+    "specs": {
+      "Material": "Leather palm, foam back",
+      "Size": "Men's L",
+      "Skill level": "Intermediate",
+      "Warranty": "6 months"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "4",
+    "thumbnail": "/images/04-Cricket Batting Gloves.jpg",
+    "images": [
+      "/images/04-Cricket Batting Gloves.jpg",
+      "/images/04-Cricket Batting Gloves.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Cricket Helmet with Grille — Steel grille, adjustable — Officially Licensed Tournament Edition with Extended Grip Comfort Technology and 12-Month Manufacturer Warranty (Limited Stock)",
+    "description": "Steel grille, adjustable. Built for cricket players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Cricket",
+    "brand": "StrikeZone",
+    "price": 984.5,
+    "discountPercentage": 25,
+    "rating": 4.5,
+    "stock": 28,
+    "specs": {
+      "Material": "ABS shell",
+      "Size": "M/L",
+      "Suitable for": "Leather ball",
+      "Warranty": "1 year"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "5",
+    "thumbnail": "/images/05-Cricket Helmet with Grille — Steel grille, adjustable — Officially Licensed Tournament Edition with Extended Grip Comfort Technology and 12-Month Manufacturer Warranty (Limited Stock).jpg",
+    "images": [
+      "/images/05-Cricket Helmet with Grille — Steel grille, adjustable — Officially Licensed Tournament Edition with Extended Grip Comfort Technology and 12-Month Manufacturer Warranty (Limited Stock).jpg",
+      "/images/05-Cricket Helmet with Grille — Steel grille, adjustable — Officially Licensed Tournament Edition with Extended Grip Comfort Technology and 12-Month Manufacturer Warranty (Limited Stock).jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Leather Cricket Ball (Pack of 6)",
+    "description": "Match quality, red. Built for cricket players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Cricket",
+    "brand": "PowerPlay",
+    "price": 1121.5,
+    "discountPercentage": 30,
+    "rating": 4.4,
+    "stock": 17,
+    "specs": {
+      "Material": "Genuine leather",
+      "Weight": "156g",
+      "Suitable for": "Leather ball",
+      "Warranty": "No warranty"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "6",
+    "thumbnail": "/images/06-Leather Cricket Ball (Pack of 6).jpg",
+    "images": [
+      "/images/06-Leather Cricket Ball (Pack of 6).jpg",
+      "/images/06-Leather Cricket Ball (Pack of 6).jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Cricket Kit Bag",
+    "description": "Wheeled, 3 compartments. Built for cricket players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Cricket",
+    "brand": "StrikeZone",
+    "price": 1258.5,
+    "discountPercentage": 0,
+    "rating": 4.3,
+    "stock": 6,
+    "specs": {
+      "Material": "600D polyester",
+      "Size": "34\"",
+      "Warranty": "1 year"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "7",
+    "thumbnail": "/images/07-Cricket Kit Bag.jpg",
+    "images": [
+      "/images/07-Cricket Kit Bag.jpg",
+      "/images/07-Cricket Kit Bag.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Cricket Stumps Set",
+    "description": "Wooden, with bails. Built for cricket players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Cricket",
+    "brand": "PowerPlay",
+    "price": 1395.5,
+    "discountPercentage": 23,
+    "rating": 4.2,
+    "stock": 35,
+    "specs": {
+      "Material": "Seasoned wood",
+      "Size": "Standard",
+      "Warranty": "No warranty"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "8",
+    "thumbnail": "/images/08-Cricket Stumps Set.jpg",
+    "images": [
+      "/images/08-Cricket Stumps Set.jpg",
+      "/images/08-Cricket Stumps Set.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Cricket Wicket Keeping Gloves",
+    "description": "Extra grip palm. Built for cricket players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Cricket",
+    "brand": "StrikeZone",
+    "price": 1532.5,
+    "discountPercentage": 30,
+    "rating": 4.1,
+    "stock": 24,
+    "specs": {
+      "Material": "Pittard leather",
+      "Size": "Men's",
+      "Skill level": "Advanced",
+      "Warranty": "6 months"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "9",
+    "thumbnail": "/images/09-Cricket Wicket Keeping Gloves.jpg",
+    "images": [
+      "/images/09-Cricket Wicket Keeping Gloves.jpg",
+      "/images/09-Cricket Wicket Keeping Gloves.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Cricket Abdominal Guard",
+    "description": "Ventilated. Built for cricket players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Cricket",
+    "brand": "PowerPlay",
+    "price": 1669.5,
+    "discountPercentage": 10,
+    "rating": 4,
+    "stock": 13,
+    "specs": {
+      "Material": "PE shell, foam lining",
+      "Size": "Men's",
+      "Warranty": "3 months"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "10",
+    "thumbnail": "/images/10-Cricket Abdominal Guard.jpg",
+    "images": [
+      "/images/10-Cricket Abdominal Guard.jpg",
+      "/images/10-Cricket Abdominal Guard.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Match Football Size 5",
+    "description": "FIFA quality pro. Built for football players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Football",
+    "brand": "StrikeZone",
+    "price": 1299.5,
+    "discountPercentage": 21,
+    "rating": 3.9,
+    "stock": 0,
+    "specs": {
+      "Material": "PU synthetic",
+      "Size": "5",
+      "Suitable for": "Firm ground",
+      "Warranty": "6 months"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "11",
+    "thumbnail": "/images/11-Match Football Size 5.jpg",
+    "images": [
+      "/images/11-Match Football Size 5.jpg",
+      "/images/11-Match Football Size 5.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Training Football Size 4",
+    "description": "Youth training ball. Built for football players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Football",
+    "brand": "PowerPlay",
+    "price": 1943.5,
+    "discountPercentage": 32,
+    "rating": 3.8,
+    "stock": 31,
+    "specs": {
+      "Material": "TPU",
+      "Size": "4",
+      "Skill level": "Beginner",
+      "Warranty": "3 months"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "12",
+    "thumbnail": "/images/12-Training Football Size 4.jpg",
+    "images": [
+      "/images/12-Training Football Size 4.jpg",
+      "/images/12-Training Football Size 4.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Football Studs (Firm Ground)",
+    "description": "Conical studs. Built for football players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Football",
+    "brand": "StrikeZone",
+    "price": 2080.5,
+    "discountPercentage": 0,
+    "rating": 3.7,
+    "stock": 20,
+    "specs": {
+      "Material": "Synthetic leather upper",
+      "Size": "UK 8",
+      "Suitable for": "Firm ground",
+      "Warranty": "6 months"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "13",
+    "thumbnail": "/images/13-Football Studs (Firm Ground).jpg",
+    "images": [
+      "/images/13-Football Studs (Firm Ground).jpg",
+      "/images/13-Football Studs (Firm Ground).jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Football Shin Guards",
+    "description": "Slip-in with ankle sleeve. Built for football players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Football",
+    "brand": "PowerPlay",
+    "price": 2217.5,
+    "discountPercentage": 0,
+    "rating": 3.6,
+    "stock": 9,
+    "specs": {
+      "Material": "EVA foam, PP shell",
+      "Size": "M",
+      "Warranty": "3 months"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "14",
+    "thumbnail": "/images/14-Football Shin Guards.jpg",
+    "images": [
+      "/images/14-Football Shin Guards.jpg",
+      "/images/14-Football Shin Guards.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Goalkeeper Gloves",
+    "description": "Latex palm, finger spines. Built for football players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Football",
+    "brand": "StrikeZone",
+    "price": 2354.5,
+    "discountPercentage": 30,
+    "rating": 3.5,
+    "stock": 38,
+    "specs": {
+      "Material": "Latex, neoprene",
+      "Size": "9",
+      "Skill level": "Intermediate",
+      "Warranty": "3 months"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "15",
+    "thumbnail": "/images/15-Goalkeeper Gloves.jpg",
+    "images": [
+      "/images/15-Goalkeeper Gloves.jpg",
+      "/images/15-Goalkeeper Gloves.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Football Training Cones (Set of 20)",
+    "description": "Stackable, bright colours. Built for football players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Football",
+    "brand": "PowerPlay",
+    "price": 2491.5,
+    "discountPercentage": 6,
+    "rating": 3.4,
+    "stock": 27,
+    "specs": {
+      "Material": "PVC",
+      "Size": "9 inch",
+      "Warranty": "No warranty"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "16",
+    "thumbnail": "/images/16-Football Training Cones (Set of 20).jpg",
+    "images": [
+      "/images/16-Football Training Cones (Set of 20).jpg",
+      "/images/16-Football Training Cones (Set of 20).jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Portable Football Goal Post",
+    "description": "Pop-up, carry bag included. Built for football players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Football",
+    "brand": "StrikeZone",
+    "price": 2628.5,
+    "discountPercentage": 17,
+    "rating": 3.3,
+    "stock": 16,
+    "specs": {
+      "Material": "Fibreglass frame",
+      "Size": "6x3 ft",
+      "Warranty": "6 months"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "17",
+    "thumbnail": "/images/17-Portable Football Goal Post.jpg",
+    "images": [
+      "/images/17-Portable Football Goal Post.jpg",
+      "/images/17-Portable Football Goal Post.jpg"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Football Captain's Armband",
+    "description": "Elastic, one size. Built for football players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Football",
+    "brand": "PowerPlay",
+    "price": 2765.5,
+    "discountPercentage": 28,
+    "rating": 3.2,
+    "stock": 5,
+    "specs": {
+      "Material": "Elastane",
+      "Size": "One size",
+      "Warranty": "No warranty"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "18",
+    "images": []
+  },
+  {
+    "id": 19,
+    "title": "Agility Ladder",
+    "description": "12 rungs, adjustable. Built for football players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Football",
+    "brand": "StrikeZone",
+    "price": 2902.5,
+    "discountPercentage": 39,
+    "rating": 4.9,
+    "stock": 34,
+    "specs": {
+      "Material": "Nylon webbing",
+      "Size": "4m",
+      "Suitable for": "Speed training",
+      "Warranty": "No warranty"
+    },
+    "goals": [
+      "running"
+    ],
+    "source": "FitArena",
+    "sourceId": "19",
+    "thumbnail": "/images/19-Agility Ladder.jpg",
+    "images": [
+      "/images/19-Agility Ladder.jpg",
+      "/images/19-Agility Ladder.jpg"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Football Pump with Needles",
+    "description": "Dual action. Built for football players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Football",
+    "brand": "PowerPlay",
+    "price": 3039.5,
+    "discountPercentage": 15,
+    "rating": 4.8,
+    "stock": 23,
+    "specs": {
+      "Material": "ABS plastic",
+      "Warranty": "3 months"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "20",
+    "thumbnail": "/images/20-Football Pump with Needles.jpg",
+    "images": [
+      "/images/20-Football Pump with Needles.jpg",
+      "/images/20-Football Pump with Needles.jpg"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Carbon Fibre Badminton Racket",
+    "description": "Full graphite, medium flex. Built for badminton players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Badminton",
+    "brand": "AceShuttle",
+    "price": 3176.5,
+    "discountPercentage": 0,
+    "rating": 4.7,
+    "stock": 12,
+    "specs": {
+      "Material": "Full graphite",
+      "Weight": "85g",
+      "Skill level": "Intermediate",
+      "Warranty": "6 months"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "21",
+    "thumbnail": "/images/21-Carbon Fibre Badminton Racket.jpg",
+    "images": [
+      "/images/21-Carbon Fibre Badminton Racket.jpg",
+      "/images/21-Carbon Fibre Badminton Racket.jpg"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Aluminium Badminton Racket",
+    "description": "Beginner friendly. Built for badminton players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Badminton",
+    "brand": "FlexFit",
+    "price": 3313.5,
+    "discountPercentage": 37,
+    "rating": 4.6,
+    "stock": 0,
+    "specs": {
+      "Material": "Aluminium/steel",
+      "Weight": "95g",
+      "Skill level": "Beginner",
+      "Warranty": "3 months"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "22",
+    "thumbnail": "/images/22-Aluminium Badminton Racket.jpg",
+    "images": [
+      "/images/22-Aluminium Badminton Racket.jpg",
+      "/images/22-Aluminium Badminton Racket.jpg"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Feather Shuttlecocks (Tube of 12)",
+    "description": "Goose feather, tournament grade. Built for badminton players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Badminton",
+    "brand": "AceShuttle",
+    "price": 3450.5,
+    "discountPercentage": 13,
+    "rating": 4.5,
+    "stock": 30,
+    "specs": {
+      "Material": "Goose feather, cork",
+      "Skill level": "Advanced",
+      "Warranty": "No warranty"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "23",
+    "thumbnail": "/images/23-Feather Shuttlecocks (Tube of 12).jpg",
+    "images": [
+      "/images/23-Feather Shuttlecocks (Tube of 12).jpg",
+      "/images/23-Feather Shuttlecocks (Tube of 12).jpg"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Nylon Shuttlecocks (Tube of 6)",
+    "description": "Practice grade. Built for badminton players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Badminton",
+    "brand": "FlexFit",
+    "price": 3587.5,
+    "discountPercentage": 24,
+    "rating": 4.4,
+    "stock": 19,
+    "specs": {
+      "Material": "Nylon, cork",
+      "Skill level": "Beginner",
+      "Warranty": "No warranty"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "24",
+    "thumbnail": "/images/24-Nylon Shuttlecocks (Tube of 6).jpg",
+    "images": [
+      "/images/24-Nylon Shuttlecocks (Tube of 6).jpg",
+      "/images/24-Nylon Shuttlecocks (Tube of 6).jpg"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Badminton Racket Cover Bag",
+    "description": "Padded, holds 2 rackets. Built for badminton players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Badminton",
+    "brand": "AceShuttle",
+    "price": 3724.5,
+    "discountPercentage": 35,
+    "rating": 4.3,
+    "stock": 8,
+    "specs": {
+      "Material": "Polyester",
+      "Warranty": "3 months"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "25",
+    "thumbnail": "/images/25-Badminton Racket Cover Bag.jpg",
+    "images": [
+      "/images/25-Badminton Racket Cover Bag.jpg",
+      "/images/25-Badminton Racket Cover Bag.jpg"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Badminton Court Shoes",
+    "description": "Non-marking sole. Built for badminton players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Badminton",
+    "brand": "FlexFit",
+    "price": 3861.5,
+    "discountPercentage": 0,
+    "rating": 4.2,
+    "stock": 37,
+    "specs": {
+      "Material": "Mesh upper, rubber sole",
+      "Size": "UK 9",
+      "Suitable for": "Indoor court",
+      "Warranty": "6 months"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "26",
+    "thumbnail": "/images/26-Badminton Court Shoes.jpg",
+    "images": [
+      "/images/26-Badminton Court Shoes.jpg",
+      "/images/26-Badminton Court Shoes.jpg"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Badminton Grip Tape (Pack of 3)",
+    "description": "Anti-slip overgrip. Built for badminton players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Badminton",
+    "brand": "AceShuttle",
+    "price": 3998.5,
+    "discountPercentage": 22,
+    "rating": 4.1,
+    "stock": 26,
+    "specs": {
+      "Material": "PU",
+      "Warranty": "No warranty"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "27",
+    "thumbnail": "/images/27-Badminton Grip Tape (Pack of 3).jpg",
+    "images": [
+      "/images/27-Badminton Grip Tape (Pack of 3).jpg",
+      "/images/27-Badminton Grip Tape (Pack of 3).jpg"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Badminton Net with Poles",
+    "description": "Regulation size. Built for badminton players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Badminton",
+    "brand": "FlexFit",
+    "price": 4135.5,
+    "discountPercentage": 0,
+    "rating": 4,
+    "stock": 15,
+    "specs": {
+      "Material": "Nylon net, steel poles",
+      "Size": "6.1m",
+      "Warranty": "6 months"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "28",
+    "thumbnail": "/images/28-Badminton Net with Poles.jpg",
+    "images": [
+      "/images/28-Badminton Net with Poles.jpg",
+      "/images/28-Badminton Net with Poles.jpg"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Badminton Wristband",
+    "description": "Sweat absorbing, pair. Built for badminton players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Badminton",
+    "brand": "AceShuttle",
+    "price": 19.99,
+    "discountPercentage": 9,
+    "rating": 3.9,
+    "stock": 4,
+    "specs": {
+      "Material": "Cotton terry",
+      "Size": "Free size",
+      "Warranty": "No warranty"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "29",
+    "thumbnail": "/images/29-Badminton Wristband.jpg",
+    "images": [
+      "/images/29-Badminton Wristband.jpg",
+      "/images/29-Badminton Wristband.jpg"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Junior Badminton Racket Set (2 Player)",
+    "description": "With shuttlecocks. Built for badminton players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Badminton",
+    "brand": "FlexFit",
+    "price": 4409.5,
+    "discountPercentage": 20,
+    "rating": 3.8,
+    "stock": 33,
+    "specs": {
+      "Material": "Aluminium",
+      "Skill level": "Beginner",
+      "Warranty": "3 months"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "30",
+    "thumbnail": "/images/30-Junior Badminton Racket Set (2 Player).jpg",
+    "images": [
+      "/images/30-Junior Badminton Racket Set (2 Player).jpg",
+      "/images/30-Junior Badminton Racket Set (2 Player).jpg"
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Adjustable Dumbbell Set (20kg)",
+    "description": "Pair, plate-loaded. Built for gym equipment players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Gym equipment",
+    "brand": "IronCore",
+    "price": 4546.5,
+    "discountPercentage": 31,
+    "rating": 3.7,
+    "stock": 22,
+    "specs": {
+      "Material": "Cast iron, rubber coating",
+      "Weight": "20kg total",
+      "Skill level": "Intermediate",
+      "Warranty": "1 year"
+    },
+    "goals": [
+      "gym"
+    ],
+    "source": "FitArena",
+    "sourceId": "31",
+    "thumbnail": "/images/31-Adjustable Dumbbell Set (20kg).jpg",
+    "images": [
+      "/images/31-Adjustable Dumbbell Set (20kg).jpg",
+      "/images/31-Adjustable Dumbbell Set (20kg).jpg"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Olympic Barbell 5ft",
+    "description": "Knurled grip. Built for gym equipment players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Gym equipment",
+    "brand": "FlexFit",
+    "price": 4683.5,
+    "discountPercentage": 7,
+    "rating": 3.6,
+    "stock": 11,
+    "specs": {
+      "Material": "Steel, chrome finish",
+      "Weight": "10kg",
+      "Suitable for": "Home gym",
+      "Warranty": "1 year"
+    },
+    "goals": [
+      "gym"
+    ],
+    "source": "FitArena",
+    "sourceId": "32",
+    "thumbnail": "/images/32-Olympic Barbell 5ft.jpg",
+    "images": [
+      "/images/32-Olympic Barbell 5ft.jpg",
+      "/images/32-Olympic Barbell 5ft.jpg"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Foldable Weight Bench",
+    "description": "Adjustable incline. Built for gym equipment players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Gym equipment",
+    "brand": "IronCore",
+    "price": 4820.5,
+    "discountPercentage": 18,
+    "rating": 3.5,
+    "stock": 0,
+    "specs": {
+      "Material": "Steel frame, PU pad",
+      "Weight": "12kg",
+      "Warranty": "1 year"
+    },
+    "goals": [
+      "gym"
+    ],
+    "source": "FitArena",
+    "sourceId": "33",
+    "thumbnail": "/images/33-Foldable Weight Bench.jpg",
+    "images": [
+      "/images/33-Foldable Weight Bench.jpg",
+      "/images/33-Foldable Weight Bench.jpg"
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Resistance Bands Set (5 Levels)",
+    "description": "With door anchor. Built for gym equipment players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Gym equipment",
+    "brand": "FlexFit",
+    "price": 4957.5,
+    "discountPercentage": 29,
+    "rating": 3.4,
+    "stock": 29,
+    "specs": {
+      "Material": "Natural latex",
+      "Warranty": "3 months"
+    },
+    "goals": [
+      "gym"
+    ],
+    "source": "FitArena",
+    "sourceId": "34",
+    "thumbnail": "/images/34-Resistance Bands Set (5 Levels).jpg",
+    "images": [
+      "/images/34-Resistance Bands Set (5 Levels).jpg",
+      "/images/34-Resistance Bands Set (5 Levels).jpg"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Kettlebell 12kg",
+    "description": "Cast iron, vinyl coated. Built for gym equipment players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Gym equipment",
+    "brand": "IronCore",
+    "price": 5094.5,
+    "discountPercentage": 0,
+    "rating": 3.3,
+    "stock": 18,
+    "specs": {
+      "Material": "Cast iron",
+      "Weight": "12kg",
+      "Skill level": "Intermediate",
+      "Warranty": "6 months"
+    },
+    "goals": [
+      "gym"
+    ],
+    "source": "FitArena",
+    "sourceId": "35",
+    "thumbnail": "/images/35-Kettlebell 12kg.jpg",
+    "images": [
+      "/images/35-Kettlebell 12kg.jpg",
+      "/images/35-Kettlebell 12kg.jpg"
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Skipping Rope with Ball Bearings",
+    "description": "Adjustable length. Built for gym equipment players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Gym equipment",
+    "brand": "FlexFit",
+    "price": 431.5,
+    "discountPercentage": 16,
+    "rating": 3.2,
+    "stock": 7,
+    "specs": {
+      "Material": "Steel cable, foam handle",
+      "Warranty": "3 months"
+    },
+    "goals": [
+      "gym"
+    ],
+    "source": "FitArena",
+    "sourceId": "36",
+    "thumbnail": "/images/36-Skipping Rope with Ball Bearings.jpg",
+    "images": [
+      "/images/36-Skipping Rope with Ball Bearings.jpg",
+      "/images/36-Skipping Rope with Ball Bearings.jpg"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Push Up Bars (Pair)",
+    "description": "Non-slip foam grip. Built for gym equipment players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Gym equipment",
+    "brand": "IronCore",
+    "price": 568.5,
+    "discountPercentage": 27,
+    "rating": 4.9,
+    "stock": 36,
+    "specs": {
+      "Material": "Steel, foam",
+      "Weight": "1.2kg",
+      "Warranty": "6 months"
+    },
+    "goals": [
+      "gym"
+    ],
+    "source": "FitArena",
+    "sourceId": "37",
+    "thumbnail": "/images/37-Push Up Bars (Pair).jpg",
+    "images": [
+      "/images/37-Push Up Bars (Pair).jpg",
+      "/images/37-Push Up Bars (Pair).jpg"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Yoga and Gym Mat 10mm",
+    "description": "Extra cushioning. Built for gym equipment players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Gym equipment",
+    "brand": "FlexFit",
+    "price": 705.5,
+    "discountPercentage": 38,
+    "rating": 4.8,
+    "stock": 25,
+    "specs": {
+      "Material": "NBR foam",
+      "Size": "183x61cm",
+      "Warranty": "3 months"
+    },
+    "goals": [
+      "gym",
+      "yoga"
+    ],
+    "source": "FitArena",
+    "sourceId": "38",
+    "thumbnail": "/images/38-Yoga and Gym Mat 10mm.jpg",
+    "images": [
+      "/images/38-Yoga and Gym Mat 10mm.jpg",
+      "/images/38-Yoga and Gym Mat 10mm.jpg"
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Ab Roller Wheel",
+    "description": "Dual wheel, knee pad included. Built for gym equipment players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Gym equipment",
+    "brand": "IronCore",
+    "price": 842.5,
+    "discountPercentage": 0,
+    "rating": 4.7,
+    "stock": 14,
+    "specs": {
+      "Material": "PP plastic, rubber",
+      "Warranty": "3 months"
+    },
+    "goals": [
+      "gym"
+    ],
+    "source": "FitArena",
+    "sourceId": "39",
+    "thumbnail": "/images/39-Ab Roller Wheel.jpg",
+    "images": [
+      "/images/39-Ab Roller Wheel.jpg",
+      "/images/39-Ab Roller Wheel.jpg"
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Home Gym Pull-Up Bar",
+    "description": "Doorway mounted. Built for gym equipment players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Gym equipment",
+    "brand": "FlexFit",
+    "price": 979.5,
+    "discountPercentage": 25,
+    "rating": 4.6,
+    "stock": 3,
+    "specs": {
+      "Material": "Steel",
+      "Suitable for": "Home gym",
+      "Warranty": "6 months"
+    },
+    "goals": [
+      "gym"
+    ],
+    "source": "FitArena",
+    "sourceId": "40",
+    "thumbnail": "/images/40-Home Gym Pull-Up Bar.jpg",
+    "images": [
+      "/images/40-Home Gym Pull-Up Bar.jpg",
+      "/images/40-Home Gym Pull-Up Bar.jpg"
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Weight Plates Set (10kg x 2)",
+    "description": "Rubber coated. Built for gym equipment players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Gym equipment",
+    "brand": "IronCore",
+    "price": 1116.5,
+    "discountPercentage": 36,
+    "rating": 4.5,
+    "stock": 32,
+    "specs": {
+      "Material": "Cast iron, rubber",
+      "Weight": "20kg total",
+      "Warranty": "1 year"
+    },
+    "goals": [
+      "gym"
+    ],
+    "source": "FitArena",
+    "sourceId": "41",
+    "thumbnail": "/images/41-Weight Plates Set (10kg x 2).jpg",
+    "images": [
+      "/images/41-Weight Plates Set (10kg x 2).jpg",
+      "/images/41-Weight Plates Set (10kg x 2).jpg"
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Gym Gloves with Wrist Support",
+    "description": "Breathable mesh back. Built for gym equipment players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Gym equipment",
+    "brand": "FlexFit",
+    "price": 1253.5,
+    "discountPercentage": 0,
+    "rating": 4.4,
+    "stock": 21,
+    "specs": {
+      "Material": "Leather palm",
+      "Size": "L",
+      "Warranty": "3 months"
+    },
+    "goals": [
+      "gym"
+    ],
+    "source": "FitArena",
+    "sourceId": "42",
+    "thumbnail": "/images/42-Gym Gloves with Wrist Support.jpg",
+    "images": [
+      "/images/42-Gym Gloves with Wrist Support.jpg",
+      "/images/42-Gym Gloves with Wrist Support.jpg"
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Premium Yoga Mat 6mm",
+    "description": "Non-slip, eco TPE. Built for yoga players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Yoga",
+    "brand": "ZenMat",
+    "price": 1390.5,
+    "discountPercentage": 23,
+    "rating": 4.3,
+    "stock": 10,
+    "specs": {
+      "Material": "TPE",
+      "Size": "183x61cm",
+      "Skill level": "Beginner",
+      "Warranty": "6 months"
+    },
+    "goals": [
+      "yoga"
+    ],
+    "source": "FitArena",
+    "sourceId": "43",
+    "thumbnail": "/images/43-Premium Yoga Mat 6mm.jpg",
+    "images": [
+      "/images/43-Premium Yoga Mat 6mm.jpg",
+      "/images/43-Premium Yoga Mat 6mm.jpg"
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Cork Yoga Mat 4mm",
+    "description": "Natural cork surface. Built for yoga players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Yoga",
+    "brand": "FlexFit",
+    "price": 1527.5,
+    "discountPercentage": 34,
+    "rating": 4.2,
+    "stock": 0,
+    "specs": {
+      "Material": "Cork, rubber base",
+      "Size": "183x66cm",
+      "Warranty": "6 months"
+    },
+    "goals": [
+      "yoga"
+    ],
+    "source": "FitArena",
+    "sourceId": "44",
+    "thumbnail": "/images/44-Cork Yoga Mat 4mm.jpg",
+    "images": [
+      "/images/44-Cork Yoga Mat 4mm.jpg",
+      "/images/44-Cork Yoga Mat 4mm.jpg"
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Yoga Block Set (2 Pack)",
+    "description": "High-density foam. Built for yoga players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Yoga",
+    "brand": "ZenMat",
+    "price": 1664.5,
+    "discountPercentage": 10,
+    "rating": 4.1,
+    "stock": 28,
+    "specs": {
+      "Material": "EVA foam",
+      "Size": "23x15x7.5cm",
+      "Warranty": "No warranty"
+    },
+    "goals": [
+      "yoga"
+    ],
+    "source": "FitArena",
+    "sourceId": "45",
+    "thumbnail": "/images/45-Yoga Block Set (2 Pack).jpg",
+    "images": [
+      "/images/45-Yoga Block Set (2 Pack).jpg",
+      "/images/45-Yoga Block Set (2 Pack).jpg"
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Yoga Strap 8ft",
+    "description": "D-ring buckle. Built for yoga players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Yoga",
+    "brand": "FlexFit",
+    "price": 1801.5,
+    "discountPercentage": 21,
+    "rating": 4,
+    "stock": 17,
+    "specs": {
+      "Material": "Cotton webbing",
+      "Size": "8ft",
+      "Warranty": "No warranty"
+    },
+    "goals": [
+      "yoga"
+    ],
+    "source": "FitArena",
+    "sourceId": "46",
+    "thumbnail": "/images/46-Yoga Strap 8ft.jpg",
+    "images": [
+      "/images/46-Yoga Strap 8ft.jpg",
+      "/images/46-Yoga Strap 8ft.jpg"
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Meditation Cushion",
+    "description": "Buckwheat filled. Built for yoga players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Yoga",
+    "brand": "ZenMat",
+    "price": 1938.5,
+    "discountPercentage": 32,
+    "rating": 3.9,
+    "stock": 6,
+    "specs": {
+      "Material": "Cotton cover, buckwheat hulls",
+      "Size": "33cm diameter",
+      "Warranty": "No warranty"
+    },
+    "goals": [
+      "yoga"
+    ],
+    "source": "FitArena",
+    "sourceId": "47",
+    "thumbnail": "/images/47-Meditation Cushion.jpg",
+    "images": [
+      "/images/47-Meditation Cushion.jpg",
+      "/images/47-Meditation Cushion.jpg"
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Yoga Wheel",
+    "description": "Back stretch prop. Built for yoga players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Yoga",
+    "brand": "FlexFit",
+    "price": 2075.5,
+    "discountPercentage": 8,
+    "rating": 3.8,
+    "stock": 35,
+    "specs": {
+      "Material": "ABS core, TPE padding",
+      "Size": "32cm diameter",
+      "Skill level": "Intermediate",
+      "Warranty": "3 months"
+    },
+    "goals": [
+      "yoga"
+    ],
+    "source": "FitArena",
+    "sourceId": "48",
+    "thumbnail": "/images/48-Yoga Wheel.png",
+    "images": [
+      "/images/48-Yoga Wheel.png",
+      "/images/48-Yoga Wheel.png"
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Yoga Bolster Pillow",
+    "description": "Rectangular, firm support. Built for yoga players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Yoga",
+    "brand": "ZenMat",
+    "price": 2212.5,
+    "discountPercentage": 0,
+    "rating": 3.7,
+    "stock": 24,
+    "specs": {
+      "Material": "Cotton cover, cotton fill",
+      "Size": "65x23x13cm",
+      "Warranty": "No warranty"
+    },
+    "goals": [
+      "yoga"
+    ],
+    "source": "FitArena",
+    "sourceId": "49",
+    "thumbnail": "/images/49-Yoga Bolster Pillow.jpg",
+    "images": [
+      "/images/49-Yoga Bolster Pillow.jpg",
+      "/images/49-Yoga Bolster Pillow.jpg"
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Aromatherapy Yoga Mat Spray",
+    "description": "Lavender scent, 100ml. Built for yoga players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Yoga",
+    "brand": "FlexFit",
+    "price": 2349.5,
+    "discountPercentage": 30,
+    "rating": 3.6,
+    "stock": 13,
+    "specs": {
+      "Material": "Natural essential oils",
+      "Warranty": "No warranty"
+    },
+    "goals": [
+      "yoga"
+    ],
+    "source": "FitArena",
+    "sourceId": "50",
+    "thumbnail": "/images/50-Aromatherapy Yoga Mat Spray.jpg",
+    "images": [
+      "/images/50-Aromatherapy Yoga Mat Spray.jpg",
+      "/images/50-Aromatherapy Yoga Mat Spray.jpg"
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Yoga Mat Carry Bag",
+    "description": "Adjustable strap. Built for yoga players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Yoga",
+    "brand": "ZenMat",
+    "price": 2486.5,
+    "discountPercentage": 6,
+    "rating": 3.5,
+    "stock": 42,
+    "specs": {
+      "Material": "Cotton canvas",
+      "Warranty": "No warranty"
+    },
+    "goals": [
+      "yoga"
+    ],
+    "source": "FitArena",
+    "sourceId": "51",
+    "thumbnail": "/images/51-Yoga Mat Carry Bag.jpg",
+    "images": [
+      "/images/51-Yoga Mat Carry Bag.jpg",
+      "/images/51-Yoga Mat Carry Bag.jpg"
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Foam Roller for Yoga",
+    "description": "Muscle recovery. Built for yoga players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Yoga",
+    "brand": "FlexFit",
+    "price": 2623.5,
+    "discountPercentage": 0,
+    "rating": 3.4,
+    "stock": 31,
+    "specs": {
+      "Material": "EPP foam",
+      "Size": "45cm",
+      "Skill level": "Intermediate",
+      "Warranty": "3 months"
+    },
+    "goals": [
+      "yoga"
+    ],
+    "source": "FitArena",
+    "sourceId": "52",
+    "thumbnail": "/images/52-Foam Roller for Yoga.jpg",
+    "images": [
+      "/images/52-Foam Roller for Yoga.jpg",
+      "/images/52-Foam Roller for Yoga.jpg"
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Men's Dry-Fit Training T-Shirt",
+    "description": "Moisture wicking. Built for activewear players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Activewear",
+    "brand": "FlexFit",
+    "price": 2760.5,
+    "discountPercentage": 28,
+    "rating": 3.3,
+    "stock": 20,
+    "specs": {
+      "Material": "Polyester blend",
+      "Size": "L",
+      "Suitable for": "Gym, running",
+      "Warranty": "No warranty"
+    },
+    "goals": [
+      "running",
+      "gym"
+    ],
+    "source": "FitArena",
+    "sourceId": "53",
+    "thumbnail": "/images/53-Men's Dry-Fit Training T-Shirt.jpg",
+    "images": [
+      "/images/53-Men's Dry-Fit Training T-Shirt.jpg",
+      "/images/53-Men's Dry-Fit Training T-Shirt.jpg"
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Women's High-Waist Leggings",
+    "description": "Squat proof. Built for activewear players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Activewear",
+    "brand": "PowerPlay",
+    "price": 2897.5,
+    "discountPercentage": 39,
+    "rating": 3.2,
+    "stock": 9,
+    "specs": {
+      "Material": "Nylon-spandex",
+      "Size": "M",
+      "Suitable for": "Yoga, gym",
+      "Warranty": "No warranty"
+    },
+    "goals": [
+      "gym",
+      "yoga"
+    ],
+    "source": "FitArena",
+    "sourceId": "54",
+    "thumbnail": "/images/54-Women's High-Waist Leggings.jpg",
+    "images": [
+      "/images/54-Women's High-Waist Leggings.jpg",
+      "/images/54-Women's High-Waist Leggings.jpg"
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Men's Running Shorts",
+    "description": "Built-in liner, zip pocket. Built for activewear players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Activewear",
+    "brand": "FlexFit",
+    "price": 3034.5,
+    "discountPercentage": 15,
+    "rating": 4.9,
+    "stock": 0,
+    "specs": {
+      "Material": "Polyester",
+      "Size": "L",
+      "Suitable for": "Running",
+      "Warranty": "No warranty"
+    },
+    "goals": [
+      "running"
+    ],
+    "source": "FitArena",
+    "sourceId": "55",
+    "thumbnail": "/images/55-Men's Running Shorts.jpg",
+    "images": [
+      "/images/55-Men's Running Shorts.jpg",
+      "/images/55-Men's Running Shorts.jpg"
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Women's Sports Bra",
+    "description": "Medium impact, racerback. Built for activewear players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Activewear",
+    "brand": "PowerPlay",
+    "price": 3171.5,
+    "discountPercentage": 0,
+    "rating": 4.8,
+    "stock": 27,
+    "specs": {
+      "Material": "Nylon-spandex",
+      "Size": "M",
+      "Suitable for": "Yoga, gym",
+      "Warranty": "No warranty"
+    },
+    "goals": [
+      "gym",
+      "yoga"
+    ],
+    "source": "FitArena",
+    "sourceId": "56",
+    "thumbnail": "/images/56-Women's Sports Bra.png",
+    "images": [
+      "/images/56-Women's Sports Bra.png",
+      "/images/56-Women's Sports Bra.png"
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Men's Track Jacket with Full-Length Zip, Breathable Mesh Lining, Two Zipped Side Pockets and Reflective Piping for Early Morning Runs",
+    "description": "Full zip, breathable. Built for activewear players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Activewear",
+    "brand": "FlexFit",
+    "price": 3308.5,
+    "discountPercentage": 37,
+    "rating": 4.7,
+    "stock": 16,
+    "specs": {
+      "Material": "Polyester",
+      "Size": "XL",
+      "Suitable for": "Running, outdoor",
+      "Warranty": "No warranty"
+    },
+    "goals": [
+      "running"
+    ],
+    "source": "FitArena",
+    "sourceId": "57",
+    "thumbnail": "/images/57-Men's Track Jacket.jpg",
+    "images": [
+      "/images/57-Men's Track Jacket.jpg",
+      "/images/57-Men's Track Jacket.jpg"
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Compression Base Layer Top",
+    "description": "Long sleeve. Built for activewear players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Activewear",
+    "brand": "PowerPlay",
+    "price": 3445.5,
+    "discountPercentage": 13,
+    "rating": 4.6,
+    "stock": 5,
+    "specs": {
+      "Material": "Spandex blend",
+      "Size": "M",
+      "Suitable for": "Cricket, football",
+      "Warranty": "No warranty"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "58",
+    "thumbnail": "/images/58-Compression Base Layer Top.jpg",
+    "images": [
+      "/images/58-Compression Base Layer Top.jpg",
+      "/images/58-Compression Base Layer Top.jpg"
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Unisex Ankle Socks (3 Pack)",
+    "description": "Cushioned sole. Built for activewear players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Activewear",
+    "brand": "FlexFit",
+    "price": 3582.5,
+    "discountPercentage": 24,
+    "rating": 4.5,
+    "stock": 34,
+    "specs": {
+      "Material": "Cotton-spandex",
+      "Size": "Free size",
+      "Warranty": "No warranty"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "59",
+    "thumbnail": "/images/59-Unisex Ankle Socks (3 Pack).jpg",
+    "images": [
+      "/images/59-Unisex Ankle Socks (3 Pack).jpg",
+      "/images/59-Unisex Ankle Socks (3 Pack).jpg"
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Men's Gym Tank Top",
+    "description": "Muscle fit, drop armhole. Built for activewear players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Activewear",
+    "brand": "PowerPlay",
+    "price": 3719.5,
+    "discountPercentage": 35,
+    "rating": 4.4,
+    "stock": 23,
+    "specs": {
+      "Material": "Cotton blend",
+      "Size": "M",
+      "Suitable for": "Gym",
+      "Warranty": "No warranty"
+    },
+    "goals": [
+      "gym"
+    ],
+    "source": "FitArena",
+    "sourceId": "60",
+    "thumbnail": "/images/60-Men's Gym Tank Top.jpg",
+    "images": [
+      "/images/60-Men's Gym Tank Top.jpg",
+      "/images/60-Men's Gym Tank Top.jpg"
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Women's Zip-Up Hoodie",
+    "description": "Fleece lined. Built for activewear players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Activewear",
+    "brand": "FlexFit",
+    "price": 3856.5,
+    "discountPercentage": 11,
+    "rating": 4.3,
+    "stock": 12,
+    "specs": {
+      "Material": "Cotton-polyester",
+      "Size": "S",
+      "Suitable for": "Outdoor, casual",
+      "Warranty": "No warranty"
+    },
+    "goals": [],
+    "source": "FitArena",
+    "sourceId": "61",
+    "thumbnail": "/images/61-Women's Zip-Up Hoodie.jpg",
+    "images": [
+      "/images/61-Women's Zip-Up Hoodie.jpg",
+      "/images/61-Women's Zip-Up Hoodie.jpg"
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Sports Cap",
+    "description": "Adjustable strap, UV protection. Built for activewear players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "sports",
+    "subcategory": "Activewear",
+    "brand": "PowerPlay",
+    "price": 3993.5,
+    "discountPercentage": 22,
+    "rating": 4.2,
+    "stock": 41,
+    "specs": {
+      "Material": "Cotton twill",
+      "Size": "Free size",
+      "Suitable for": "Running, cricket",
+      "Warranty": "No warranty"
+    },
+    "goals": [
+      "running"
+    ],
+    "source": "FitArena",
+    "sourceId": "62",
+    "thumbnail": "/images/62-Sports Cap.jpg",
+    "images": [
+      "/images/62-Sports Cap.jpg",
+      "/images/62-Sports Cap.jpg"
+    ]
+  },
+  {
+    "id": 1001,
+    "title": "RunPro Elite",
+    "description": "High-performance running shoes with advanced cushioning",
+    "category": "footwear",
+    "subcategory": "Sports shoes",
+    "brand": "RunFast",
+    "price": 5999,
+    "discountPercentage": 15,
+    "rating": 4.8,
+    "stock": 42,
+    "specs": {
+      "Size": "10",
+      "Colour": "Black",
+      "Material": "Mesh",
+      "Sole": "Rubber",
+      "Closure": "Laces",
+      "Occasion": "Running"
+    },
+    "goals": [
+      "running"
+    ],
+    "source": "StrideHub",
+    "sourceId": "prod-001",
+    "thumbnail": "/images/footwear/1001.svg",
+    "images": [
+      "/images/footwear/1001.svg",
+      "/images/footwear/1001-alt.svg"
+    ]
+  },
+  {
+    "id": 1002,
+    "title": "SprintMax",
+    "description": "Track and field sprint shoes",
+    "category": "footwear",
+    "subcategory": "Sports shoes",
+    "brand": "SpeedGear",
+    "price": 4499,
+    "discountPercentage": 10,
+    "rating": 4.6,
+    "stock": 28,
+    "specs": {
+      "Size": "9",
+      "Colour": "White",
+      "Material": "Synthetic",
+      "Sole": "Carbon Fiber",
+      "Closure": "Laces",
+      "Occasion": "Track"
+    },
+    "goals": [
+      "running"
+    ],
+    "source": "StrideHub",
+    "sourceId": "prod-002",
+    "thumbnail": "/images/footwear/1002.svg",
+    "images": [
+      "/images/footwear/1002.svg",
+      "/images/footwear/1002-alt.svg"
+    ]
+  },
+  {
+    "id": 1003,
+    "title": "Basketball Slam",
+    "description": "Professional basketball shoes with ankle support",
+    "category": "footwear",
+    "subcategory": "Sports shoes",
+    "brand": "CourtKing",
+    "price": 6499,
+    "discountPercentage": 20,
+    "rating": 4.7,
+    "stock": 35,
+    "specs": {
+      "Size": "11",
+      "Colour": "Red",
+      "Material": "Leather",
+      "Sole": "Rubber",
+      "Closure": "Laces",
+      "Occasion": "Basketball"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-003",
+    "thumbnail": "/images/footwear/1003.svg",
+    "images": [
+      "/images/footwear/1003.svg",
+      "/images/footwear/1003-alt.svg"
+    ]
+  },
+  {
+    "id": 1004,
+    "title": "Cricket Strike",
+    "description": "Spikes for cricket grounds",
+    "category": "footwear",
+    "subcategory": "Sports shoes",
+    "brand": "SportsElite",
+    "price": 3999,
+    "discountPercentage": 5,
+    "rating": 4.4,
+    "stock": 50,
+    "specs": {
+      "Size": "10",
+      "Colour": "Green",
+      "Material": "Synthetic",
+      "Sole": "Spikes",
+      "Closure": "Laces",
+      "Occasion": "Cricket"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-004",
+    "thumbnail": "/images/footwear/1004.svg",
+    "images": [
+      "/images/footwear/1004.svg",
+      "/images/footwear/1004-alt.svg"
+    ]
+  },
+  {
+    "id": 1005,
+    "title": "YogaFlex",
+    "description": "Lightweight shoes for yoga and gym",
+    "category": "footwear",
+    "subcategory": "Sports shoes",
+    "brand": "FitStep",
+    "price": 2499,
+    "discountPercentage": 0,
+    "rating": 4.5,
+    "stock": 60,
+    "specs": {
+      "Size": "8",
+      "Colour": "Purple",
+      "Material": "Canvas",
+      "Sole": "Rubber",
+      "Closure": "Slip-on",
+      "Occasion": "Gym"
+    },
+    "goals": [
+      "gym",
+      "yoga"
+    ],
+    "source": "StrideHub",
+    "sourceId": "prod-005",
+    "thumbnail": "/images/footwear/1005.svg",
+    "images": [
+      "/images/footwear/1005.svg",
+      "/images/footwear/1005-alt.svg"
+    ]
+  },
+  {
+    "id": 1006,
+    "title": "UrbanWalk",
+    "description": "Comfortable casual shoes for everyday wear",
+    "category": "footwear",
+    "subcategory": "Casual shoes",
+    "brand": "CityStep",
+    "price": 1999,
+    "discountPercentage": 10,
+    "rating": 4.3,
+    "stock": 75,
+    "specs": {
+      "Size": "9",
+      "Colour": "Blue",
+      "Material": "Canvas",
+      "Sole": "EVA",
+      "Closure": "Laces",
+      "Occasion": "Casual"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-006",
+    "thumbnail": "/images/footwear/1006.svg",
+    "images": [
+      "/images/footwear/1006.svg",
+      "/images/footwear/1006-alt.svg"
+    ]
+  },
+  {
+    "id": 1007,
+    "title": "StreetStyle",
+    "description": "Trendy casual sneakers",
+    "category": "footwear",
+    "subcategory": "Casual shoes",
+    "brand": "TrendGear",
+    "price": 2299,
+    "discountPercentage": 15,
+    "rating": 4.6,
+    "stock": 45,
+    "specs": {
+      "Size": "10",
+      "Colour": "White",
+      "Material": "Mesh",
+      "Sole": "Rubber",
+      "Closure": "Laces",
+      "Occasion": "Casual"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-007",
+    "thumbnail": "/images/footwear/1007.svg",
+    "images": [
+      "/images/footwear/1007.svg",
+      "/images/footwear/1007-alt.svg"
+    ]
+  },
+  {
+    "id": 1008,
+    "title": "ComfortWalk Pro",
+    "description": "Memory foam cushioned casual shoes",
+    "category": "footwear",
+    "subcategory": "Casual shoes",
+    "brand": "ComfortCo",
+    "price": 2799,
+    "discountPercentage": 12,
+    "rating": 4.7,
+    "stock": 55,
+    "specs": {
+      "Size": "9",
+      "Colour": "Gray",
+      "Material": "Synthetic",
+      "Sole": "Memory Foam",
+      "Closure": "Slip-on",
+      "Occasion": "Casual"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-008",
+    "thumbnail": "/images/footwear/1008.svg",
+    "images": [
+      "/images/footwear/1008.svg",
+      "/images/footwear/1008-alt.svg"
+    ]
+  },
+  {
+    "id": 1009,
+    "title": "ClassicCanvas",
+    "description": "Vintage canvas casual shoes",
+    "category": "footwear",
+    "subcategory": "Casual shoes",
+    "brand": "VintageWear",
+    "price": 1799,
+    "discountPercentage": 8,
+    "rating": 4.2,
+    "stock": 70,
+    "specs": {
+      "Size": "8",
+      "Colour": "Beige",
+      "Material": "Canvas",
+      "Sole": "Rubber",
+      "Closure": "Laces",
+      "Occasion": "Casual"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-009",
+    "thumbnail": "/images/footwear/1009.svg",
+    "images": [
+      "/images/footwear/1009.svg",
+      "/images/footwear/1009-alt.svg"
+    ]
+  },
+  {
+    "id": 1010,
+    "title": "SkateVibe",
+    "description": "Skateboarding casual shoes",
+    "category": "footwear",
+    "subcategory": "Casual shoes",
+    "brand": "SkateLife",
+    "price": 2599,
+    "discountPercentage": 18,
+    "rating": 4.4,
+    "stock": 38,
+    "specs": {
+      "Size": "10",
+      "Colour": "Black",
+      "Material": "Suede",
+      "Sole": "Grip Rubber",
+      "Closure": "Laces",
+      "Occasion": "Casual"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-010",
+    "thumbnail": "/images/footwear/1010.svg",
+    "images": [
+      "/images/footwear/1010.svg",
+      "/images/footwear/1010-alt.svg"
+    ]
+  },
+  {
+    "id": 1011,
+    "title": "ExecutiveBlack",
+    "description": "Premium formal leather shoes",
+    "category": "footwear",
+    "subcategory": "Formal shoes",
+    "brand": "ClassicElegance",
+    "price": 7999,
+    "discountPercentage": 25,
+    "rating": 4.9,
+    "stock": 25,
+    "specs": {
+      "Size": "10",
+      "Colour": "Black",
+      "Material": "Leather",
+      "Sole": "Leather",
+      "Closure": "Laces",
+      "Occasion": "Formal"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-011",
+    "thumbnail": "/images/footwear/1011.svg",
+    "images": [
+      "/images/footwear/1011.svg",
+      "/images/footwear/1011-alt.svg"
+    ]
+  },
+  {
+    "id": 1012,
+    "title": "BrownMahogany",
+    "description": "Brown formal shoes for office wear",
+    "category": "footwear",
+    "subcategory": "Formal shoes",
+    "brand": "ProfessionalStyle",
+    "price": 6999,
+    "discountPercentage": 20,
+    "rating": 4.8,
+    "stock": 32,
+    "specs": {
+      "Size": "9",
+      "Colour": "Brown",
+      "Material": "Leather",
+      "Sole": "Leather",
+      "Closure": "Laces",
+      "Occasion": "Formal"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-012",
+    "thumbnail": "/images/footwear/1012.svg",
+    "images": [
+      "/images/footwear/1012.svg",
+      "/images/footwear/1012-alt.svg"
+    ]
+  },
+  {
+    "id": 1013,
+    "title": "OxfordClassic",
+    "description": "Traditional oxford formal shoes",
+    "category": "footwear",
+    "subcategory": "Formal shoes",
+    "brand": "TraditionalGear",
+    "price": 5999,
+    "discountPercentage": 15,
+    "rating": 4.6,
+    "stock": 40,
+    "specs": {
+      "Size": "10",
+      "Colour": "Black",
+      "Material": "Patent Leather",
+      "Sole": "Rubber",
+      "Closure": "Laces",
+      "Occasion": "Formal"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-013",
+    "thumbnail": "/images/footwear/1013.svg",
+    "images": [
+      "/images/footwear/1013.svg",
+      "/images/footwear/1013-alt.svg"
+    ]
+  },
+  {
+    "id": 1014,
+    "title": "WeddingGold",
+    "description": "Premium wedding formal shoes",
+    "category": "footwear",
+    "subcategory": "Formal shoes",
+    "brand": "LuxuryWedding",
+    "price": 9999,
+    "discountPercentage": 30,
+    "rating": 4.7,
+    "stock": 18,
+    "specs": {
+      "Size": "9",
+      "Colour": "Gold",
+      "Material": "Synthetic Leather",
+      "Sole": "Rubber",
+      "Closure": "Laces",
+      "Occasion": "Wedding"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-014",
+    "thumbnail": "/images/footwear/1014.svg",
+    "images": [
+      "/images/footwear/1014.svg",
+      "/images/footwear/1014-alt.svg"
+    ]
+  },
+  {
+    "id": 1015,
+    "title": "MonkStrap",
+    "description": "Monk strap formal shoes",
+    "category": "footwear",
+    "subcategory": "Formal shoes",
+    "brand": "ClassicDesign",
+    "price": 7499,
+    "discountPercentage": 22,
+    "rating": 4.5,
+    "stock": 28,
+    "specs": {
+      "Size": "10",
+      "Colour": "Burgundy",
+      "Material": "Leather",
+      "Sole": "Leather",
+      "Closure": "Buckle",
+      "Occasion": "Formal"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-015",
+    "thumbnail": "/images/footwear/1015.svg",
+    "images": [
+      "/images/footwear/1015.svg",
+      "/images/footwear/1015-alt.svg"
+    ]
+  },
+  {
+    "id": 1016,
+    "title": "BeachRelax",
+    "description": "Comfortable beach sandals",
+    "category": "footwear",
+    "subcategory": "Sandals",
+    "brand": "BeachWear",
+    "price": 899,
+    "discountPercentage": 5,
+    "rating": 4.3,
+    "stock": 100,
+    "specs": {
+      "Size": "10",
+      "Colour": "Blue",
+      "Material": "EVA",
+      "Sole": "EVA",
+      "Closure": "Straps",
+      "Occasion": "Beach"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-016",
+    "thumbnail": "/images/footwear/1016.svg",
+    "images": [
+      "/images/footwear/1016.svg",
+      "/images/footwear/1016-alt.svg"
+    ]
+  },
+  {
+    "id": 1017,
+    "title": "SummerGlow",
+    "description": "Trendy summer sandals",
+    "category": "footwear",
+    "subcategory": "Sandals",
+    "brand": "SummerStyle",
+    "price": 1299,
+    "discountPercentage": 10,
+    "rating": 4.4,
+    "stock": 80,
+    "specs": {
+      "Size": "9",
+      "Colour": "Pink",
+      "Material": "Synthetic",
+      "Sole": "Rubber",
+      "Closure": "Velcro",
+      "Occasion": "Casual"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-017",
+    "thumbnail": "/images/footwear/1017.svg",
+    "images": [
+      "/images/footwear/1017.svg",
+      "/images/footwear/1017-alt.svg"
+    ]
+  },
+  {
+    "id": 1018,
+    "title": "SportSandal",
+    "description": "Athletic sandals with support",
+    "category": "footwear",
+    "subcategory": "Sandals",
+    "brand": "AthleticWear",
+    "price": 1599,
+    "discountPercentage": 12,
+    "rating": 4.6,
+    "stock": 65,
+    "specs": {
+      "Size": "10",
+      "Colour": "Black",
+      "Material": "Memory Foam",
+      "Sole": "Rubber",
+      "Closure": "Adjustable Straps",
+      "Occasion": "Sports"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-018",
+    "thumbnail": "/images/footwear/1018.svg",
+    "images": [
+      "/images/footwear/1018.svg",
+      "/images/footwear/1018-alt.svg"
+    ]
+  },
+  {
+    "id": 1019,
+    "title": "FlipFlop Comfort",
+    "description": "Lightweight flip flops",
+    "category": "footwear",
+    "subcategory": "Sandals",
+    "brand": "ComfortCo",
+    "price": 499,
+    "discountPercentage": 0,
+    "rating": 4.2,
+    "stock": 120,
+    "specs": {
+      "Size": "9",
+      "Colour": "Yellow",
+      "Material": "Rubber",
+      "Sole": "Rubber",
+      "Closure": "None",
+      "Occasion": "Casual"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-019",
+    "thumbnail": "/images/footwear/1019.svg",
+    "images": [
+      "/images/footwear/1019.svg",
+      "/images/footwear/1019-alt.svg"
+    ]
+  },
+  {
+    "id": 1020,
+    "title": "PlushluxurySandal",
+    "description": "Luxury plush sandals",
+    "category": "footwear",
+    "subcategory": "Sandals",
+    "brand": "LuxurySpa",
+    "price": 2499,
+    "discountPercentage": 18,
+    "rating": 4.8,
+    "stock": 40,
+    "specs": {
+      "Size": "8",
+      "Colour": "Purple",
+      "Material": "Plush Foam",
+      "Sole": "Memory Foam",
+      "Closure": "Velcro",
+      "Occasion": "Relaxation"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-020",
+    "thumbnail": "/images/footwear/1020.svg",
+    "images": [
+      "/images/footwear/1020.svg",
+      "/images/footwear/1020-alt.svg"
+    ]
+  },
+  {
+    "id": 1021,
+    "title": "ElegantHeels",
+    "description": "Premium 3-inch heels",
+    "category": "footwear",
+    "subcategory": "Heels",
+    "brand": "HeelGlam",
+    "price": 4999,
+    "discountPercentage": 20,
+    "rating": 4.7,
+    "stock": 35,
+    "specs": {
+      "Size": "7",
+      "Colour": "Black",
+      "Material": "Satin",
+      "Sole": "Rubber",
+      "Closure": "None",
+      "Occasion": "Formal"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-021",
+    "thumbnail": "/images/footwear/1021.svg",
+    "images": [
+      "/images/footwear/1021.svg",
+      "/images/footwear/1021-alt.svg"
+    ]
+  },
+  {
+    "id": 1022,
+    "title": "StilettoDream",
+    "description": "4-inch stiletto heels",
+    "category": "footwear",
+    "subcategory": "Heels",
+    "brand": "GlamourWear",
+    "price": 5999,
+    "discountPercentage": 25,
+    "rating": 4.8,
+    "stock": 28,
+    "specs": {
+      "Size": "6",
+      "Colour": "Red",
+      "Material": "Patent Leather",
+      "Sole": "Rubber",
+      "Closure": "None",
+      "Occasion": "Party"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-022",
+    "thumbnail": "/images/footwear/1022.svg",
+    "images": [
+      "/images/footwear/1022.svg",
+      "/images/footwear/1022-alt.svg"
+    ]
+  },
+  {
+    "id": 1023,
+    "title": "WeddingBride",
+    "description": "Wedding ceremony heels",
+    "category": "footwear",
+    "subcategory": "Heels",
+    "brand": "BrideStyle",
+    "price": 7499,
+    "discountPercentage": 30,
+    "rating": 4.9,
+    "stock": 20,
+    "specs": {
+      "Size": "7",
+      "Colour": "White",
+      "Material": "Satin",
+      "Sole": "Rubber",
+      "Closure": "Buckle",
+      "Occasion": "Wedding"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-023",
+    "thumbnail": "/images/footwear/1023.svg",
+    "images": [
+      "/images/footwear/1023.svg",
+      "/images/footwear/1023-alt.svg"
+    ]
+  },
+  {
+    "id": 1024,
+    "title": "OfficeChic",
+    "description": "Comfortable office heels",
+    "category": "footwear",
+    "subcategory": "Heels",
+    "brand": "ProfessionalStyle",
+    "price": 3499,
+    "discountPercentage": 15,
+    "rating": 4.5,
+    "stock": 45,
+    "specs": {
+      "Size": "8",
+      "Colour": "Navy",
+      "Material": "Leather",
+      "Sole": "Memory Foam",
+      "Closure": "None",
+      "Occasion": "Office"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-024",
+    "thumbnail": "/images/footwear/1024.svg",
+    "images": [
+      "/images/footwear/1024.svg",
+      "/images/footwear/1024-alt.svg"
+    ]
+  },
+  {
+    "id": 1025,
+    "title": "CasualWedge",
+    "description": "Casual wedge heels",
+    "category": "footwear",
+    "subcategory": "Heels",
+    "brand": "CasualChic",
+    "price": 2999,
+    "discountPercentage": 12,
+    "rating": 4.4,
+    "stock": 50,
+    "specs": {
+      "Size": "7",
+      "Colour": "Beige",
+      "Material": "Suede",
+      "Sole": "Rubber",
+      "Closure": "None",
+      "Occasion": "Casual"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-025",
+    "thumbnail": "/images/footwear/1025.svg",
+    "images": [
+      "/images/footwear/1025.svg",
+      "/images/footwear/1025-alt.svg"
+    ]
+  },
+  {
+    "id": 1026,
+    "title": "KidsSneaker",
+    "description": "Colorful sneakers for kids",
+    "category": "footwear",
+    "subcategory": "Kids shoes",
+    "brand": "KidsStep",
+    "price": 1499,
+    "discountPercentage": 10,
+    "rating": 4.6,
+    "stock": 90,
+    "specs": {
+      "Size": "4",
+      "Colour": "Red",
+      "Material": "Canvas",
+      "Sole": "Rubber",
+      "Closure": "Velcro",
+      "Occasion": "Casual"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-026",
+    "thumbnail": "/images/footwear/1026.svg",
+    "images": [
+      "/images/footwear/1026.svg",
+      "/images/footwear/1026-alt.svg"
+    ]
+  },
+  {
+    "id": 1027,
+    "title": "SchoolRunning",
+    "description": "Running shoes for school kids",
+    "category": "footwear",
+    "subcategory": "Kids shoes",
+    "brand": "SchoolWear",
+    "price": 1799,
+    "discountPercentage": 15,
+    "rating": 4.5,
+    "stock": 85,
+    "specs": {
+      "Size": "5",
+      "Colour": "Blue",
+      "Material": "Mesh",
+      "Sole": "Rubber",
+      "Closure": "Laces",
+      "Occasion": "School"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-027",
+    "thumbnail": "/images/footwear/1027.svg",
+    "images": [
+      "/images/footwear/1027.svg",
+      "/images/footwear/1027-alt.svg"
+    ]
+  },
+  {
+    "id": 1028,
+    "title": "PlaytimeBoots",
+    "description": "Durable boots for outdoor play",
+    "category": "footwear",
+    "subcategory": "Kids shoes",
+    "brand": "PlayKids",
+    "price": 2099,
+    "discountPercentage": 12,
+    "rating": 4.4,
+    "stock": 70,
+    "specs": {
+      "Size": "6",
+      "Colour": "Green",
+      "Material": "Synthetic",
+      "Sole": "Grip Rubber",
+      "Closure": "Laces",
+      "Occasion": "Outdoor"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-028",
+    "thumbnail": "/images/footwear/1028.svg",
+    "images": [
+      "/images/footwear/1028.svg",
+      "/images/footwear/1028-alt.svg"
+    ]
+  },
+  {
+    "id": 1029,
+    "title": "SchoolSandal",
+    "description": "Lightweight sandals for kids",
+    "category": "footwear",
+    "subcategory": "Kids shoes",
+    "brand": "KidsComfort",
+    "price": 999,
+    "discountPercentage": 8,
+    "rating": 4.3,
+    "stock": 110,
+    "specs": {
+      "Size": "4",
+      "Colour": "Pink",
+      "Material": "EVA",
+      "Sole": "EVA",
+      "Closure": "Velcro",
+      "Occasion": "School"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-029",
+    "thumbnail": "/images/footwear/1029.svg",
+    "images": [
+      "/images/footwear/1029.svg",
+      "/images/footwear/1029-alt.svg"
+    ]
+  },
+  {
+    "id": 1030,
+    "title": "FormalKids",
+    "description": "Formal shoes for kids",
+    "category": "footwear",
+    "subcategory": "Kids shoes",
+    "brand": "KidsStyle",
+    "price": 1999,
+    "discountPercentage": 18,
+    "rating": 4.7,
+    "stock": 55,
+    "specs": {
+      "Size": "5",
+      "Colour": "Black",
+      "Material": "Synthetic Leather",
+      "Sole": "Rubber",
+      "Closure": "Velcro",
+      "Occasion": "Formal"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-030",
+    "thumbnail": "/images/footwear/1030.svg",
+    "images": [
+      "/images/footwear/1030.svg",
+      "/images/footwear/1030-alt.svg"
+    ]
+  },
+  {
+    "id": 1031,
+    "title": "TrailBlaze",
+    "description": "Trail running shoes",
+    "category": "footwear",
+    "subcategory": "Sports shoes",
+    "brand": "TrailGear",
+    "price": 5299,
+    "discountPercentage": 12,
+    "rating": 4.7,
+    "stock": 38,
+    "specs": {
+      "Size": "10",
+      "Colour": "Orange",
+      "Material": "Mesh",
+      "Sole": "Aggressive Tread",
+      "Closure": "Laces",
+      "Occasion": "Trail Running"
+    },
+    "goals": [
+      "running"
+    ],
+    "source": "StrideHub",
+    "sourceId": "prod-031",
+    "thumbnail": "/images/footwear/1031.svg",
+    "images": [
+      "/images/footwear/1031.svg",
+      "/images/footwear/1031-alt.svg"
+    ]
+  },
+  {
+    "id": 1032,
+    "title": "TennisAce",
+    "description": "Professional tennis shoes",
+    "category": "footwear",
+    "subcategory": "Sports shoes",
+    "brand": "TennisLite",
+    "price": 4799,
+    "discountPercentage": 18,
+    "rating": 4.6,
+    "stock": 42,
+    "specs": {
+      "Size": "9",
+      "Colour": "White",
+      "Material": "Leather",
+      "Sole": "Stable Rubber",
+      "Closure": "Laces",
+      "Occasion": "Tennis"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-032",
+    "thumbnail": "/images/footwear/1032.svg",
+    "images": [
+      "/images/footwear/1032.svg",
+      "/images/footwear/1032-alt.svg"
+    ]
+  },
+  {
+    "id": 1033,
+    "title": "Marathon Pro",
+    "description": "Long-distance racing shoe with carbon-plated midsole and energy return",
+    "category": "footwear",
+    "subcategory": "Sports shoes",
+    "brand": "RunFast",
+    "price": 6299,
+    "discountPercentage": 20,
+    "rating": 4.7,
+    "stock": 28,
+    "specs": {
+      "Size": "10",
+      "Colour": "Neon Green",
+      "Material": "Engineered Mesh",
+      "Sole": "Carbon Plated Foam",
+      "Closure": "Laces",
+      "Occasion": "Road Running"
+    },
+    "goals": [
+      "running"
+    ],
+    "source": "StrideHub",
+    "sourceId": "prod-033",
+    "thumbnail": "/images/footwear/1033.svg",
+    "images": [
+      "/images/footwear/1033.svg",
+      "/images/footwear/1033-alt.svg"
+    ]
+  },
+  {
+    "id": 1034,
+    "title": "Court Street",
+    "description": "Ankle-support street basketball shoe with herringbone grip",
+    "category": "footwear",
+    "subcategory": "Sports shoes",
+    "brand": "CourtKing",
+    "price": 5299,
+    "discountPercentage": 24,
+    "rating": 4.5,
+    "stock": 19,
+    "specs": {
+      "Size": "10",
+      "Colour": "Red",
+      "Material": "Leather",
+      "Sole": "Herringbone Rubber",
+      "Closure": "Laces",
+      "Occasion": "Basketball"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-034",
+    "thumbnail": "/images/footwear/1034.svg",
+    "images": [
+      "/images/footwear/1034.svg",
+      "/images/footwear/1034-alt.svg"
+    ]
+  },
+  {
+    "id": 1035,
+    "title": "Aqua Sprint",
+    "description": "Quick-drying water shoe with grippy sole for pool decks and beach",
+    "category": "footwear",
+    "subcategory": "Sports shoes",
+    "brand": "AquaFit",
+    "price": 1899,
+    "discountPercentage": 12,
+    "rating": 4.2,
+    "stock": 34,
+    "specs": {
+      "Size": "9",
+      "Colour": "Aqua Blue",
+      "Material": "Quick Dry Knit",
+      "Sole": "Grippy Rubber",
+      "Closure": "Slip On",
+      "Occasion": "Swimming"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-035",
+    "thumbnail": "/images/footwear/1035.svg",
+    "images": [
+      "/images/footwear/1035.svg",
+      "/images/footwear/1035-alt.svg"
+    ]
+  },
+  {
+    "id": 1036,
+    "title": "Weekend Loafer",
+    "description": "Penny loafer in soft tan suede for smart-casual wear",
+    "category": "footwear",
+    "subcategory": "Casual shoes",
+    "brand": "CasualChic",
+    "price": 3299,
+    "discountPercentage": 22,
+    "rating": 4.4,
+    "stock": 23,
+    "specs": {
+      "Size": "9",
+      "Colour": "Tan",
+      "Material": "Suede",
+      "Sole": "Crepe Rubber",
+      "Closure": "Slip On",
+      "Occasion": "Smart Casual"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-036",
+    "thumbnail": "/images/footwear/1036.svg",
+    "images": [
+      "/images/footwear/1036.svg",
+      "/images/footwear/1036-alt.svg"
+    ]
+  },
+  {
+    "id": 1037,
+    "title": "Street Runner Low",
+    "description": "Low-profile canvas runner with a cushioned foam footbed",
+    "category": "footwear",
+    "subcategory": "Casual shoes",
+    "brand": "TrendGear",
+    "price": 2099,
+    "discountPercentage": 30,
+    "rating": 4.3,
+    "stock": 47,
+    "specs": {
+      "Size": "8",
+      "Colour": "Off White",
+      "Material": "Canvas",
+      "Sole": "Vulcanised Rubber",
+      "Closure": "Laces",
+      "Occasion": "Everyday"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-037",
+    "thumbnail": "/images/footwear/1037.svg",
+    "images": [
+      "/images/footwear/1037.svg",
+      "/images/footwear/1037-alt.svg"
+    ]
+  },
+  {
+    "id": 1038,
+    "title": "Suede Classic",
+    "description": "Clean-lined suede court shoe with a padded collar",
+    "category": "footwear",
+    "subcategory": "Casual shoes",
+    "brand": "VintageWear",
+    "price": 3499,
+    "discountPercentage": 18,
+    "rating": 4.6,
+    "stock": 6,
+    "specs": {
+      "Size": "9",
+      "Colour": "Navy",
+      "Material": "Suede",
+      "Sole": "Rubber",
+      "Closure": "Laces",
+      "Occasion": "Everyday"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-038",
+    "thumbnail": "/images/footwear/1038.svg",
+    "images": [
+      "/images/footwear/1038.svg",
+      "/images/footwear/1038-alt.svg"
+    ]
+  },
+  {
+    "id": 1039,
+    "title": "Derby Prime",
+    "description": "Open-lace Derby with a Goodyear-welted sole that can be resoled",
+    "category": "footwear",
+    "subcategory": "Formal shoes",
+    "brand": "TraditionalGear",
+    "price": 6499,
+    "discountPercentage": 16,
+    "rating": 4.7,
+    "stock": 17,
+    "specs": {
+      "Size": "9",
+      "Colour": "Dark Brown",
+      "Material": "Full Grain Leather",
+      "Sole": "Welted Leather",
+      "Closure": "Laces",
+      "Occasion": "Office"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-039",
+    "thumbnail": "/images/footwear/1039.svg",
+    "images": [
+      "/images/footwear/1039.svg",
+      "/images/footwear/1039-alt.svg"
+    ]
+  },
+  {
+    "id": 1040,
+    "title": "Two-Tone Oxford",
+    "description": "Cap-toe Oxford in black and burnished tan with a sleek last",
+    "category": "footwear",
+    "subcategory": "Formal shoes",
+    "brand": "ClassicElegance",
+    "price": 8499,
+    "discountPercentage": 25,
+    "rating": 4.8,
+    "stock": 21,
+    "specs": {
+      "Size": "10",
+      "Colour": "Black and Tan",
+      "Material": "Polished Leather",
+      "Sole": "Leather with Rubber Insert",
+      "Closure": "Laces",
+      "Occasion": "Formal"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-040",
+    "thumbnail": "/images/footwear/1040.svg",
+    "images": [
+      "/images/footwear/1040.svg",
+      "/images/footwear/1040-alt.svg"
+    ]
+  },
+  {
+    "id": 1041,
+    "title": "Loaffer Leather",
+    "description": "Minimal leather penny loafer lined in soft leather for all-day comfort",
+    "category": "footwear",
+    "subcategory": "Formal shoes",
+    "brand": "ProfessionalStyle",
+    "price": 7299,
+    "discountPercentage": 14,
+    "rating": 4.4,
+    "stock": 9,
+    "specs": {
+      "Size": "9",
+      "Colour": "Burgundy",
+      "Material": "Leather",
+      "Sole": "Leather",
+      "Closure": "Slip On",
+      "Occasion": "Office"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-041",
+    "thumbnail": "/images/footwear/1041.svg",
+    "images": [
+      "/images/footwear/1041.svg",
+      "/images/footwear/1041-alt.svg"
+    ]
+  },
+  {
+    "id": 1042,
+    "title": "Slide Comfort",
+    "description": "Contoured foam slide for showers, pool decks and long days on your feet",
+    "category": "footwear",
+    "subcategory": "Sandals",
+    "brand": "ComfortCo",
+    "price": 799,
+    "discountPercentage": 35,
+    "rating": 4.2,
+    "stock": 61,
+    "specs": {
+      "Size": "9",
+      "Colour": "Charcoal",
+      "Material": "EVA Foam",
+      "Sole": "Textured Foam",
+      "Closure": "Slip On",
+      "Occasion": "Everyday"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-042",
+    "thumbnail": "/images/footwear/1042.svg",
+    "images": [
+      "/images/footwear/1042.svg",
+      "/images/footwear/1042-alt.svg"
+    ]
+  },
+  {
+    "id": 1043,
+    "title": "Leather Strap",
+    "description": "Hand-finished leather sandal with an adjustable buckle strap",
+    "category": "footwear",
+    "subcategory": "Sandals",
+    "brand": "UrbanLeather",
+    "price": 1899,
+    "discountPercentage": 20,
+    "rating": 4.5,
+    "stock": 4,
+    "specs": {
+      "Size": "8",
+      "Colour": "Tan",
+      "Material": "Leather",
+      "Sole": "Leather with Rubber Strip",
+      "Closure": "Buckle",
+      "Occasion": "Everyday"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-043",
+    "thumbnail": "/images/footwear/1043.svg",
+    "images": [
+      "/images/footwear/1043.svg",
+      "/images/footwear/1043-alt.svg"
+    ]
+  },
+  {
+    "id": 1044,
+    "title": "Wedge Comfort",
+    "description": "Hidden-wedge sandal with an adjustable ankle strap for all-day walking",
+    "category": "footwear",
+    "subcategory": "Sandals",
+    "brand": "CasualChic",
+    "price": 2299,
+    "discountPercentage": 28,
+    "rating": 4.3,
+    "stock": 15,
+    "specs": {
+      "Size": "7",
+      "Colour": "Coral",
+      "Material": "Faux Leather",
+      "Sole": "Wedge Rubber",
+      "Closure": "Ankle Strap",
+      "Occasion": "Everyday"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-044",
+    "thumbnail": "/images/footwear/1044.svg",
+    "images": [
+      "/images/footwear/1044.svg",
+      "/images/footwear/1044-alt.svg"
+    ]
+  },
+  {
+    "id": 1045,
+    "title": "Block Heel",
+    "description": "Stable 5cm block heel with a cushioned footbed",
+    "category": "footwear",
+    "subcategory": "Heels",
+    "brand": "HeelGlam",
+    "price": 3499,
+    "discountPercentage": 26,
+    "rating": 4.4,
+    "stock": 26,
+    "specs": {
+      "Size": "7",
+      "Colour": "Nude",
+      "Material": "Synthetic Leather",
+      "Sole": "Block Heel",
+      "Closure": "Ankle Strap",
+      "Occasion": "Party"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-045",
+    "thumbnail": "/images/footwear/1045.svg",
+    "images": [
+      "/images/footwear/1045.svg",
+      "/images/footwear/1045-alt.svg"
+    ]
+  },
+  {
+    "id": 1046,
+    "title": "Mule Slide",
+    "description": "Backless slide pump with a low sculpted heel",
+    "category": "footwear",
+    "subcategory": "Heels",
+    "brand": "GlamourWear",
+    "price": 2799,
+    "discountPercentage": 32,
+    "rating": 4.2,
+    "stock": 33,
+    "specs": {
+      "Size": "6",
+      "Colour": "Blush Pink",
+      "Material": "Satin",
+      "Sole": "Sculpted Heel",
+      "Closure": "Slip On",
+      "Occasion": "Party"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-046",
+    "thumbnail": "/images/footwear/1046.svg",
+    "images": [
+      "/images/footwear/1046.svg",
+      "/images/footwear/1046-alt.svg"
+    ]
+  },
+  {
+    "id": 1047,
+    "title": "Kitten Heel",
+    "description": "Refined 6cm kitten heel that stays comfortable through a long evening",
+    "category": "footwear",
+    "subcategory": "Heels",
+    "brand": "OfficeChic",
+    "price": 3999,
+    "discountPercentage": 18,
+    "rating": 4.6,
+    "stock": 13,
+    "specs": {
+      "Size": "7",
+      "Colour": "Black",
+      "Material": "Patent Leather",
+      "Sole": "Kitten Heel",
+      "Closure": "Ankle Strap",
+      "Occasion": "Office"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-047",
+    "thumbnail": "/images/footwear/1047.svg",
+    "images": [
+      "/images/footwear/1047.svg",
+      "/images/footwear/1047-alt.svg"
+    ]
+  },
+  {
+    "id": 1048,
+    "title": "Toddler Sandal",
+    "description": "Soft first-walker sandal with a grippy sole and hook-and-loop strap",
+    "category": "footwear",
+    "subcategory": "Kids shoes",
+    "brand": "KidsComfort",
+    "price": 799,
+    "discountPercentage": 40,
+    "rating": 4.1,
+    "stock": 52,
+    "specs": {
+      "Size": "5",
+      "Colour": "Sky Blue",
+      "Material": "Soft Synthetic",
+      "Sole": "Grippy Rubber",
+      "Closure": "Hook and Loop",
+      "Occasion": "Everyday"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-048",
+    "thumbnail": "/images/footwear/1048.svg",
+    "images": [
+      "/images/footwear/1048.svg",
+      "/images/footwear/1048-alt.svg"
+    ]
+  },
+  {
+    "id": 1049,
+    "title": "School Oxford",
+    "description": "Uniform-approved Oxford with a reinforced toe and easy-clean upper",
+    "category": "footwear",
+    "subcategory": "Kids shoes",
+    "brand": "SchoolWear",
+    "price": 2299,
+    "discountPercentage": 15,
+    "rating": 4.5,
+    "stock": 18,
+    "specs": {
+      "Size": "7",
+      "Colour": "Black",
+      "Material": "Leather",
+      "Sole": "Rubber",
+      "Closure": "Laces",
+      "Occasion": "School"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-049",
+    "thumbnail": "/images/footwear/1049.svg",
+    "images": [
+      "/images/footwear/1049.svg",
+      "/images/footwear/1049-alt.svg"
+    ]
+  },
+  {
+    "id": 1050,
+    "title": "Sparkle Sneaker",
+    "description": "Light-up star-print sneaker with a velcro strap for independent dressing",
+    "category": "footwear",
+    "subcategory": "Kids shoes",
+    "brand": "KidsStyle",
+    "price": 1699,
+    "discountPercentage": 22,
+    "rating": 4.3,
+    "stock": 24,
+    "specs": {
+      "Size": "6",
+      "Colour": "Purple",
+      "Material": "Canvas",
+      "Sole": "Glow Rubber",
+      "Closure": "Velcro",
+      "Occasion": "Everyday"
+    },
+    "goals": [],
+    "source": "StrideHub",
+    "sourceId": "prod-050",
+    "thumbnail": "/images/footwear/1050.svg",
+    "images": [
+      "/images/footwear/1050.svg",
+      "/images/footwear/1050-alt.svg"
+    ]
+  },
+  {
+    "id": 2001,
+    "title": "Daily Multivitamin",
+    "description": "Daily Multivitamin from MediKart's vitamins and supplements range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Vitamins and supplements",
+    "brand": "HealthFirst",
+    "price": 56.35,
+    "discountPercentage": 0,
+    "rating": 3,
+    "stock": 0,
+    "specs": {
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Store below 25°C, away from sunlight",
+      "Expiry period": "24 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-001",
+    "sourceCategorySpecs": {
+      "Composition": "Multivitamin blend",
+      "Dosage form": "Tablet",
+      "Pack size": "60 tablets"
+    },
+    "thumbnail": "/images/health/2001.svg",
+    "images": [
+      "/images/health/2001.svg",
+      "/images/health/2001-alt.svg"
+    ]
+  },
+  {
+    "id": 2002,
+    "title": "Vitamin C 1000mg",
+    "description": "Vitamin C 1000mg from MediKart's vitamins and supplements range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Vitamins and supplements",
+    "brand": "CareWell",
+    "price": 63.7,
+    "discountPercentage": 15,
+    "rating": 3.6,
+    "stock": 21,
+    "specs": {
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store below 25°C, away from sunlight",
+      "Expiry period": "24 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-002",
+    "sourceCategorySpecs": {
+      "Composition": "Multivitamin blend",
+      "Dosage form": "Tablet",
+      "Pack size": "60 tablets"
+    },
+    "thumbnail": "/images/health/2002.svg",
+    "images": [
+      "/images/health/2002.svg",
+      "/images/health/2002-alt.svg"
+    ]
+  },
+  {
+    "id": 2003,
+    "title": "Vitamin D3 Drops",
+    "description": "Vitamin D3 Drops from MediKart's vitamins and supplements range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Vitamins and supplements",
+    "brand": "HealthFirst",
+    "price": 71.05,
+    "discountPercentage": 0,
+    "rating": 4.2,
+    "stock": 22,
+    "specs": {
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Store below 25°C, away from sunlight",
+      "Expiry period": "24 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-003",
+    "sourceCategorySpecs": {
+      "Composition": "Multivitamin blend",
+      "Dosage form": "Tablet",
+      "Pack size": "60 tablets"
+    },
+    "thumbnail": "/images/health/2003.svg",
+    "images": [
+      "/images/health/2003.svg",
+      "/images/health/2003-alt.svg"
+    ]
+  },
+  {
+    "id": 2004,
+    "title": "Omega-3 Fish Oil",
+    "description": "Omega-3 Fish Oil from MediKart's vitamins and supplements range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Vitamins and supplements",
+    "brand": "CareWell",
+    "price": 78.4,
+    "discountPercentage": 25,
+    "rating": 3,
+    "stock": 23,
+    "specs": {
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Store below 25°C, away from sunlight",
+      "Expiry period": "24 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-004",
+    "sourceCategorySpecs": {
+      "Composition": "Multivitamin blend",
+      "Dosage form": "Tablet",
+      "Pack size": "60 tablets"
+    },
+    "thumbnail": "/images/health/2004.svg",
+    "images": [
+      "/images/health/2004.svg",
+      "/images/health/2004-alt.svg"
+    ]
+  },
+  {
+    "id": 2005,
+    "title": "Calcium + Magnesium",
+    "description": "Calcium + Magnesium from MediKart's vitamins and supplements range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Vitamins and supplements",
+    "brand": "HealthFirst",
+    "price": 85.75,
+    "discountPercentage": 0,
+    "rating": 3.6,
+    "stock": 24,
+    "specs": {
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Store below 25°C, away from sunlight",
+      "Expiry period": "24 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-005",
+    "sourceCategorySpecs": {
+      "Composition": "Multivitamin blend",
+      "Dosage form": "Tablet",
+      "Pack size": "60 tablets"
+    },
+    "thumbnail": "/images/health/2005.svg",
+    "images": [
+      "/images/health/2005.svg",
+      "/images/health/2005-alt.svg"
+    ]
+  },
+  {
+    "id": 2006,
+    "title": "Iron Folic Tablets",
+    "description": "Iron Folic Tablets from MediKart's vitamins and supplements range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Vitamins and supplements",
+    "brand": "VitaPlus",
+    "price": 93.1,
+    "discountPercentage": 0,
+    "rating": 4.2,
+    "stock": 3,
+    "specs": {
+      "Manufacturer": "MediPure",
+      "Storage instructions": "Store below 25°C, away from sunlight",
+      "Expiry period": "24 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-006",
+    "sourceCategorySpecs": {
+      "Composition": "Multivitamin blend",
+      "Dosage form": "Tablet",
+      "Pack size": "60 tablets"
+    },
+    "thumbnail": "/images/health/2006.svg",
+    "images": [
+      "/images/health/2006.svg",
+      "/images/health/2006-alt.svg"
+    ]
+  },
+  {
+    "id": 2007,
+    "title": "Biotin Hair & Skin",
+    "description": "Biotin Hair & Skin from MediKart's vitamins and supplements range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Vitamins and supplements",
+    "brand": "MediPure",
+    "price": 100.45,
+    "discountPercentage": 15,
+    "rating": 3,
+    "stock": 26,
+    "specs": {
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Store below 25°C, away from sunlight",
+      "Expiry period": "24 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-007",
+    "sourceCategorySpecs": {
+      "Composition": "Multivitamin blend",
+      "Dosage form": "Tablet",
+      "Pack size": "60 tablets"
+    },
+    "thumbnail": "/images/health/2007.svg",
+    "images": [
+      "/images/health/2007.svg",
+      "/images/health/2007-alt.svg"
+    ]
+  },
+  {
+    "id": 2008,
+    "title": "Zinc Immunity Boost",
+    "description": "Zinc Immunity Boost from MediKart's vitamins and supplements range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Vitamins and supplements",
+    "brand": "HealthFirst",
+    "price": 107.8,
+    "discountPercentage": 20,
+    "rating": 3.6,
+    "stock": 0,
+    "specs": {
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store below 25°C, away from sunlight",
+      "Expiry period": "24 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-008",
+    "sourceCategorySpecs": {
+      "Composition": "Multivitamin blend",
+      "Dosage form": "Tablet",
+      "Pack size": "60 tablets"
+    },
+    "thumbnail": "/images/health/2008.svg",
+    "images": [
+      "/images/health/2008.svg",
+      "/images/health/2008-alt.svg"
+    ]
+  },
+  {
+    "id": 2009,
+    "title": "B-Complex Energy",
+    "description": "B-Complex Energy from MediKart's vitamins and supplements range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Vitamins and supplements",
+    "brand": "MediPure",
+    "price": 115.15,
+    "discountPercentage": 0,
+    "rating": 4.2,
+    "stock": 28,
+    "specs": {
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Store below 25°C, away from sunlight",
+      "Expiry period": "24 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-009",
+    "sourceCategorySpecs": {
+      "Composition": "Multivitamin blend",
+      "Dosage form": "Tablet",
+      "Pack size": "60 tablets"
+    },
+    "thumbnail": "/images/health/2009.svg",
+    "images": [
+      "/images/health/2009.svg",
+      "/images/health/2009-alt.svg"
+    ]
+  },
+  {
+    "id": 2010,
+    "title": "Probiotic Gut Health Capsules",
+    "description": "Probiotic Gut Health Capsules from MediKart's vitamins and supplements range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Vitamins and supplements",
+    "brand": "HealthFirst",
+    "price": 122.5,
+    "discountPercentage": 30,
+    "rating": 3,
+    "stock": 29,
+    "specs": {
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Store below 25°C, away from sunlight",
+      "Expiry period": "24 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-010",
+    "sourceCategorySpecs": {
+      "Composition": "Multivitamin blend",
+      "Dosage form": "Tablet",
+      "Pack size": "60 tablets"
+    },
+    "thumbnail": "/images/health/2010.svg",
+    "images": [
+      "/images/health/2010.svg",
+      "/images/health/2010-alt.svg"
+    ]
+  },
+  {
+    "id": 2011,
+    "title": "Multivitamin Gummies For Adults Who Struggle To Swallow Regular Tablets Every Single Morning",
+    "description": "Multivitamin Gummies For Adults Who Struggle To Swallow Regular Tablets Every Single Morning from MediKart's vitamins and supplements range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Vitamins and supplements",
+    "brand": "CareWell",
+    "price": 129.85,
+    "discountPercentage": 10,
+    "rating": 3.6,
+    "stock": 3,
+    "specs": {
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Store below 25°C, away from sunlight",
+      "Expiry period": "24 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-011",
+    "sourceCategorySpecs": {
+      "Composition": "Multivitamin blend",
+      "Dosage form": "Tablet",
+      "Pack size": "60 tablets"
+    },
+    "thumbnail": "/images/health/2011.svg",
+    "images": [
+      "/images/health/2011.svg",
+      "/images/health/2011-alt.svg"
+    ]
+  },
+  {
+    "id": 2012,
+    "title": "Paracetamol 500mg",
+    "description": "Paracetamol 500mg from MediKart's pain relief range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Pain relief",
+    "brand": "NovaCare",
+    "price": 137.2,
+    "discountPercentage": 0,
+    "rating": 3,
+    "stock": 0,
+    "specs": {
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Store in a cool, dry place",
+      "Expiry period": "36 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-012",
+    "sourceCategorySpecs": {
+      "Composition": "Paracetamol 500mg",
+      "Dosage form": "Tablet",
+      "Pack size": "10 tablets"
+    },
+    "thumbnail": "/images/health/2012.svg",
+    "images": [
+      "/images/health/2012.svg",
+      "/images/health/2012-alt.svg"
+    ]
+  },
+  {
+    "id": 2013,
+    "title": "Ibuprofen 400mg",
+    "description": "Ibuprofen 400mg from MediKart's pain relief range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Pain relief",
+    "brand": "CareWell",
+    "price": 144.55,
+    "discountPercentage": 15,
+    "rating": 3.6,
+    "stock": 21,
+    "specs": {
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Store in a cool, dry place",
+      "Expiry period": "36 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-013",
+    "sourceCategorySpecs": {
+      "Composition": "Paracetamol 500mg",
+      "Dosage form": "Tablet",
+      "Pack size": "10 tablets"
+    },
+    "thumbnail": "/images/health/2013.svg",
+    "images": [
+      "/images/health/2013.svg",
+      "/images/health/2013-alt.svg"
+    ]
+  },
+  {
+    "id": 2014,
+    "title": "Pain Relief Gel",
+    "description": "Pain Relief Gel from MediKart's pain relief range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Pain relief",
+    "brand": "NovaCare",
+    "price": 151.9,
+    "discountPercentage": 0,
+    "rating": 4.2,
+    "stock": 22,
+    "specs": {
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Store in a cool, dry place",
+      "Expiry period": "36 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-014",
+    "sourceCategorySpecs": {
+      "Composition": "Paracetamol 500mg",
+      "Dosage form": "Tablet",
+      "Pack size": "10 tablets"
+    },
+    "thumbnail": "/images/health/2014.svg",
+    "images": [
+      "/images/health/2014.svg",
+      "/images/health/2014-alt.svg"
+    ]
+  },
+  {
+    "id": 2015,
+    "title": "Muscle Spray",
+    "description": "Muscle Spray from MediKart's pain relief range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Pain relief",
+    "brand": "HealthFirst",
+    "price": 159.25,
+    "discountPercentage": 25,
+    "rating": 3,
+    "stock": 23,
+    "specs": {
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Store in a cool, dry place",
+      "Expiry period": "36 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-015",
+    "sourceCategorySpecs": {
+      "Composition": "Paracetamol 500mg",
+      "Dosage form": "Tablet",
+      "Pack size": "10 tablets"
+    },
+    "thumbnail": "/images/health/2015.svg",
+    "images": [
+      "/images/health/2015.svg",
+      "/images/health/2015-alt.svg"
+    ]
+  },
+  {
+    "id": 2016,
+    "title": "Headache Relief Tablets",
+    "description": "Headache Relief Tablets from MediKart's pain relief range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Pain relief",
+    "brand": "MediPure",
+    "price": 166.6,
+    "discountPercentage": 0,
+    "rating": 3.6,
+    "stock": 24,
+    "specs": {
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store in a cool, dry place",
+      "Expiry period": "36 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-016",
+    "sourceCategorySpecs": {
+      "Composition": "Paracetamol 500mg",
+      "Dosage form": "Tablet",
+      "Pack size": "10 tablets"
+    },
+    "thumbnail": "/images/health/2016.svg",
+    "images": [
+      "/images/health/2016.svg",
+      "/images/health/2016-alt.svg"
+    ]
+  },
+  {
+    "id": 2017,
+    "title": "Back Pain Patch",
+    "description": "Back Pain Patch from MediKart's pain relief range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Pain relief",
+    "brand": "CareWell",
+    "price": 173.95,
+    "discountPercentage": 0,
+    "rating": 4.2,
+    "stock": 3,
+    "specs": {
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Store in a cool, dry place",
+      "Expiry period": "36 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-017",
+    "sourceCategorySpecs": {
+      "Composition": "Paracetamol 500mg",
+      "Dosage form": "Tablet",
+      "Pack size": "10 tablets"
+    },
+    "thumbnail": "/images/health/2017.svg",
+    "images": [
+      "/images/health/2017.svg",
+      "/images/health/2017-alt.svg"
+    ]
+  },
+  {
+    "id": 2018,
+    "title": "Joint Pain Rub",
+    "description": "Joint Pain Rub from MediKart's pain relief range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Pain relief",
+    "brand": "HealthFirst",
+    "price": 181.3,
+    "discountPercentage": 15,
+    "rating": 3,
+    "stock": 26,
+    "specs": {
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store in a cool, dry place",
+      "Expiry period": "36 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-018",
+    "sourceCategorySpecs": {
+      "Composition": "Paracetamol 500mg",
+      "Dosage form": "Tablet",
+      "Pack size": "10 tablets"
+    },
+    "thumbnail": "/images/health/2018.svg",
+    "images": [
+      "/images/health/2018.svg",
+      "/images/health/2018-alt.svg"
+    ]
+  },
+  {
+    "id": 2019,
+    "title": "Cold & Flu Relief",
+    "description": "Cold & Flu Relief from MediKart's pain relief range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Pain relief",
+    "brand": "HealthFirst",
+    "price": 188.65,
+    "discountPercentage": 20,
+    "rating": 3.6,
+    "stock": 0,
+    "specs": {
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store in a cool, dry place",
+      "Expiry period": "36 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-019",
+    "sourceCategorySpecs": {
+      "Composition": "Paracetamol 500mg",
+      "Dosage form": "Tablet",
+      "Pack size": "10 tablets"
+    },
+    "thumbnail": "/images/health/2019.svg",
+    "images": [
+      "/images/health/2019.svg",
+      "/images/health/2019-alt.svg"
+    ]
+  },
+  {
+    "id": 2020,
+    "title": "Migraine Relief Capsules",
+    "description": "Migraine Relief Capsules from MediKart's pain relief range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Pain relief",
+    "brand": "CareWell",
+    "price": 196,
+    "discountPercentage": 0,
+    "rating": 4.2,
+    "stock": 28,
+    "specs": {
+      "Manufacturer": "MediPure",
+      "Storage instructions": "Store in a cool, dry place",
+      "Expiry period": "36 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-020",
+    "sourceCategorySpecs": {
+      "Composition": "Paracetamol 500mg",
+      "Dosage form": "Tablet",
+      "Pack size": "10 tablets"
+    },
+    "thumbnail": "/images/health/2020.svg",
+    "images": [
+      "/images/health/2020.svg",
+      "/images/health/2020-alt.svg"
+    ]
+  },
+  {
+    "id": 2021,
+    "title": "Fever Reducer Syrup",
+    "description": "Fever Reducer Syrup from MediKart's pain relief range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Pain relief",
+    "brand": "VitaPlus",
+    "price": 203.35,
+    "discountPercentage": 30,
+    "rating": 3,
+    "stock": 29,
+    "specs": {
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store in a cool, dry place",
+      "Expiry period": "36 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-021",
+    "sourceCategorySpecs": {
+      "Composition": "Paracetamol 500mg",
+      "Dosage form": "Tablet",
+      "Pack size": "10 tablets"
+    },
+    "thumbnail": "/images/health/2021.svg",
+    "images": [
+      "/images/health/2021.svg",
+      "/images/health/2021-alt.svg"
+    ]
+  },
+  {
+    "id": 2022,
+    "title": "Extra Strength Long Lasting All Day Pain Relief Tablets For Chronic Joint And Muscle Discomfort",
+    "description": "Extra Strength Long Lasting All Day Pain Relief Tablets For Chronic Joint And Muscle Discomfort from MediKart's pain relief range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Pain relief",
+    "brand": "CareWell",
+    "price": 210.7,
+    "discountPercentage": 10,
+    "rating": 3.6,
+    "stock": 3,
+    "specs": {
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Store in a cool, dry place",
+      "Expiry period": "36 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-022",
+    "sourceCategorySpecs": {
+      "Composition": "Paracetamol 500mg",
+      "Dosage form": "Tablet",
+      "Pack size": "10 tablets"
+    },
+    "thumbnail": "/images/health/2022.svg",
+    "images": [
+      "/images/health/2022.svg",
+      "/images/health/2022-alt.svg"
+    ]
+  },
+  {
+    "id": 2023,
+    "title": "Blood Glucose Monitor",
+    "description": "Blood Glucose Monitor from MediKart's diabetes care range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Diabetes care",
+    "brand": "VitaPlus",
+    "price": 218.05,
+    "discountPercentage": 0,
+    "rating": 3,
+    "stock": 0,
+    "specs": {
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Store below 30°C",
+      "Expiry period": "18 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-023",
+    "sourceCategorySpecs": {
+      "Composition": "Metformin 500mg / test strips",
+      "Dosage form": "Tablet / strip",
+      "Pack size": "30 units"
+    },
+    "thumbnail": "/images/health/2023.svg",
+    "images": [
+      "/images/health/2023.svg",
+      "/images/health/2023-alt.svg"
+    ]
+  },
+  {
+    "id": 2024,
+    "title": "Glucose Test Strips (50)",
+    "description": "Glucose Test Strips (50) from MediKart's diabetes care range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Diabetes care",
+    "brand": "HealthFirst",
+    "price": 225.4,
+    "discountPercentage": 15,
+    "rating": 3.6,
+    "stock": 21,
+    "specs": {
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store below 30°C",
+      "Expiry period": "18 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-024",
+    "sourceCategorySpecs": {
+      "Composition": "Metformin 500mg / test strips",
+      "Dosage form": "Tablet / strip",
+      "Pack size": "30 units"
+    },
+    "thumbnail": "/images/health/2024.svg",
+    "images": [
+      "/images/health/2024.svg",
+      "/images/health/2024-alt.svg"
+    ]
+  },
+  {
+    "id": 2025,
+    "title": "Metformin 500mg",
+    "description": "Metformin 500mg from MediKart's diabetes care range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Diabetes care",
+    "brand": "MediPure",
+    "price": 232.75,
+    "discountPercentage": 0,
+    "rating": 4.2,
+    "stock": 22,
+    "specs": {
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Store below 30°C",
+      "Expiry period": "18 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-025",
+    "sourceCategorySpecs": {
+      "Composition": "Metformin 500mg / test strips",
+      "Dosage form": "Tablet / strip",
+      "Pack size": "30 units"
+    },
+    "thumbnail": "/images/health/2025.svg",
+    "images": [
+      "/images/health/2025.svg",
+      "/images/health/2025-alt.svg"
+    ]
+  },
+  {
+    "id": 2026,
+    "title": "Insulin Cooling Case",
+    "description": "Insulin Cooling Case from MediKart's diabetes care range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Diabetes care",
+    "brand": "MediPure",
+    "price": 240.1,
+    "discountPercentage": 25,
+    "rating": 3,
+    "stock": 23,
+    "specs": {
+      "Manufacturer": "MediPure",
+      "Storage instructions": "Store below 30°C",
+      "Expiry period": "18 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-026",
+    "sourceCategorySpecs": {
+      "Composition": "Metformin 500mg / test strips",
+      "Dosage form": "Tablet / strip",
+      "Pack size": "30 units"
+    },
+    "thumbnail": "/images/health/2026.svg",
+    "images": [
+      "/images/health/2026.svg",
+      "/images/health/2026-alt.svg"
+    ]
+  },
+  {
+    "id": 2027,
+    "title": "Sugar-Free Multivitamin",
+    "description": "Sugar-Free Multivitamin from MediKart's diabetes care range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Diabetes care",
+    "brand": "CareWell",
+    "price": 247.45,
+    "discountPercentage": 0,
+    "rating": 3.6,
+    "stock": 24,
+    "specs": {
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store below 30°C",
+      "Expiry period": "18 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-027",
+    "sourceCategorySpecs": {
+      "Composition": "Metformin 500mg / test strips",
+      "Dosage form": "Tablet / strip",
+      "Pack size": "30 units"
+    },
+    "thumbnail": "/images/health/2027.svg",
+    "images": [
+      "/images/health/2027.svg",
+      "/images/health/2027-alt.svg"
+    ]
+  },
+  {
+    "id": 2028,
+    "title": "Diabetic Foot Cream",
+    "description": "Diabetic Foot Cream from MediKart's diabetes care range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Diabetes care",
+    "brand": "HealthFirst",
+    "price": 254.8,
+    "discountPercentage": 0,
+    "rating": 4.2,
+    "stock": 3,
+    "specs": {
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Store below 30°C",
+      "Expiry period": "18 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-028",
+    "sourceCategorySpecs": {
+      "Composition": "Metformin 500mg / test strips",
+      "Dosage form": "Tablet / strip",
+      "Pack size": "30 units"
+    },
+    "thumbnail": "/images/health/2028.svg",
+    "images": [
+      "/images/health/2028.svg",
+      "/images/health/2028-alt.svg"
+    ]
+  },
+  {
+    "id": 2029,
+    "title": "Lancets Pack Of 100",
+    "description": "Lancets Pack Of 100 from MediKart's diabetes care range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Diabetes care",
+    "brand": "CareWell",
+    "price": 262.15,
+    "discountPercentage": 15,
+    "rating": 3,
+    "stock": 26,
+    "specs": {
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Store below 30°C",
+      "Expiry period": "18 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-029",
+    "sourceCategorySpecs": {
+      "Composition": "Metformin 500mg / test strips",
+      "Dosage form": "Tablet / strip",
+      "Pack size": "30 units"
+    },
+    "thumbnail": "/images/health/2029.svg",
+    "images": [
+      "/images/health/2029.svg",
+      "/images/health/2029-alt.svg"
+    ]
+  },
+  {
+    "id": 2030,
+    "title": "Glucose Tablets",
+    "description": "Glucose Tablets from MediKart's diabetes care range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Diabetes care",
+    "brand": "MediPure",
+    "price": 269.5,
+    "discountPercentage": 20,
+    "rating": 3.6,
+    "stock": 0,
+    "specs": {
+      "Manufacturer": "MediPure",
+      "Storage instructions": "Store below 30°C",
+      "Expiry period": "18 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-030",
+    "sourceCategorySpecs": {
+      "Composition": "Metformin 500mg / test strips",
+      "Dosage form": "Tablet / strip",
+      "Pack size": "30 units"
+    },
+    "thumbnail": "/images/health/2030.svg",
+    "images": [
+      "/images/health/2030.svg",
+      "/images/health/2030-alt.svg"
+    ]
+  },
+  {
+    "id": 2031,
+    "title": "Diabetic Diet Supplement",
+    "description": "Diabetic Diet Supplement from MediKart's diabetes care range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Diabetes care",
+    "brand": "NovaCare",
+    "price": 276.85,
+    "discountPercentage": 0,
+    "rating": 4.2,
+    "stock": 28,
+    "specs": {
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store below 30°C",
+      "Expiry period": "18 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-031",
+    "sourceCategorySpecs": {
+      "Composition": "Metformin 500mg / test strips",
+      "Dosage form": "Tablet / strip",
+      "Pack size": "30 units"
+    },
+    "thumbnail": "/images/health/2031.svg",
+    "images": [
+      "/images/health/2031.svg",
+      "/images/health/2031-alt.svg"
+    ]
+  },
+  {
+    "id": 2032,
+    "title": "HbA1c Home Test Kit",
+    "description": "HbA1c Home Test Kit from MediKart's diabetes care range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Diabetes care",
+    "brand": "HealthFirst",
+    "price": 284.2,
+    "discountPercentage": 30,
+    "rating": 3,
+    "stock": 29,
+    "specs": {
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Store below 30°C",
+      "Expiry period": "18 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-032",
+    "sourceCategorySpecs": {
+      "Composition": "Metformin 500mg / test strips",
+      "Dosage form": "Tablet / strip",
+      "Pack size": "30 units"
+    },
+    "thumbnail": "/images/health/2032.svg",
+    "images": [
+      "/images/health/2032.svg",
+      "/images/health/2032-alt.svg"
+    ]
+  },
+  {
+    "id": 2033,
+    "title": "Comprehensive Diabetes Management Starter Kit With Monitor Strips And Lancets Included",
+    "description": "Comprehensive Diabetes Management Starter Kit With Monitor Strips And Lancets Included from MediKart's diabetes care range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Diabetes care",
+    "brand": "HealthFirst",
+    "price": 291.55,
+    "discountPercentage": 10,
+    "rating": 3.6,
+    "stock": 3,
+    "specs": {
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Store below 30°C",
+      "Expiry period": "18 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-033",
+    "sourceCategorySpecs": {
+      "Composition": "Metformin 500mg / test strips",
+      "Dosage form": "Tablet / strip",
+      "Pack size": "30 units"
+    },
+    "thumbnail": "/images/health/2033.svg",
+    "images": [
+      "/images/health/2033.svg",
+      "/images/health/2033-alt.svg"
+    ]
+  },
+  {
+    "id": 2034,
+    "title": "Digital BP Monitor",
+    "description": "Digital BP Monitor from MediKart's health devices range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Health devices",
+    "brand": "HealthFirst",
+    "price": 298.9,
+    "discountPercentage": 0,
+    "rating": 3,
+    "stock": 0,
+    "specs": {
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Keep dry, avoid direct sunlight",
+      "Expiry period": "Not applicable"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-034",
+    "sourceCategorySpecs": {
+      "Composition": "N/A (device)",
+      "Dosage form": "Device",
+      "Pack size": "1 unit"
+    },
+    "thumbnail": "/images/health/2034.svg",
+    "images": [
+      "/images/health/2034.svg",
+      "/images/health/2034-alt.svg"
+    ]
+  },
+  {
+    "id": 2035,
+    "title": "Pulse Oximeter",
+    "description": "Pulse Oximeter from MediKart's health devices range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Health devices",
+    "brand": "VitaPlus",
+    "price": 306.25,
+    "discountPercentage": 15,
+    "rating": 3.6,
+    "stock": 21,
+    "specs": {
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Keep dry, avoid direct sunlight",
+      "Expiry period": "Not applicable"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-035",
+    "sourceCategorySpecs": {
+      "Composition": "N/A (device)",
+      "Dosage form": "Device",
+      "Pack size": "1 unit"
+    },
+    "thumbnail": "/images/health/2035.svg",
+    "images": [
+      "/images/health/2035.svg",
+      "/images/health/2035-alt.svg"
+    ]
+  },
+  {
+    "id": 2036,
+    "title": "Digital Thermometer",
+    "description": "Digital Thermometer from MediKart's health devices range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Health devices",
+    "brand": "MediPure",
+    "price": 313.6,
+    "discountPercentage": 0,
+    "rating": 4.2,
+    "stock": 22,
+    "specs": {
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Keep dry, avoid direct sunlight",
+      "Expiry period": "Not applicable"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-036",
+    "sourceCategorySpecs": {
+      "Composition": "N/A (device)",
+      "Dosage form": "Device",
+      "Pack size": "1 unit"
+    },
+    "thumbnail": "/images/health/2036.svg",
+    "images": [
+      "/images/health/2036.svg",
+      "/images/health/2036-alt.svg"
+    ]
+  },
+  {
+    "id": 2037,
+    "title": "Nebulizer",
+    "description": "Nebulizer from MediKart's health devices range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Health devices",
+    "brand": "VitaPlus",
+    "price": 320.95,
+    "discountPercentage": 25,
+    "rating": 3,
+    "stock": 23,
+    "specs": {
+      "Manufacturer": "MediPure",
+      "Storage instructions": "Keep dry, avoid direct sunlight",
+      "Expiry period": "Not applicable"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-037",
+    "sourceCategorySpecs": {
+      "Composition": "N/A (device)",
+      "Dosage form": "Device",
+      "Pack size": "1 unit"
+    },
+    "thumbnail": "/images/health/2037.svg",
+    "images": [
+      "/images/health/2037.svg",
+      "/images/health/2037-alt.svg"
+    ]
+  },
+  {
+    "id": 2038,
+    "title": "Weighing Scale",
+    "description": "Weighing Scale from MediKart's health devices range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Health devices",
+    "brand": "NovaCare",
+    "price": 328.3,
+    "discountPercentage": 0,
+    "rating": 3.6,
+    "stock": 24,
+    "specs": {
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Keep dry, avoid direct sunlight",
+      "Expiry period": "Not applicable"
+    },
+    "goals": [
+      "gym"
+    ],
+    "source": "MediKart",
+    "sourceId": "p-038",
+    "sourceCategorySpecs": {
+      "Composition": "N/A (device)",
+      "Dosage form": "Device",
+      "Pack size": "1 unit"
+    },
+    "thumbnail": "/images/health/2038.svg",
+    "images": [
+      "/images/health/2038.svg",
+      "/images/health/2038-alt.svg"
+    ]
+  },
+  {
+    "id": 2039,
+    "title": "Steam Inhaler",
+    "description": "Steam Inhaler from MediKart's health devices range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Health devices",
+    "brand": "NovaCare",
+    "price": 335.65,
+    "discountPercentage": 0,
+    "rating": 4.2,
+    "stock": 3,
+    "specs": {
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Keep dry, avoid direct sunlight",
+      "Expiry period": "Not applicable"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-039",
+    "sourceCategorySpecs": {
+      "Composition": "N/A (device)",
+      "Dosage form": "Device",
+      "Pack size": "1 unit"
+    },
+    "thumbnail": "/images/health/2039.svg",
+    "images": [
+      "/images/health/2039.svg",
+      "/images/health/2039-alt.svg"
+    ]
+  },
+  {
+    "id": 2040,
+    "title": "Posture Corrector",
+    "description": "Posture Corrector from MediKart's health devices range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Health devices",
+    "brand": "MediPure",
+    "price": 343,
+    "discountPercentage": 15,
+    "rating": 3,
+    "stock": 26,
+    "specs": {
+      "Manufacturer": "MediPure",
+      "Storage instructions": "Keep dry, avoid direct sunlight",
+      "Expiry period": "Not applicable"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-040",
+    "sourceCategorySpecs": {
+      "Composition": "N/A (device)",
+      "Dosage form": "Device",
+      "Pack size": "1 unit"
+    },
+    "thumbnail": "/images/health/2040.svg",
+    "images": [
+      "/images/health/2040.svg",
+      "/images/health/2040-alt.svg"
+    ]
+  },
+  {
+    "id": 2041,
+    "title": "TENS Pain Relief Device",
+    "description": "TENS Pain Relief Device from MediKart's health devices range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Health devices",
+    "brand": "HealthFirst",
+    "price": 350.35,
+    "discountPercentage": 20,
+    "rating": 3.6,
+    "stock": 0,
+    "specs": {
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Keep dry, avoid direct sunlight",
+      "Expiry period": "Not applicable"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-041",
+    "sourceCategorySpecs": {
+      "Composition": "N/A (device)",
+      "Dosage form": "Device",
+      "Pack size": "1 unit"
+    },
+    "thumbnail": "/images/health/2041.svg",
+    "images": [
+      "/images/health/2041.svg",
+      "/images/health/2041-alt.svg"
+    ]
+  },
+  {
+    "id": 2042,
+    "title": "Compression Socks",
+    "description": "Compression Socks from MediKart's health devices range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Health devices",
+    "brand": "VitaPlus",
+    "price": 357.7,
+    "discountPercentage": 0,
+    "rating": 4.2,
+    "stock": 28,
+    "specs": {
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Keep dry, avoid direct sunlight",
+      "Expiry period": "Not applicable"
+    },
+    "goals": [
+      "running"
+    ],
+    "source": "MediKart",
+    "sourceId": "p-042",
+    "sourceCategorySpecs": {
+      "Composition": "N/A (device)",
+      "Dosage form": "Device",
+      "Pack size": "1 unit"
+    },
+    "thumbnail": "/images/health/2042.svg",
+    "images": [
+      "/images/health/2042.svg",
+      "/images/health/2042-alt.svg"
+    ]
+  },
+  {
+    "id": 2043,
+    "title": "Heating Pad",
+    "description": "Heating Pad from MediKart's health devices range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Health devices",
+    "brand": "VitaPlus",
+    "price": 365.05,
+    "discountPercentage": 30,
+    "rating": 3,
+    "stock": 29,
+    "specs": {
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Keep dry, avoid direct sunlight",
+      "Expiry period": "Not applicable"
+    },
+    "goals": [
+      "gym",
+      "yoga"
+    ],
+    "source": "MediKart",
+    "sourceId": "p-043",
+    "sourceCategorySpecs": {
+      "Composition": "N/A (device)",
+      "Dosage form": "Device",
+      "Pack size": "1 unit"
+    },
+    "thumbnail": "/images/health/2043.svg",
+    "images": [
+      "/images/health/2043.svg",
+      "/images/health/2043-alt.svg"
+    ]
+  },
+  {
+    "id": 2044,
+    "title": "Advanced Wrist Blood Pressure Monitor With Irregular Heartbeat Detection And Memory Storage",
+    "description": "Advanced Wrist Blood Pressure Monitor With Irregular Heartbeat Detection And Memory Storage from MediKart's health devices range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Health devices",
+    "brand": "MediPure",
+    "price": 372.4,
+    "discountPercentage": 10,
+    "rating": 3.6,
+    "stock": 3,
+    "specs": {
+      "Manufacturer": "MediPure",
+      "Storage instructions": "Keep dry, avoid direct sunlight",
+      "Expiry period": "Not applicable"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-044",
+    "sourceCategorySpecs": {
+      "Composition": "N/A (device)",
+      "Dosage form": "Device",
+      "Pack size": "1 unit"
+    },
+    "thumbnail": "/images/health/2044.svg",
+    "images": [
+      "/images/health/2044.svg",
+      "/images/health/2044-alt.svg"
+    ]
+  },
+  {
+    "id": 2045,
+    "title": "First Aid Kit",
+    "description": "First Aid Kit from MediKart's first aid range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "First aid",
+    "brand": "VitaPlus",
+    "price": 379.75,
+    "discountPercentage": 0,
+    "rating": 3,
+    "stock": 0,
+    "specs": {
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Store at room temperature",
+      "Expiry period": "30 months from manufacture"
+    },
+    "goals": [
+      "running",
+      "gym",
+      "yoga"
+    ],
+    "source": "MediKart",
+    "sourceId": "p-045",
+    "sourceCategorySpecs": {
+      "Composition": "Antiseptic / dressing materials",
+      "Dosage form": "Kit",
+      "Pack size": "1 kit"
+    },
+    "thumbnail": "/images/health/2045.svg",
+    "images": [
+      "/images/health/2045.svg",
+      "/images/health/2045-alt.svg"
+    ]
+  },
+  {
+    "id": 2046,
+    "title": "Adhesive Bandages (50)",
+    "description": "Adhesive Bandages (50) from MediKart's first aid range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "First aid",
+    "brand": "CareWell",
+    "price": 387.1,
+    "discountPercentage": 15,
+    "rating": 3.6,
+    "stock": 21,
+    "specs": {
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store at room temperature",
+      "Expiry period": "30 months from manufacture"
+    },
+    "goals": [
+      "running",
+      "gym",
+      "yoga"
+    ],
+    "source": "MediKart",
+    "sourceId": "p-046",
+    "sourceCategorySpecs": {
+      "Composition": "Antiseptic / dressing materials",
+      "Dosage form": "Kit",
+      "Pack size": "1 kit"
+    },
+    "thumbnail": "/images/health/2046.svg",
+    "images": [
+      "/images/health/2046.svg",
+      "/images/health/2046-alt.svg"
+    ]
+  },
+  {
+    "id": 2047,
+    "title": "Antiseptic Solution",
+    "description": "Antiseptic Solution from MediKart's first aid range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "First aid",
+    "brand": "HealthFirst",
+    "price": 394.45,
+    "discountPercentage": 0,
+    "rating": 4.2,
+    "stock": 22,
+    "specs": {
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Store at room temperature",
+      "Expiry period": "30 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-047",
+    "sourceCategorySpecs": {
+      "Composition": "Antiseptic / dressing materials",
+      "Dosage form": "Kit",
+      "Pack size": "1 kit"
+    },
+    "thumbnail": "/images/health/2047.svg",
+    "images": [
+      "/images/health/2047.svg",
+      "/images/health/2047-alt.svg"
+    ]
+  },
+  {
+    "id": 2048,
+    "title": "Gauze Roll",
+    "description": "Gauze Roll from MediKart's first aid range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "First aid",
+    "brand": "CareWell",
+    "price": 401.8,
+    "discountPercentage": 25,
+    "rating": 3,
+    "stock": 23,
+    "specs": {
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Store at room temperature",
+      "Expiry period": "30 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-048",
+    "sourceCategorySpecs": {
+      "Composition": "Antiseptic / dressing materials",
+      "Dosage form": "Kit",
+      "Pack size": "1 kit"
+    },
+    "thumbnail": "/images/health/2048.svg",
+    "images": [
+      "/images/health/2048.svg",
+      "/images/health/2048-alt.svg"
+    ]
+  },
+  {
+    "id": 2049,
+    "title": "Cotton Swabs",
+    "description": "Cotton Swabs from MediKart's first aid range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "First aid",
+    "brand": "HealthFirst",
+    "price": 409.15,
+    "discountPercentage": 0,
+    "rating": 3.6,
+    "stock": 24,
+    "specs": {
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Store at room temperature",
+      "Expiry period": "30 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-049",
+    "sourceCategorySpecs": {
+      "Composition": "Antiseptic / dressing materials",
+      "Dosage form": "Kit",
+      "Pack size": "1 kit"
+    },
+    "thumbnail": "/images/health/2049.svg",
+    "images": [
+      "/images/health/2049.svg",
+      "/images/health/2049-alt.svg"
+    ]
+  },
+  {
+    "id": 2050,
+    "title": "Burn Relief Gel",
+    "description": "Burn Relief Gel from MediKart's first aid range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "First aid",
+    "brand": "HealthFirst",
+    "price": 416.5,
+    "discountPercentage": 0,
+    "rating": 4.2,
+    "stock": 3,
+    "specs": {
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Store at room temperature",
+      "Expiry period": "30 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-050",
+    "sourceCategorySpecs": {
+      "Composition": "Antiseptic / dressing materials",
+      "Dosage form": "Kit",
+      "Pack size": "1 kit"
+    },
+    "thumbnail": "/images/health/2050.svg",
+    "images": [
+      "/images/health/2050.svg",
+      "/images/health/2050-alt.svg"
+    ]
+  },
+  {
+    "id": 2051,
+    "title": "Instant Cold Pack",
+    "description": "Instant Cold Pack from MediKart's first aid range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "First aid",
+    "brand": "CareWell",
+    "price": 423.85,
+    "discountPercentage": 15,
+    "rating": 3,
+    "stock": 26,
+    "specs": {
+      "Manufacturer": "MediPure",
+      "Storage instructions": "Store at room temperature",
+      "Expiry period": "30 months from manufacture"
+    },
+    "goals": [
+      "running",
+      "gym"
+    ],
+    "source": "MediKart",
+    "sourceId": "p-051",
+    "sourceCategorySpecs": {
+      "Composition": "Antiseptic / dressing materials",
+      "Dosage form": "Kit",
+      "Pack size": "1 kit"
+    },
+    "thumbnail": "/images/health/2051.svg",
+    "images": [
+      "/images/health/2051.svg",
+      "/images/health/2051-alt.svg"
+    ]
+  },
+  {
+    "id": 2052,
+    "title": "Elastic Crepe Bandage",
+    "description": "Elastic Crepe Bandage from MediKart's first aid range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "First aid",
+    "brand": "NovaCare",
+    "price": 431.2,
+    "discountPercentage": 20,
+    "rating": 3.6,
+    "stock": 0,
+    "specs": {
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store at room temperature",
+      "Expiry period": "30 months from manufacture"
+    },
+    "goals": [
+      "running",
+      "gym"
+    ],
+    "source": "MediKart",
+    "sourceId": "p-052",
+    "sourceCategorySpecs": {
+      "Composition": "Antiseptic / dressing materials",
+      "Dosage form": "Kit",
+      "Pack size": "1 kit"
+    },
+    "thumbnail": "/images/health/2052.svg",
+    "images": [
+      "/images/health/2052.svg",
+      "/images/health/2052-alt.svg"
+    ]
+  },
+  {
+    "id": 2053,
+    "title": "Antibacterial Wipes",
+    "description": "Antibacterial Wipes from MediKart's first aid range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "First aid",
+    "brand": "CareWell",
+    "price": 438.55,
+    "discountPercentage": 0,
+    "rating": 4.2,
+    "stock": 28,
+    "specs": {
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Store at room temperature",
+      "Expiry period": "30 months from manufacture"
+    },
+    "goals": [
+      "gym",
+      "yoga"
+    ],
+    "source": "MediKart",
+    "sourceId": "p-053",
+    "sourceCategorySpecs": {
+      "Composition": "Antiseptic / dressing materials",
+      "Dosage form": "Kit",
+      "Pack size": "1 kit"
+    },
+    "thumbnail": "/images/health/2053.svg",
+    "images": [
+      "/images/health/2053.svg",
+      "/images/health/2053-alt.svg"
+    ]
+  },
+  {
+    "id": 2054,
+    "title": "Wound Dressing Pads",
+    "description": "Wound Dressing Pads from MediKart's first aid range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "First aid",
+    "brand": "MediPure",
+    "price": 445.9,
+    "discountPercentage": 30,
+    "rating": 3,
+    "stock": 29,
+    "specs": {
+      "Manufacturer": "MediPure",
+      "Storage instructions": "Store at room temperature",
+      "Expiry period": "30 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-054",
+    "sourceCategorySpecs": {
+      "Composition": "Antiseptic / dressing materials",
+      "Dosage form": "Kit",
+      "Pack size": "1 kit"
+    },
+    "thumbnail": "/images/health/2054.svg",
+    "images": [
+      "/images/health/2054.svg",
+      "/images/health/2054-alt.svg"
+    ]
+  },
+  {
+    "id": 2055,
+    "title": "Complete Home First Aid Kit With Bandages Antiseptic Solution And Emergency Instructions",
+    "description": "Complete Home First Aid Kit With Bandages Antiseptic Solution And Emergency Instructions from MediKart's first aid range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "First aid",
+    "brand": "MediPure",
+    "price": 453.25,
+    "discountPercentage": 10,
+    "rating": 3.6,
+    "stock": 3,
+    "specs": {
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Store at room temperature",
+      "Expiry period": "30 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-055",
+    "sourceCategorySpecs": {
+      "Composition": "Antiseptic / dressing materials",
+      "Dosage form": "Kit",
+      "Pack size": "1 kit"
+    },
+    "thumbnail": "/images/health/2055.svg",
+    "images": [
+      "/images/health/2055.svg",
+      "/images/health/2055-alt.svg"
+    ]
+  },
+  {
+    "id": 2056,
+    "title": "Baby Lotion",
+    "description": "Baby Lotion from MediKart's baby care range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Baby care",
+    "brand": "VitaPlus",
+    "price": 460.6,
+    "discountPercentage": 0,
+    "rating": 3,
+    "stock": 0,
+    "specs": {
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Store below 25°C",
+      "Expiry period": "24 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-056",
+    "sourceCategorySpecs": {
+      "Composition": "Gentle, hypoallergenic formula",
+      "Dosage form": "Lotion",
+      "Pack size": "200ml"
+    },
+    "thumbnail": "/images/health/2056.svg",
+    "images": [
+      "/images/health/2056.svg",
+      "/images/health/2056-alt.svg"
+    ]
+  },
+  {
+    "id": 2057,
+    "title": "Diaper Rash Cream",
+    "description": "Diaper Rash Cream from MediKart's baby care range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Baby care",
+    "brand": "CareWell",
+    "price": 467.95,
+    "discountPercentage": 15,
+    "rating": 3.6,
+    "stock": 21,
+    "specs": {
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Store below 25°C",
+      "Expiry period": "24 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-057",
+    "sourceCategorySpecs": {
+      "Composition": "Gentle, hypoallergenic formula",
+      "Dosage form": "Lotion",
+      "Pack size": "200ml"
+    },
+    "thumbnail": "/images/health/2057.svg",
+    "images": [
+      "/images/health/2057.svg",
+      "/images/health/2057-alt.svg"
+    ]
+  },
+  {
+    "id": 2058,
+    "title": "Baby Shampoo",
+    "description": "Baby Shampoo from MediKart's baby care range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Baby care",
+    "brand": "CareWell",
+    "price": 475.3,
+    "discountPercentage": 0,
+    "rating": 4.2,
+    "stock": 22,
+    "specs": {
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Store below 25°C",
+      "Expiry period": "24 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-058",
+    "sourceCategorySpecs": {
+      "Composition": "Gentle, hypoallergenic formula",
+      "Dosage form": "Lotion",
+      "Pack size": "200ml"
+    },
+    "thumbnail": "/images/health/2058.svg",
+    "images": [
+      "/images/health/2058.svg",
+      "/images/health/2058-alt.svg"
+    ]
+  },
+  {
+    "id": 2059,
+    "title": "Baby Wipes (80)",
+    "description": "Baby Wipes (80) from MediKart's baby care range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Baby care",
+    "brand": "HealthFirst",
+    "price": 482.65,
+    "discountPercentage": 25,
+    "rating": 3,
+    "stock": 23,
+    "specs": {
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Store below 25°C",
+      "Expiry period": "24 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-059",
+    "sourceCategorySpecs": {
+      "Composition": "Gentle, hypoallergenic formula",
+      "Dosage form": "Lotion",
+      "Pack size": "200ml"
+    },
+    "thumbnail": "/images/health/2059.svg",
+    "images": [
+      "/images/health/2059.svg",
+      "/images/health/2059-alt.svg"
+    ]
+  },
+  {
+    "id": 2060,
+    "title": "Gripe Water",
+    "description": "Gripe Water from MediKart's baby care range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Baby care",
+    "brand": "NovaCare",
+    "price": 490,
+    "discountPercentage": 0,
+    "rating": 3.6,
+    "stock": 24,
+    "specs": {
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Store below 25°C",
+      "Expiry period": "24 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-060",
+    "sourceCategorySpecs": {
+      "Composition": "Gentle, hypoallergenic formula",
+      "Dosage form": "Lotion",
+      "Pack size": "200ml"
+    },
+    "thumbnail": "/images/health/2060.svg",
+    "images": [
+      "/images/health/2060.svg",
+      "/images/health/2060-alt.svg"
+    ]
+  },
+  {
+    "id": 2061,
+    "title": "Baby Thermometer",
+    "description": "Baby Thermometer from MediKart's baby care range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Baby care",
+    "brand": "HealthFirst",
+    "price": 497.35,
+    "discountPercentage": 0,
+    "rating": 4.2,
+    "stock": 3,
+    "specs": {
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Store below 25°C",
+      "Expiry period": "24 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-061",
+    "sourceCategorySpecs": {
+      "Composition": "Gentle, hypoallergenic formula",
+      "Dosage form": "Lotion",
+      "Pack size": "200ml"
+    },
+    "thumbnail": "/images/health/2061.svg",
+    "images": [
+      "/images/health/2061.svg",
+      "/images/health/2061-alt.svg"
+    ]
+  },
+  {
+    "id": 2062,
+    "title": "Baby Oil",
+    "description": "Baby Oil from MediKart's baby care range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Baby care",
+    "brand": "VitaPlus",
+    "price": 504.7,
+    "discountPercentage": 15,
+    "rating": 3,
+    "stock": 26,
+    "specs": {
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Store below 25°C",
+      "Expiry period": "24 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-062",
+    "sourceCategorySpecs": {
+      "Composition": "Gentle, hypoallergenic formula",
+      "Dosage form": "Lotion",
+      "Pack size": "200ml"
+    },
+    "thumbnail": "/images/health/2062.svg",
+    "images": [
+      "/images/health/2062.svg",
+      "/images/health/2062-alt.svg"
+    ]
+  },
+  {
+    "id": 2063,
+    "title": "Diapers (Medium, 40)",
+    "description": "Diapers (Medium, 40) from MediKart's baby care range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Baby care",
+    "brand": "CareWell",
+    "price": 512.05,
+    "discountPercentage": 20,
+    "rating": 3.6,
+    "stock": 0,
+    "specs": {
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store below 25°C",
+      "Expiry period": "24 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-063",
+    "sourceCategorySpecs": {
+      "Composition": "Gentle, hypoallergenic formula",
+      "Dosage form": "Lotion",
+      "Pack size": "200ml"
+    },
+    "thumbnail": "/images/health/2063.svg",
+    "images": [
+      "/images/health/2063.svg",
+      "/images/health/2063-alt.svg"
+    ]
+  },
+  {
+    "id": 2064,
+    "title": "Baby Powder",
+    "description": "Baby Powder from MediKart's baby care range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Baby care",
+    "brand": "VitaPlus",
+    "price": 519.4,
+    "discountPercentage": 0,
+    "rating": 4.2,
+    "stock": 28,
+    "specs": {
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store below 25°C",
+      "Expiry period": "24 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-064",
+    "sourceCategorySpecs": {
+      "Composition": "Gentle, hypoallergenic formula",
+      "Dosage form": "Lotion",
+      "Pack size": "200ml"
+    },
+    "thumbnail": "/images/health/2064.svg",
+    "images": [
+      "/images/health/2064.svg",
+      "/images/health/2064-alt.svg"
+    ]
+  },
+  {
+    "id": 2065,
+    "title": "Nasal Aspirator",
+    "description": "Nasal Aspirator from MediKart's baby care range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Baby care",
+    "brand": "MediPure",
+    "price": 526.75,
+    "discountPercentage": 30,
+    "rating": 3,
+    "stock": 29,
+    "specs": {
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Store below 25°C",
+      "Expiry period": "24 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-065",
+    "sourceCategorySpecs": {
+      "Composition": "Gentle, hypoallergenic formula",
+      "Dosage form": "Lotion",
+      "Pack size": "200ml"
+    },
+    "thumbnail": "/images/health/2065.svg",
+    "images": [
+      "/images/health/2065.svg",
+      "/images/health/2065-alt.svg"
+    ]
+  },
+  {
+    "id": 2066,
+    "title": "Gentle Tear-Free Baby Shampoo And Body Wash For Sensitive Newborn Skin",
+    "description": "Gentle Tear-Free Baby Shampoo And Body Wash For Sensitive Newborn Skin from MediKart's baby care range. Product information only — not medical advice.",
+    "category": "health",
+    "subcategory": "Baby care",
+    "brand": "CareWell",
+    "price": 534.1,
+    "discountPercentage": 10,
+    "rating": 3.6,
+    "stock": 3,
+    "specs": {
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Store below 25°C",
+      "Expiry period": "24 months from manufacture"
+    },
+    "goals": [],
+    "source": "MediKart",
+    "sourceId": "p-066",
+    "sourceCategorySpecs": {
+      "Composition": "Gentle, hypoallergenic formula",
+      "Dosage form": "Lotion",
+      "Pack size": "200ml"
+    },
+    "thumbnail": "/images/health/2066.svg",
+    "images": [
+      "/images/health/2066.svg",
+      "/images/health/2066-alt.svg"
+    ]
+  }
+]

@@ -1,0 +1,411 @@
+.pageTitle {
+  margin-bottom: 20px;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  text-transform: uppercase;
+}
+
+/* ---- Progress indicator ---- */
+
+.stepper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 28px;
+  margin: 0 0 32px;
+  padding: 0 0 18px;
+  list-style: none;
+  border-bottom: 1px solid var(--border);
+}
+
+.stepItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-muted);
+}
+
+.stepNum {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border: 2px solid var(--border);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+}
+
+.current {
+  color: var(--text);
+}
+
+.current .stepNum {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.done {
+  color: var(--text);
+}
+
+.done .stepNum {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #ffffff;
+}
+
+/* ---- Layout: form | summary ---- */
+
+.checkoutLayout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 32px;
+  align-items: start;
+}
+
+.mainForm {
+  min-width: 0;
+}
+
+.stepTitle {
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.stepTitle:focus {
+  outline: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding: 28px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.legend {
+  margin-bottom: 12px;
+  padding: 0;
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+/* ---- Saved addresses ---- */
+
+.savedList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.savedOption {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+}
+
+.savedOption:has(input:checked) {
+  border-color: var(--accent);
+  box-shadow: inset 3px 0 0 var(--accent);
+}
+
+.radioLabel {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.radioLabel input {
+  margin-top: 4px;
+  accent-color: var(--accent);
+}
+
+.addrLine {
+  display: block;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.savedActions {
+  display: flex;
+  gap: 4px;
+}
+
+.iconBtn {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  color: var(--text-muted);
+}
+
+.iconBtn:hover {
+  color: var(--accent-deep);
+  background: var(--surface-hover);
+}
+
+.inlineEditor {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  border: 1px solid var(--accent);
+}
+
+/* Delivery and billing side by side on wide screens (Module 5). */
+.addressForms {
+  display: grid;
+  gap: 28px;
+}
+
+.twoUp {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.checkboxLabel input {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--accent);
+}
+
+/* ---- Payment ---- */
+
+.paymentOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.paymentOption {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  cursor: pointer;
+}
+
+.paymentOption:has(input:checked) {
+  border-color: var(--accent);
+  box-shadow: inset 3px 0 0 var(--accent);
+}
+
+.paymentOption input {
+  margin-top: 4px;
+  accent-color: var(--accent);
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px 16px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field label {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.field input {
+  border-radius: 0;
+}
+
+.wide {
+  grid-column: 1 / -1;
+}
+
+.fieldError {
+  margin: 0;
+  color: var(--danger);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* ---- Review ---- */
+
+.offline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  padding: 12px 14px;
+  background: var(--surface-hover);
+  font-weight: 600;
+}
+
+.errorBanner {
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  background: var(--surface-hover);
+}
+
+.errorTitle {
+  margin: 0;
+  font-weight: 700;
+}
+
+.conflicts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.conflicts li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.inlineError {
+  margin: 0;
+  color: var(--danger);
+  font-weight: 600;
+}
+
+.reviewBlocks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.reviewBlock {
+  padding: 16px;
+  border: 1px solid var(--border);
+}
+
+.reviewBlock p {
+  margin: 0 0 4px;
+  overflow-wrap: anywhere;
+}
+
+.blockHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 8px;
+}
+
+.blockHeader h3 {
+  margin: 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.promise {
+  margin-top: 8px !important;
+  font-weight: 600;
+}
+
+.linkBtn {
+  color: var(--accent-deep);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.reviewItems h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.reviewItems ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.reviewItemRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.formActions {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.placeBtn {
+  padding: 14px 24px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.summaryItems {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0;
+  padding: 12px 0 0;
+  border-top: 1px solid var(--border);
+  list-style: none;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 1023px) {
+  .checkoutLayout {
+    grid-template-columns: 1fr;
+  }
+
+  .twoUp {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  .card {
+    padding: 18px;
+  }
+
+  .cardGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.newAddressOption {
+  justify-content: flex-start;
+}

@@ -1,0 +1,228 @@
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.headerRow h1 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  text-transform: uppercase;
+}
+
+.count {
+  color: var(--text-muted);
+  font-size: 0.55em;
+  font-weight: 500;
+}
+
+.notice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding: 14px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+}
+
+.notice p {
+  margin: 0;
+  font-weight: 600;
+}
+
+/* Items | summary: a two-column grid that stacks on tablets and phones. */
+.cartGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 32px;
+  align-items: start;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+/* Each row is a small grid: image, details, quantity, total, remove. */
+.row {
+  display: grid;
+  grid-template-columns: 84px minmax(0, 1fr) auto 110px 40px;
+  align-items: center;
+  gap: 18px;
+  padding: 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.skeletonRow {
+  height: 124px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface-hover);
+  animation: pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0.55;
+  }
+}
+
+.thumb {
+  width: 84px;
+  height: 84px;
+  object-fit: cover;
+  background: var(--surface-hover);
+  border: 1px solid var(--border);
+}
+
+.productMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.title {
+  font-weight: 700;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.title:hover {
+  color: var(--accent-deep);
+}
+
+.category {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.unitPrice {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.oldPrice {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  font-weight: 400;
+}
+
+.savingsBadge {
+  align-self: flex-start;
+  color: var(--success);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.stockWarning {
+  color: var(--accent-deep);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.qtyCol {
+  display: flex;
+}
+
+.lineTotal {
+  text-align: right;
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.removeBtn {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  color: var(--text-muted);
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.removeBtn:hover {
+  color: var(--accent-deep);
+  background: var(--surface-hover);
+}
+
+.delivery {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.checkoutBtn {
+  width: 100%;
+  padding: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+@media (max-width: 1023px) {
+  .cartGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .row {
+    grid-template-columns: 72px minmax(0, 1fr) auto;
+    grid-template-areas:
+      "thumb meta remove"
+      "thumb qty total";
+    gap: 12px;
+    padding: 16px;
+  }
+
+  .thumb {
+    grid-area: thumb;
+    width: 72px;
+    height: 72px;
+    align-self: start;
+  }
+
+  .productMeta {
+    grid-area: meta;
+  }
+
+  .stockWarning {
+  color: var(--accent-deep);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.qtyCol {
+    grid-area: qty;
+  }
+
+  .lineTotal {
+    grid-area: total;
+    align-self: center;
+  }
+
+  .removeBtn {
+    grid-area: remove;
+    align-self: start;
+  }
+}

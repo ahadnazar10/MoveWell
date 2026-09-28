@@ -1,0 +1,1532 @@
+[
+  {
+    "id": "p-001",
+    "title": "Daily Multivitamin",
+    "description": "Daily Multivitamin from MediKart's vitamins and supplements range. Product information only — not medical advice.",
+    "category": "Vitamins and supplements",
+    "brand": "HealthFirst",
+    "price": 56.35,
+    "rating": 3,
+    "stock": 0,
+    "specs": {
+      "Composition": "Multivitamin blend",
+      "Pack size": "60 tablets",
+      "Dosage form": "Tablet",
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Store below 25°C, away from sunlight",
+      "Expiry period": "24 months from manufacture"
+    },
+    "thumbnail": "/images/missing-thumbnail.jpg",
+    "images": [],
+    "discountPercentage": 0
+  },
+  {
+    "id": "p-002",
+    "title": "Vitamin C 1000mg",
+    "description": "Vitamin C 1000mg from MediKart's vitamins and supplements range. Product information only — not medical advice.",
+    "category": "Vitamins and supplements",
+    "brand": "CareWell",
+    "price": 63.7,
+    "rating": 3.6,
+    "stock": 21,
+    "specs": {
+      "Composition": "Multivitamin blend",
+      "Pack size": "60 tablets",
+      "Dosage form": "Tablet",
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store below 25°C, away from sunlight",
+      "Expiry period": "24 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-002.svg",
+    "images": [
+      "/images/products/p-002.svg",
+      "/images/products/p-002-alt.svg"
+    ],
+    "discountPercentage": 15
+  },
+  {
+    "id": "p-003",
+    "title": "Vitamin D3 Drops",
+    "description": "Vitamin D3 Drops from MediKart's vitamins and supplements range. Product information only — not medical advice.",
+    "category": "Vitamins and supplements",
+    "brand": "HealthFirst",
+    "price": 71.05,
+    "rating": 4.2,
+    "stock": 22,
+    "specs": {
+      "Composition": "Multivitamin blend",
+      "Pack size": "60 tablets",
+      "Dosage form": "Tablet",
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Store below 25°C, away from sunlight",
+      "Expiry period": "24 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-003.svg",
+    "images": [
+      "/images/products/p-003.svg",
+      "/images/products/p-003-alt.svg"
+    ]
+  },
+  {
+    "id": "p-004",
+    "title": "Omega-3 Fish Oil",
+    "description": "Omega-3 Fish Oil from MediKart's vitamins and supplements range. Product information only — not medical advice.",
+    "category": "Vitamins and supplements",
+    "brand": "CareWell",
+    "price": 78.4,
+    "rating": 3,
+    "stock": 23,
+    "specs": {
+      "Composition": "Multivitamin blend",
+      "Pack size": "60 tablets",
+      "Dosage form": "Tablet",
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Store below 25°C, away from sunlight",
+      "Expiry period": "24 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-004.svg",
+    "images": [
+      "/images/products/p-004.svg",
+      "/images/products/p-004-alt.svg"
+    ],
+    "discountPercentage": 25
+  },
+  {
+    "id": "p-005",
+    "title": "Calcium + Magnesium",
+    "description": "Calcium + Magnesium from MediKart's vitamins and supplements range. Product information only — not medical advice.",
+    "category": "Vitamins and supplements",
+    "brand": "HealthFirst",
+    "price": 85.75,
+    "rating": 3.6,
+    "stock": 24,
+    "specs": {
+      "Composition": "Multivitamin blend",
+      "Pack size": "60 tablets",
+      "Dosage form": "Tablet",
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Store below 25°C, away from sunlight",
+      "Expiry period": "24 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-005.svg",
+    "images": [
+      "/images/products/p-005.svg",
+      "/images/products/p-005-alt.svg"
+    ],
+    "discountPercentage": 0
+  },
+  {
+    "id": "p-006",
+    "title": "Iron Folic Tablets",
+    "description": "Iron Folic Tablets from MediKart's vitamins and supplements range. Product information only — not medical advice.",
+    "category": "Vitamins and supplements",
+    "brand": "VitaPlus",
+    "price": 93.1,
+    "rating": 4.2,
+    "stock": 3,
+    "specs": {
+      "Composition": "Multivitamin blend",
+      "Pack size": "60 tablets",
+      "Dosage form": "Tablet",
+      "Manufacturer": "MediPure",
+      "Storage instructions": "Store below 25°C, away from sunlight",
+      "Expiry period": "24 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-006.svg",
+    "images": [
+      "/images/products/p-006.svg",
+      "/images/products/p-006-alt.svg"
+    ]
+  },
+  {
+    "id": "p-007",
+    "title": "Biotin Hair & Skin",
+    "description": "Biotin Hair & Skin from MediKart's vitamins and supplements range. Product information only — not medical advice.",
+    "category": "Vitamins and supplements",
+    "brand": "MediPure",
+    "price": 100.45,
+    "rating": 3,
+    "stock": 26,
+    "specs": {
+      "Composition": "Multivitamin blend",
+      "Pack size": "60 tablets",
+      "Dosage form": "Tablet",
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Store below 25°C, away from sunlight",
+      "Expiry period": "24 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-007.svg",
+    "images": [
+      "/images/products/p-007.svg",
+      "/images/products/p-007-alt.svg"
+    ],
+    "discountPercentage": 15
+  },
+  {
+    "id": "p-008",
+    "title": "Zinc Immunity Boost",
+    "description": "Zinc Immunity Boost from MediKart's vitamins and supplements range. Product information only — not medical advice.",
+    "category": "Vitamins and supplements",
+    "brand": "HealthFirst",
+    "price": 107.8,
+    "rating": 3.6,
+    "stock": 0,
+    "specs": {
+      "Composition": "Multivitamin blend",
+      "Pack size": "60 tablets",
+      "Dosage form": "Tablet",
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store below 25°C, away from sunlight",
+      "Expiry period": "24 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-008.svg",
+    "images": [
+      "/images/products/p-008.svg",
+      "/images/products/p-008-alt.svg"
+    ],
+    "discountPercentage": 20
+  },
+  {
+    "id": "p-009",
+    "title": "B-Complex Energy",
+    "description": "B-Complex Energy from MediKart's vitamins and supplements range. Product information only — not medical advice.",
+    "category": "Vitamins and supplements",
+    "brand": "MediPure",
+    "price": 115.15,
+    "rating": 4.2,
+    "stock": 28,
+    "specs": {
+      "Composition": "Multivitamin blend",
+      "Pack size": "60 tablets",
+      "Dosage form": "Tablet",
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Store below 25°C, away from sunlight",
+      "Expiry period": "24 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-009.svg",
+    "images": [
+      "/images/products/p-009.svg",
+      "/images/products/p-009-alt.svg"
+    ]
+  },
+  {
+    "id": "p-010",
+    "title": "Probiotic Gut Health Capsules",
+    "description": "Probiotic Gut Health Capsules from MediKart's vitamins and supplements range. Product information only — not medical advice.",
+    "category": "Vitamins and supplements",
+    "brand": "HealthFirst",
+    "price": 122.5,
+    "rating": 3,
+    "stock": 29,
+    "specs": {
+      "Composition": "Multivitamin blend",
+      "Pack size": "60 tablets",
+      "Dosage form": "Tablet",
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Store below 25°C, away from sunlight",
+      "Expiry period": "24 months from manufacture"
+    },
+    "thumbnail": "/images/missing-thumbnail.jpg",
+    "images": [],
+    "discountPercentage": 30
+  },
+  {
+    "id": "p-011",
+    "title": "Multivitamin Gummies For Adults Who Struggle To Swallow Regular Tablets Every Single Morning",
+    "description": "Multivitamin Gummies For Adults Who Struggle To Swallow Regular Tablets Every Single Morning from MediKart's vitamins and supplements range. Product information only — not medical advice.",
+    "category": "Vitamins and supplements",
+    "brand": "CareWell",
+    "price": 129.85,
+    "rating": 3.6,
+    "stock": 3,
+    "specs": {
+      "Composition": "Multivitamin blend",
+      "Pack size": "60 tablets",
+      "Dosage form": "Tablet",
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Store below 25°C, away from sunlight",
+      "Expiry period": "24 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-011.svg",
+    "images": [
+      "/images/products/p-011.svg",
+      "/images/products/p-011-alt.svg"
+    ],
+    "discountPercentage": 10
+  },
+  {
+    "id": "p-012",
+    "title": "Paracetamol 500mg",
+    "description": "Paracetamol 500mg from MediKart's pain relief range. Product information only — not medical advice.",
+    "category": "Pain relief",
+    "brand": "NovaCare",
+    "price": 137.2,
+    "rating": 3,
+    "stock": 0,
+    "specs": {
+      "Composition": "Paracetamol 500mg",
+      "Pack size": "10 tablets",
+      "Dosage form": "Tablet",
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Store in a cool, dry place",
+      "Expiry period": "36 months from manufacture"
+    },
+    "thumbnail": "/images/missing-thumbnail.jpg",
+    "images": [],
+    "discountPercentage": 0
+  },
+  {
+    "id": "p-013",
+    "title": "Ibuprofen 400mg",
+    "description": "Ibuprofen 400mg from MediKart's pain relief range. Product information only — not medical advice.",
+    "category": "Pain relief",
+    "brand": "CareWell",
+    "price": 144.55,
+    "rating": 3.6,
+    "stock": 21,
+    "specs": {
+      "Composition": "Paracetamol 500mg",
+      "Pack size": "10 tablets",
+      "Dosage form": "Tablet",
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Store in a cool, dry place",
+      "Expiry period": "36 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-013.svg",
+    "images": [
+      "/images/products/p-013.svg",
+      "/images/products/p-013-alt.svg"
+    ],
+    "discountPercentage": 15
+  },
+  {
+    "id": "p-014",
+    "title": "Pain Relief Gel",
+    "description": "Pain Relief Gel from MediKart's pain relief range. Product information only — not medical advice.",
+    "category": "Pain relief",
+    "brand": "NovaCare",
+    "price": 151.9,
+    "rating": 4.2,
+    "stock": 22,
+    "specs": {
+      "Composition": "Paracetamol 500mg",
+      "Pack size": "10 tablets",
+      "Dosage form": "Tablet",
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Store in a cool, dry place",
+      "Expiry period": "36 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-014.svg",
+    "images": [
+      "/images/products/p-014.svg",
+      "/images/products/p-014-alt.svg"
+    ]
+  },
+  {
+    "id": "p-015",
+    "title": "Muscle Spray",
+    "description": "Muscle Spray from MediKart's pain relief range. Product information only — not medical advice.",
+    "category": "Pain relief",
+    "brand": "HealthFirst",
+    "price": 159.25,
+    "rating": 3,
+    "stock": 23,
+    "specs": {
+      "Composition": "Paracetamol 500mg",
+      "Pack size": "10 tablets",
+      "Dosage form": "Tablet",
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Store in a cool, dry place",
+      "Expiry period": "36 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-015.svg",
+    "images": [
+      "/images/products/p-015.svg",
+      "/images/products/p-015-alt.svg"
+    ],
+    "discountPercentage": 25
+  },
+  {
+    "id": "p-016",
+    "title": "Headache Relief Tablets",
+    "description": "Headache Relief Tablets from MediKart's pain relief range. Product information only — not medical advice.",
+    "category": "Pain relief",
+    "brand": "MediPure",
+    "price": 166.6,
+    "rating": 3.6,
+    "stock": 24,
+    "specs": {
+      "Composition": "Paracetamol 500mg",
+      "Pack size": "10 tablets",
+      "Dosage form": "Tablet",
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store in a cool, dry place",
+      "Expiry period": "36 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-016.svg",
+    "images": [
+      "/images/products/p-016.svg",
+      "/images/products/p-016-alt.svg"
+    ],
+    "discountPercentage": 0
+  },
+  {
+    "id": "p-017",
+    "title": "Back Pain Patch",
+    "description": "Back Pain Patch from MediKart's pain relief range. Product information only — not medical advice.",
+    "category": "Pain relief",
+    "brand": "CareWell",
+    "price": 173.95,
+    "rating": 4.2,
+    "stock": 3,
+    "specs": {
+      "Composition": "Paracetamol 500mg",
+      "Pack size": "10 tablets",
+      "Dosage form": "Tablet",
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Store in a cool, dry place",
+      "Expiry period": "36 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-017.svg",
+    "images": [
+      "/images/products/p-017.svg",
+      "/images/products/p-017-alt.svg"
+    ]
+  },
+  {
+    "id": "p-018",
+    "title": "Joint Pain Rub",
+    "description": "Joint Pain Rub from MediKart's pain relief range. Product information only — not medical advice.",
+    "category": "Pain relief",
+    "brand": "HealthFirst",
+    "price": 181.3,
+    "rating": 3,
+    "stock": 26,
+    "specs": {
+      "Composition": "Paracetamol 500mg",
+      "Pack size": "10 tablets",
+      "Dosage form": "Tablet",
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store in a cool, dry place",
+      "Expiry period": "36 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-018.svg",
+    "images": [
+      "/images/products/p-018.svg",
+      "/images/products/p-018-alt.svg"
+    ],
+    "discountPercentage": 15
+  },
+  {
+    "id": "p-019",
+    "title": "Cold & Flu Relief",
+    "description": "Cold & Flu Relief from MediKart's pain relief range. Product information only — not medical advice.",
+    "category": "Pain relief",
+    "brand": "HealthFirst",
+    "price": 188.65,
+    "rating": 3.6,
+    "stock": 0,
+    "specs": {
+      "Composition": "Paracetamol 500mg",
+      "Pack size": "10 tablets",
+      "Dosage form": "Tablet",
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store in a cool, dry place",
+      "Expiry period": "36 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-019.svg",
+    "images": [
+      "/images/products/p-019.svg",
+      "/images/products/p-019-alt.svg"
+    ],
+    "discountPercentage": 20
+  },
+  {
+    "id": "p-020",
+    "title": "Migraine Relief Capsules",
+    "description": "Migraine Relief Capsules from MediKart's pain relief range. Product information only — not medical advice.",
+    "category": "Pain relief",
+    "brand": "CareWell",
+    "price": 196,
+    "rating": 4.2,
+    "stock": 28,
+    "specs": {
+      "Composition": "Paracetamol 500mg",
+      "Pack size": "10 tablets",
+      "Dosage form": "Tablet",
+      "Manufacturer": "MediPure",
+      "Storage instructions": "Store in a cool, dry place",
+      "Expiry period": "36 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-020.svg",
+    "images": [
+      "/images/products/p-020.svg",
+      "/images/products/p-020-alt.svg"
+    ]
+  },
+  {
+    "id": "p-021",
+    "title": "Fever Reducer Syrup",
+    "description": "Fever Reducer Syrup from MediKart's pain relief range. Product information only — not medical advice.",
+    "category": "Pain relief",
+    "brand": "VitaPlus",
+    "price": 203.35,
+    "rating": 3,
+    "stock": 29,
+    "specs": {
+      "Composition": "Paracetamol 500mg",
+      "Pack size": "10 tablets",
+      "Dosage form": "Tablet",
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store in a cool, dry place",
+      "Expiry period": "36 months from manufacture"
+    },
+    "thumbnail": "/images/missing-thumbnail.jpg",
+    "images": [],
+    "discountPercentage": 30
+  },
+  {
+    "id": "p-022",
+    "title": "Extra Strength Long Lasting All Day Pain Relief Tablets For Chronic Joint And Muscle Discomfort",
+    "description": "Extra Strength Long Lasting All Day Pain Relief Tablets For Chronic Joint And Muscle Discomfort from MediKart's pain relief range. Product information only — not medical advice.",
+    "category": "Pain relief",
+    "brand": "CareWell",
+    "price": 210.7,
+    "rating": 3.6,
+    "stock": 3,
+    "specs": {
+      "Composition": "Paracetamol 500mg",
+      "Pack size": "10 tablets",
+      "Dosage form": "Tablet",
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Store in a cool, dry place",
+      "Expiry period": "36 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-022.svg",
+    "images": [
+      "/images/products/p-022.svg",
+      "/images/products/p-022-alt.svg"
+    ],
+    "discountPercentage": 10
+  },
+  {
+    "id": "p-023",
+    "title": "Blood Glucose Monitor",
+    "description": "Blood Glucose Monitor from MediKart's diabetes care range. Product information only — not medical advice.",
+    "category": "Diabetes care",
+    "brand": "VitaPlus",
+    "price": 218.05,
+    "rating": 3,
+    "stock": 0,
+    "specs": {
+      "Composition": "Metformin 500mg / test strips",
+      "Pack size": "30 units",
+      "Dosage form": "Tablet / strip",
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Store below 30°C",
+      "Expiry period": "18 months from manufacture"
+    },
+    "thumbnail": "/images/missing-thumbnail.jpg",
+    "images": [],
+    "discountPercentage": 0
+  },
+  {
+    "id": "p-024",
+    "title": "Glucose Test Strips (50)",
+    "description": "Glucose Test Strips (50) from MediKart's diabetes care range. Product information only — not medical advice.",
+    "category": "Diabetes care",
+    "brand": "HealthFirst",
+    "price": 225.4,
+    "rating": 3.6,
+    "stock": 21,
+    "specs": {
+      "Composition": "Metformin 500mg / test strips",
+      "Pack size": "30 units",
+      "Dosage form": "Tablet / strip",
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store below 30°C",
+      "Expiry period": "18 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-024.svg",
+    "images": [
+      "/images/products/p-024.svg",
+      "/images/products/p-024-alt.svg"
+    ],
+    "discountPercentage": 15
+  },
+  {
+    "id": "p-025",
+    "title": "Metformin 500mg",
+    "description": "Metformin 500mg from MediKart's diabetes care range. Product information only — not medical advice.",
+    "category": "Diabetes care",
+    "brand": "MediPure",
+    "price": 232.75,
+    "rating": 4.2,
+    "stock": 22,
+    "specs": {
+      "Composition": "Metformin 500mg / test strips",
+      "Pack size": "30 units",
+      "Dosage form": "Tablet / strip",
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Store below 30°C",
+      "Expiry period": "18 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-025.svg",
+    "images": [
+      "/images/products/p-025.svg",
+      "/images/products/p-025-alt.svg"
+    ]
+  },
+  {
+    "id": "p-026",
+    "title": "Insulin Cooling Case",
+    "description": "Insulin Cooling Case from MediKart's diabetes care range. Product information only — not medical advice.",
+    "category": "Diabetes care",
+    "brand": "MediPure",
+    "price": 240.1,
+    "rating": 3,
+    "stock": 23,
+    "specs": {
+      "Composition": "Metformin 500mg / test strips",
+      "Pack size": "30 units",
+      "Dosage form": "Tablet / strip",
+      "Manufacturer": "MediPure",
+      "Storage instructions": "Store below 30°C",
+      "Expiry period": "18 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-026.svg",
+    "images": [
+      "/images/products/p-026.svg",
+      "/images/products/p-026-alt.svg"
+    ],
+    "discountPercentage": 25
+  },
+  {
+    "id": "p-027",
+    "title": "Sugar-Free Multivitamin",
+    "description": "Sugar-Free Multivitamin from MediKart's diabetes care range. Product information only — not medical advice.",
+    "category": "Diabetes care",
+    "brand": "CareWell",
+    "price": 247.45,
+    "rating": 3.6,
+    "stock": 24,
+    "specs": {
+      "Composition": "Metformin 500mg / test strips",
+      "Pack size": "30 units",
+      "Dosage form": "Tablet / strip",
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store below 30°C",
+      "Expiry period": "18 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-027.svg",
+    "images": [
+      "/images/products/p-027.svg",
+      "/images/products/p-027-alt.svg"
+    ],
+    "discountPercentage": 0
+  },
+  {
+    "id": "p-028",
+    "title": "Diabetic Foot Cream",
+    "description": "Diabetic Foot Cream from MediKart's diabetes care range. Product information only — not medical advice.",
+    "category": "Diabetes care",
+    "brand": "HealthFirst",
+    "price": 254.8,
+    "rating": 4.2,
+    "stock": 3,
+    "specs": {
+      "Composition": "Metformin 500mg / test strips",
+      "Pack size": "30 units",
+      "Dosage form": "Tablet / strip",
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Store below 30°C",
+      "Expiry period": "18 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-028.svg",
+    "images": [
+      "/images/products/p-028.svg",
+      "/images/products/p-028-alt.svg"
+    ]
+  },
+  {
+    "id": "p-029",
+    "title": "Lancets Pack Of 100",
+    "description": "Lancets Pack Of 100 from MediKart's diabetes care range. Product information only — not medical advice.",
+    "category": "Diabetes care",
+    "brand": "CareWell",
+    "price": 262.15,
+    "rating": 3,
+    "stock": 26,
+    "specs": {
+      "Composition": "Metformin 500mg / test strips",
+      "Pack size": "30 units",
+      "Dosage form": "Tablet / strip",
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Store below 30°C",
+      "Expiry period": "18 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-029.svg",
+    "images": [
+      "/images/products/p-029.svg",
+      "/images/products/p-029-alt.svg"
+    ],
+    "discountPercentage": 15
+  },
+  {
+    "id": "p-030",
+    "title": "Glucose Tablets",
+    "description": "Glucose Tablets from MediKart's diabetes care range. Product information only — not medical advice.",
+    "category": "Diabetes care",
+    "brand": "MediPure",
+    "price": 269.5,
+    "rating": 3.6,
+    "stock": 0,
+    "specs": {
+      "Composition": "Metformin 500mg / test strips",
+      "Pack size": "30 units",
+      "Dosage form": "Tablet / strip",
+      "Manufacturer": "MediPure",
+      "Storage instructions": "Store below 30°C",
+      "Expiry period": "18 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-030.svg",
+    "images": [
+      "/images/products/p-030.svg",
+      "/images/products/p-030-alt.svg"
+    ],
+    "discountPercentage": 20
+  },
+  {
+    "id": "p-031",
+    "title": "Diabetic Diet Supplement",
+    "description": "Diabetic Diet Supplement from MediKart's diabetes care range. Product information only — not medical advice.",
+    "category": "Diabetes care",
+    "brand": "NovaCare",
+    "price": 276.85,
+    "rating": 4.2,
+    "stock": 28,
+    "specs": {
+      "Composition": "Metformin 500mg / test strips",
+      "Pack size": "30 units",
+      "Dosage form": "Tablet / strip",
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store below 30°C",
+      "Expiry period": "18 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-031.svg",
+    "images": [
+      "/images/products/p-031.svg",
+      "/images/products/p-031-alt.svg"
+    ]
+  },
+  {
+    "id": "p-032",
+    "title": "HbA1c Home Test Kit",
+    "description": "HbA1c Home Test Kit from MediKart's diabetes care range. Product information only — not medical advice.",
+    "category": "Diabetes care",
+    "brand": "HealthFirst",
+    "price": 284.2,
+    "rating": 3,
+    "stock": 29,
+    "specs": {
+      "Composition": "Metformin 500mg / test strips",
+      "Pack size": "30 units",
+      "Dosage form": "Tablet / strip",
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Store below 30°C",
+      "Expiry period": "18 months from manufacture"
+    },
+    "thumbnail": "/images/missing-thumbnail.jpg",
+    "images": [],
+    "discountPercentage": 30
+  },
+  {
+    "id": "p-033",
+    "title": "Comprehensive Diabetes Management Starter Kit With Monitor Strips And Lancets Included",
+    "description": "Comprehensive Diabetes Management Starter Kit With Monitor Strips And Lancets Included from MediKart's diabetes care range. Product information only — not medical advice.",
+    "category": "Diabetes care",
+    "brand": "HealthFirst",
+    "price": 291.55,
+    "rating": 3.6,
+    "stock": 3,
+    "specs": {
+      "Composition": "Metformin 500mg / test strips",
+      "Pack size": "30 units",
+      "Dosage form": "Tablet / strip",
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Store below 30°C",
+      "Expiry period": "18 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-033.svg",
+    "images": [
+      "/images/products/p-033.svg",
+      "/images/products/p-033-alt.svg"
+    ],
+    "discountPercentage": 10
+  },
+  {
+    "id": "p-034",
+    "title": "Digital BP Monitor",
+    "description": "Digital BP Monitor from MediKart's health devices range. Product information only — not medical advice.",
+    "category": "Health devices",
+    "brand": "HealthFirst",
+    "price": 298.9,
+    "rating": 3,
+    "stock": 0,
+    "specs": {
+      "Composition": "N/A (device)",
+      "Pack size": "1 unit",
+      "Dosage form": "Device",
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Keep dry, avoid direct sunlight",
+      "Expiry period": "Not applicable"
+    },
+    "thumbnail": "/images/missing-thumbnail.jpg",
+    "images": [],
+    "discountPercentage": 0
+  },
+  {
+    "id": "p-035",
+    "title": "Pulse Oximeter",
+    "description": "Pulse Oximeter from MediKart's health devices range. Product information only — not medical advice.",
+    "category": "Health devices",
+    "brand": "VitaPlus",
+    "price": 306.25,
+    "rating": 3.6,
+    "stock": 21,
+    "specs": {
+      "Composition": "N/A (device)",
+      "Pack size": "1 unit",
+      "Dosage form": "Device",
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Keep dry, avoid direct sunlight",
+      "Expiry period": "Not applicable"
+    },
+    "thumbnail": "/images/products/p-035.svg",
+    "images": [
+      "/images/products/p-035.svg",
+      "/images/products/p-035-alt.svg"
+    ],
+    "discountPercentage": 15
+  },
+  {
+    "id": "p-036",
+    "title": "Digital Thermometer",
+    "description": "Digital Thermometer from MediKart's health devices range. Product information only — not medical advice.",
+    "category": "Health devices",
+    "brand": "MediPure",
+    "price": 313.6,
+    "rating": 4.2,
+    "stock": 22,
+    "specs": {
+      "Composition": "N/A (device)",
+      "Pack size": "1 unit",
+      "Dosage form": "Device",
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Keep dry, avoid direct sunlight",
+      "Expiry period": "Not applicable"
+    },
+    "thumbnail": "/images/products/p-036.svg",
+    "images": [
+      "/images/products/p-036.svg",
+      "/images/products/p-036-alt.svg"
+    ]
+  },
+  {
+    "id": "p-037",
+    "title": "Nebulizer",
+    "description": "Nebulizer from MediKart's health devices range. Product information only — not medical advice.",
+    "category": "Health devices",
+    "brand": "VitaPlus",
+    "price": 320.95,
+    "rating": 3,
+    "stock": 23,
+    "specs": {
+      "Composition": "N/A (device)",
+      "Pack size": "1 unit",
+      "Dosage form": "Device",
+      "Manufacturer": "MediPure",
+      "Storage instructions": "Keep dry, avoid direct sunlight",
+      "Expiry period": "Not applicable"
+    },
+    "thumbnail": "/images/products/p-037.svg",
+    "images": [
+      "/images/products/p-037.svg",
+      "/images/products/p-037-alt.svg"
+    ],
+    "discountPercentage": 25
+  },
+  {
+    "id": "p-038",
+    "title": "Weighing Scale",
+    "description": "Weighing Scale from MediKart's health devices range. Product information only — not medical advice.",
+    "category": "Health devices",
+    "brand": "NovaCare",
+    "price": 328.3,
+    "rating": 3.6,
+    "stock": 24,
+    "specs": {
+      "Composition": "N/A (device)",
+      "Pack size": "1 unit",
+      "Dosage form": "Device",
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Keep dry, avoid direct sunlight",
+      "Expiry period": "Not applicable"
+    },
+    "thumbnail": "/images/products/p-038.svg",
+    "images": [
+      "/images/products/p-038.svg",
+      "/images/products/p-038-alt.svg"
+    ],
+    "discountPercentage": 0
+  },
+  {
+    "id": "p-039",
+    "title": "Steam Inhaler",
+    "description": "Steam Inhaler from MediKart's health devices range. Product information only — not medical advice.",
+    "category": "Health devices",
+    "brand": "NovaCare",
+    "price": 335.65,
+    "rating": 4.2,
+    "stock": 3,
+    "specs": {
+      "Composition": "N/A (device)",
+      "Pack size": "1 unit",
+      "Dosage form": "Device",
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Keep dry, avoid direct sunlight",
+      "Expiry period": "Not applicable"
+    },
+    "thumbnail": "/images/products/p-039.svg",
+    "images": [
+      "/images/products/p-039.svg",
+      "/images/products/p-039-alt.svg"
+    ]
+  },
+  {
+    "id": "p-040",
+    "title": "Posture Corrector",
+    "description": "Posture Corrector from MediKart's health devices range. Product information only — not medical advice.",
+    "category": "Health devices",
+    "brand": "MediPure",
+    "price": 343,
+    "rating": 3,
+    "stock": 26,
+    "specs": {
+      "Composition": "N/A (device)",
+      "Pack size": "1 unit",
+      "Dosage form": "Device",
+      "Manufacturer": "MediPure",
+      "Storage instructions": "Keep dry, avoid direct sunlight",
+      "Expiry period": "Not applicable"
+    },
+    "thumbnail": "/images/products/p-040.svg",
+    "images": [
+      "/images/products/p-040.svg",
+      "/images/products/p-040-alt.svg"
+    ],
+    "discountPercentage": 15
+  },
+  {
+    "id": "p-041",
+    "title": "TENS Pain Relief Device",
+    "description": "TENS Pain Relief Device from MediKart's health devices range. Product information only — not medical advice.",
+    "category": "Health devices",
+    "brand": "HealthFirst",
+    "price": 350.35,
+    "rating": 3.6,
+    "stock": 0,
+    "specs": {
+      "Composition": "N/A (device)",
+      "Pack size": "1 unit",
+      "Dosage form": "Device",
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Keep dry, avoid direct sunlight",
+      "Expiry period": "Not applicable"
+    },
+    "thumbnail": "/images/products/p-041.svg",
+    "images": [
+      "/images/products/p-041.svg",
+      "/images/products/p-041-alt.svg"
+    ],
+    "discountPercentage": 20
+  },
+  {
+    "id": "p-042",
+    "title": "Compression Socks",
+    "description": "Compression Socks from MediKart's health devices range. Product information only — not medical advice.",
+    "category": "Health devices",
+    "brand": "VitaPlus",
+    "price": 357.7,
+    "rating": 4.2,
+    "stock": 28,
+    "specs": {
+      "Composition": "N/A (device)",
+      "Pack size": "1 unit",
+      "Dosage form": "Device",
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Keep dry, avoid direct sunlight",
+      "Expiry period": "Not applicable"
+    },
+    "thumbnail": "/images/products/p-042.svg",
+    "images": [
+      "/images/products/p-042.svg",
+      "/images/products/p-042-alt.svg"
+    ]
+  },
+  {
+    "id": "p-043",
+    "title": "Heating Pad",
+    "description": "Heating Pad from MediKart's health devices range. Product information only — not medical advice.",
+    "category": "Health devices",
+    "brand": "VitaPlus",
+    "price": 365.05,
+    "rating": 3,
+    "stock": 29,
+    "specs": {
+      "Composition": "N/A (device)",
+      "Pack size": "1 unit",
+      "Dosage form": "Device",
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Keep dry, avoid direct sunlight",
+      "Expiry period": "Not applicable"
+    },
+    "thumbnail": "/images/missing-thumbnail.jpg",
+    "images": [],
+    "discountPercentage": 30
+  },
+  {
+    "id": "p-044",
+    "title": "Advanced Wrist Blood Pressure Monitor With Irregular Heartbeat Detection And Memory Storage",
+    "description": "Advanced Wrist Blood Pressure Monitor With Irregular Heartbeat Detection And Memory Storage from MediKart's health devices range. Product information only — not medical advice.",
+    "category": "Health devices",
+    "brand": "MediPure",
+    "price": 372.4,
+    "rating": 3.6,
+    "stock": 3,
+    "specs": {
+      "Composition": "N/A (device)",
+      "Pack size": "1 unit",
+      "Dosage form": "Device",
+      "Manufacturer": "MediPure",
+      "Storage instructions": "Keep dry, avoid direct sunlight",
+      "Expiry period": "Not applicable"
+    },
+    "thumbnail": "/images/products/p-044.svg",
+    "images": [
+      "/images/products/p-044.svg",
+      "/images/products/p-044-alt.svg"
+    ],
+    "discountPercentage": 10
+  },
+  {
+    "id": "p-045",
+    "title": "First Aid Kit",
+    "description": "First Aid Kit from MediKart's first aid range. Product information only — not medical advice.",
+    "category": "First aid",
+    "brand": "VitaPlus",
+    "price": 379.75,
+    "rating": 3,
+    "stock": 0,
+    "specs": {
+      "Composition": "Antiseptic / dressing materials",
+      "Pack size": "1 kit",
+      "Dosage form": "Kit",
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Store at room temperature",
+      "Expiry period": "30 months from manufacture"
+    },
+    "thumbnail": "/images/missing-thumbnail.jpg",
+    "images": [],
+    "discountPercentage": 0
+  },
+  {
+    "id": "p-046",
+    "title": "Adhesive Bandages (50)",
+    "description": "Adhesive Bandages (50) from MediKart's first aid range. Product information only — not medical advice.",
+    "category": "First aid",
+    "brand": "CareWell",
+    "price": 387.1,
+    "rating": 3.6,
+    "stock": 21,
+    "specs": {
+      "Composition": "Antiseptic / dressing materials",
+      "Pack size": "1 kit",
+      "Dosage form": "Kit",
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store at room temperature",
+      "Expiry period": "30 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-046.svg",
+    "images": [
+      "/images/products/p-046.svg",
+      "/images/products/p-046-alt.svg"
+    ],
+    "discountPercentage": 15
+  },
+  {
+    "id": "p-047",
+    "title": "Antiseptic Solution",
+    "description": "Antiseptic Solution from MediKart's first aid range. Product information only — not medical advice.",
+    "category": "First aid",
+    "brand": "HealthFirst",
+    "price": 394.45,
+    "rating": 4.2,
+    "stock": 22,
+    "specs": {
+      "Composition": "Antiseptic / dressing materials",
+      "Pack size": "1 kit",
+      "Dosage form": "Kit",
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Store at room temperature",
+      "Expiry period": "30 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-047.svg",
+    "images": [
+      "/images/products/p-047.svg",
+      "/images/products/p-047-alt.svg"
+    ]
+  },
+  {
+    "id": "p-048",
+    "title": "Gauze Roll",
+    "description": "Gauze Roll from MediKart's first aid range. Product information only — not medical advice.",
+    "category": "First aid",
+    "brand": "CareWell",
+    "price": 401.8,
+    "rating": 3,
+    "stock": 23,
+    "specs": {
+      "Composition": "Antiseptic / dressing materials",
+      "Pack size": "1 kit",
+      "Dosage form": "Kit",
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Store at room temperature",
+      "Expiry period": "30 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-048.svg",
+    "images": [
+      "/images/products/p-048.svg",
+      "/images/products/p-048-alt.svg"
+    ],
+    "discountPercentage": 25
+  },
+  {
+    "id": "p-049",
+    "title": "Cotton Swabs",
+    "description": "Cotton Swabs from MediKart's first aid range. Product information only — not medical advice.",
+    "category": "First aid",
+    "brand": "HealthFirst",
+    "price": 409.15,
+    "rating": 3.6,
+    "stock": 24,
+    "specs": {
+      "Composition": "Antiseptic / dressing materials",
+      "Pack size": "1 kit",
+      "Dosage form": "Kit",
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Store at room temperature",
+      "Expiry period": "30 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-049.svg",
+    "images": [
+      "/images/products/p-049.svg",
+      "/images/products/p-049-alt.svg"
+    ],
+    "discountPercentage": 0
+  },
+  {
+    "id": "p-050",
+    "title": "Burn Relief Gel",
+    "description": "Burn Relief Gel from MediKart's first aid range. Product information only — not medical advice.",
+    "category": "First aid",
+    "brand": "HealthFirst",
+    "price": 416.5,
+    "rating": 4.2,
+    "stock": 3,
+    "specs": {
+      "Composition": "Antiseptic / dressing materials",
+      "Pack size": "1 kit",
+      "Dosage form": "Kit",
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Store at room temperature",
+      "Expiry period": "30 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-050.svg",
+    "images": [
+      "/images/products/p-050.svg",
+      "/images/products/p-050-alt.svg"
+    ]
+  },
+  {
+    "id": "p-051",
+    "title": "Instant Cold Pack",
+    "description": "Instant Cold Pack from MediKart's first aid range. Product information only — not medical advice.",
+    "category": "First aid",
+    "brand": "CareWell",
+    "price": 423.85,
+    "rating": 3,
+    "stock": 26,
+    "specs": {
+      "Composition": "Antiseptic / dressing materials",
+      "Pack size": "1 kit",
+      "Dosage form": "Kit",
+      "Manufacturer": "MediPure",
+      "Storage instructions": "Store at room temperature",
+      "Expiry period": "30 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-051.svg",
+    "images": [
+      "/images/products/p-051.svg",
+      "/images/products/p-051-alt.svg"
+    ],
+    "discountPercentage": 15
+  },
+  {
+    "id": "p-052",
+    "title": "Elastic Crepe Bandage",
+    "description": "Elastic Crepe Bandage from MediKart's first aid range. Product information only — not medical advice.",
+    "category": "First aid",
+    "brand": "NovaCare",
+    "price": 431.2,
+    "rating": 3.6,
+    "stock": 0,
+    "specs": {
+      "Composition": "Antiseptic / dressing materials",
+      "Pack size": "1 kit",
+      "Dosage form": "Kit",
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store at room temperature",
+      "Expiry period": "30 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-052.svg",
+    "images": [
+      "/images/products/p-052.svg",
+      "/images/products/p-052-alt.svg"
+    ],
+    "discountPercentage": 20
+  },
+  {
+    "id": "p-053",
+    "title": "Antibacterial Wipes",
+    "description": "Antibacterial Wipes from MediKart's first aid range. Product information only — not medical advice.",
+    "category": "First aid",
+    "brand": "CareWell",
+    "price": 438.55,
+    "rating": 4.2,
+    "stock": 28,
+    "specs": {
+      "Composition": "Antiseptic / dressing materials",
+      "Pack size": "1 kit",
+      "Dosage form": "Kit",
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Store at room temperature",
+      "Expiry period": "30 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-053.svg",
+    "images": [
+      "/images/products/p-053.svg",
+      "/images/products/p-053-alt.svg"
+    ]
+  },
+  {
+    "id": "p-054",
+    "title": "Wound Dressing Pads",
+    "description": "Wound Dressing Pads from MediKart's first aid range. Product information only — not medical advice.",
+    "category": "First aid",
+    "brand": "MediPure",
+    "price": 445.9,
+    "rating": 3,
+    "stock": 29,
+    "specs": {
+      "Composition": "Antiseptic / dressing materials",
+      "Pack size": "1 kit",
+      "Dosage form": "Kit",
+      "Manufacturer": "MediPure",
+      "Storage instructions": "Store at room temperature",
+      "Expiry period": "30 months from manufacture"
+    },
+    "thumbnail": "/images/missing-thumbnail.jpg",
+    "images": [],
+    "discountPercentage": 30
+  },
+  {
+    "id": "p-055",
+    "title": "Complete Home First Aid Kit With Bandages Antiseptic Solution And Emergency Instructions",
+    "description": "Complete Home First Aid Kit With Bandages Antiseptic Solution And Emergency Instructions from MediKart's first aid range. Product information only — not medical advice.",
+    "category": "First aid",
+    "brand": "MediPure",
+    "price": 453.25,
+    "rating": 3.6,
+    "stock": 3,
+    "specs": {
+      "Composition": "Antiseptic / dressing materials",
+      "Pack size": "1 kit",
+      "Dosage form": "Kit",
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Store at room temperature",
+      "Expiry period": "30 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-055.svg",
+    "images": [
+      "/images/products/p-055.svg",
+      "/images/products/p-055-alt.svg"
+    ],
+    "discountPercentage": 10
+  },
+  {
+    "id": "p-056",
+    "title": "Baby Lotion",
+    "description": "Baby Lotion from MediKart's baby care range. Product information only — not medical advice.",
+    "category": "Baby care",
+    "brand": "VitaPlus",
+    "price": 460.6,
+    "rating": 3,
+    "stock": 0,
+    "specs": {
+      "Composition": "Gentle, hypoallergenic formula",
+      "Pack size": "200ml",
+      "Dosage form": "Lotion",
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Store below 25°C",
+      "Expiry period": "24 months from manufacture"
+    },
+    "thumbnail": "/images/missing-thumbnail.jpg",
+    "images": [],
+    "discountPercentage": 0
+  },
+  {
+    "id": "p-057",
+    "title": "Diaper Rash Cream",
+    "description": "Diaper Rash Cream from MediKart's baby care range. Product information only — not medical advice.",
+    "category": "Baby care",
+    "brand": "CareWell",
+    "price": 467.95,
+    "rating": 3.6,
+    "stock": 21,
+    "specs": {
+      "Composition": "Gentle, hypoallergenic formula",
+      "Pack size": "200ml",
+      "Dosage form": "Lotion",
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Store below 25°C",
+      "Expiry period": "24 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-057.svg",
+    "images": [
+      "/images/products/p-057.svg",
+      "/images/products/p-057-alt.svg"
+    ],
+    "discountPercentage": 15
+  },
+  {
+    "id": "p-058",
+    "title": "Baby Shampoo",
+    "description": "Baby Shampoo from MediKart's baby care range. Product information only — not medical advice.",
+    "category": "Baby care",
+    "brand": "CareWell",
+    "price": 475.3,
+    "rating": 4.2,
+    "stock": 22,
+    "specs": {
+      "Composition": "Gentle, hypoallergenic formula",
+      "Pack size": "200ml",
+      "Dosage form": "Lotion",
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Store below 25°C",
+      "Expiry period": "24 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-058.svg",
+    "images": [
+      "/images/products/p-058.svg",
+      "/images/products/p-058-alt.svg"
+    ]
+  },
+  {
+    "id": "p-059",
+    "title": "Baby Wipes (80)",
+    "description": "Baby Wipes (80) from MediKart's baby care range. Product information only — not medical advice.",
+    "category": "Baby care",
+    "brand": "HealthFirst",
+    "price": 482.65,
+    "rating": 3,
+    "stock": 23,
+    "specs": {
+      "Composition": "Gentle, hypoallergenic formula",
+      "Pack size": "200ml",
+      "Dosage form": "Lotion",
+      "Manufacturer": "NovaCare",
+      "Storage instructions": "Store below 25°C",
+      "Expiry period": "24 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-059.svg",
+    "images": [
+      "/images/products/p-059.svg",
+      "/images/products/p-059-alt.svg"
+    ],
+    "discountPercentage": 25
+  },
+  {
+    "id": "p-060",
+    "title": "Gripe Water",
+    "description": "Gripe Water from MediKart's baby care range. Product information only — not medical advice.",
+    "category": "Baby care",
+    "brand": "NovaCare",
+    "price": 490,
+    "rating": 3.6,
+    "stock": 24,
+    "specs": {
+      "Composition": "Gentle, hypoallergenic formula",
+      "Pack size": "200ml",
+      "Dosage form": "Lotion",
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Store below 25°C",
+      "Expiry period": "24 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-060.svg",
+    "images": [
+      "/images/products/p-060.svg",
+      "/images/products/p-060-alt.svg"
+    ],
+    "discountPercentage": 0
+  },
+  {
+    "id": "p-061",
+    "title": "Baby Thermometer",
+    "description": "Baby Thermometer from MediKart's baby care range. Product information only — not medical advice.",
+    "category": "Baby care",
+    "brand": "HealthFirst",
+    "price": 497.35,
+    "rating": 4.2,
+    "stock": 3,
+    "specs": {
+      "Composition": "Gentle, hypoallergenic formula",
+      "Pack size": "200ml",
+      "Dosage form": "Lotion",
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Store below 25°C",
+      "Expiry period": "24 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-061.svg",
+    "images": [
+      "/images/products/p-061.svg",
+      "/images/products/p-061-alt.svg"
+    ]
+  },
+  {
+    "id": "p-062",
+    "title": "Baby Oil",
+    "description": "Baby Oil from MediKart's baby care range. Product information only — not medical advice.",
+    "category": "Baby care",
+    "brand": "VitaPlus",
+    "price": 504.7,
+    "rating": 3,
+    "stock": 26,
+    "specs": {
+      "Composition": "Gentle, hypoallergenic formula",
+      "Pack size": "200ml",
+      "Dosage form": "Lotion",
+      "Manufacturer": "HealthFirst",
+      "Storage instructions": "Store below 25°C",
+      "Expiry period": "24 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-062.svg",
+    "images": [
+      "/images/products/p-062.svg",
+      "/images/products/p-062-alt.svg"
+    ],
+    "discountPercentage": 15
+  },
+  {
+    "id": "p-063",
+    "title": "Diapers (Medium, 40)",
+    "description": "Diapers (Medium, 40) from MediKart's baby care range. Product information only — not medical advice.",
+    "category": "Baby care",
+    "brand": "CareWell",
+    "price": 512.05,
+    "rating": 3.6,
+    "stock": 0,
+    "specs": {
+      "Composition": "Gentle, hypoallergenic formula",
+      "Pack size": "200ml",
+      "Dosage form": "Lotion",
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store below 25°C",
+      "Expiry period": "24 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-063.svg",
+    "images": [
+      "/images/products/p-063.svg",
+      "/images/products/p-063-alt.svg"
+    ],
+    "discountPercentage": 20
+  },
+  {
+    "id": "p-064",
+    "title": "Baby Powder",
+    "description": "Baby Powder from MediKart's baby care range. Product information only — not medical advice.",
+    "category": "Baby care",
+    "brand": "VitaPlus",
+    "price": 519.4,
+    "rating": 4.2,
+    "stock": 28,
+    "specs": {
+      "Composition": "Gentle, hypoallergenic formula",
+      "Pack size": "200ml",
+      "Dosage form": "Lotion",
+      "Manufacturer": "VitaPlus",
+      "Storage instructions": "Store below 25°C",
+      "Expiry period": "24 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-064.svg",
+    "images": [
+      "/images/products/p-064.svg",
+      "/images/products/p-064-alt.svg"
+    ]
+  },
+  {
+    "id": "p-065",
+    "title": "Nasal Aspirator",
+    "description": "Nasal Aspirator from MediKart's baby care range. Product information only — not medical advice.",
+    "category": "Baby care",
+    "brand": "MediPure",
+    "price": 526.75,
+    "rating": 3,
+    "stock": 29,
+    "specs": {
+      "Composition": "Gentle, hypoallergenic formula",
+      "Pack size": "200ml",
+      "Dosage form": "Lotion",
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Store below 25°C",
+      "Expiry period": "24 months from manufacture"
+    },
+    "thumbnail": "/images/missing-thumbnail.jpg",
+    "images": [],
+    "discountPercentage": 30
+  },
+  {
+    "id": "p-066",
+    "title": "Gentle Tear-Free Baby Shampoo And Body Wash For Sensitive Newborn Skin",
+    "description": "Gentle Tear-Free Baby Shampoo And Body Wash For Sensitive Newborn Skin from MediKart's baby care range. Product information only — not medical advice.",
+    "category": "Baby care",
+    "brand": "CareWell",
+    "price": 534.1,
+    "rating": 3.6,
+    "stock": 3,
+    "specs": {
+      "Composition": "Gentle, hypoallergenic formula",
+      "Pack size": "200ml",
+      "Dosage form": "Lotion",
+      "Manufacturer": "CareWell",
+      "Storage instructions": "Store below 25°C",
+      "Expiry period": "24 months from manufacture"
+    },
+    "thumbnail": "/images/products/p-066.svg",
+    "images": [
+      "/images/products/p-066.svg",
+      "/images/products/p-066-alt.svg"
+    ],
+    "discountPercentage": 10
+  }
+]

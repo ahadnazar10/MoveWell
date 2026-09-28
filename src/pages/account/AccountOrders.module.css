@@ -1,0 +1,80 @@
+.ordersList {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+
+/* A row: order details | status | total. */
+.orderCard {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto 120px;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 20px;
+}
+
+.orderCard + .orderCard {
+  border-top: 1px solid var(--border);
+}
+
+.orderMain {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 14px;
+}
+
+.orderId {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 4px;
+}
+
+.orderId:hover {
+  color: var(--accent-deep);
+}
+
+.orderDate,
+.orderItems {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.statusBadge {
+  padding: 4px 10px;
+  background: var(--surface-hover);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.cancelled {
+  color: var(--accent-deep);
+}
+
+.totalAmount {
+  text-align: right;
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 560px) {
+  .orderCard {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+
+  .totalAmount {
+    grid-column: 1 / -1;
+    text-align: left;
+  }
+}

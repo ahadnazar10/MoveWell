@@ -1,0 +1,96 @@
+/* Same column counts as the real grid, so nothing jumps when data arrives. */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+
+@media (max-width: 1023px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 599px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-sm);
+}
+
+.image {
+  width: 100%;
+  padding-top: 75%;
+  background: var(--border);
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+.content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.meta {
+  width: 40%;
+  height: 12px;
+  background: var(--border);
+  border-radius: 4px;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+.title {
+  width: 90%;
+  height: 16px;
+  background: var(--border);
+  border-radius: 4px;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+.titleShort {
+  width: 60%;
+  height: 16px;
+  background: var(--border);
+  border-radius: 4px;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+.price {
+  width: 35%;
+  height: 22px;
+  background: var(--border);
+  border-radius: 4px;
+  margin-top: 8px;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+.btn {
+  width: 100%;
+  height: 38px;
+  background: var(--border);
+  border-radius: var(--radius);
+  margin-top: 6px;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}

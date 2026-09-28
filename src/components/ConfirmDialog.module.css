@@ -1,0 +1,28 @@
+.message {
+  margin-bottom: 24px;
+  color: var(--text-muted);
+  font-size: 0.98rem;
+  line-height: 1.55;
+}
+
+.message strong {
+  color: var(--text);
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.btnDanger {
+  background: var(--accent);
+  color: #ffffff;
+  border-color: var(--accent);
+}
+
+.btnDanger:hover {
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+}

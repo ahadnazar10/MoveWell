@@ -1,0 +1,160 @@
+.trackerBox {
+  margin-bottom: 32px;
+  padding: 28px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.topRow h2 {
+  margin: 0;
+  font-size: 1.35rem;
+  text-transform: uppercase;
+}
+
+.currentStatus {
+  color: var(--accent);
+}
+
+.cancelBox {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.timerBadge {
+  padding: 6px 12px;
+  background: var(--surface-sunk);
+  font-size: 0.85rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.cancelBtn {
+  border-color: var(--accent);
+  color: var(--accent-deep);
+}
+
+.cancelBtn:hover:not(:disabled) {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #ffffff;
+}
+
+.cancelledBanner {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 32px;
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  background: var(--surface);
+  color: var(--text);
+}
+
+.cancelledBanner h2 {
+  margin: 0 0 4px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.cancelledBanner p {
+  margin: 0;
+  color: var(--text-muted);
+}
+
+/* The stepper is a single row of equal columns: a grid, because each step must
+   line up regardless of label length. */
+.stepper {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.stepper::before {
+  content: "";
+  position: absolute;
+  top: 23px;
+  left: 12.5%;
+  right: 12.5%;
+  height: 2px;
+  background: var(--border);
+}
+
+.step {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.stepIcon {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  background: var(--surface);
+  border: 2px solid var(--border);
+  color: var(--text-muted);
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.done .stepIcon {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #ffffff;
+}
+
+.current .stepIcon {
+  border-color: var(--accent);
+  color: var(--accent);
+  box-shadow: 0 0 0 4px var(--accent-glow);
+}
+
+.stepLabel {
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
+.done .stepLabel,
+.current .stepLabel {
+  color: var(--text);
+}
+
+@media (max-width: 560px) {
+  .stepper {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .stepper::before {
+    display: none;
+  }
+
+  .step {
+    flex-direction: row;
+    text-align: left;
+  }
+}

@@ -1,0 +1,125 @@
+.picker {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.option {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 22px;
+  text-align: left;
+  background: var(--surface);
+  color: var(--text);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.25s var(--ease-out),
+    transform 0.25s var(--ease-out);
+}
+
+.option:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.selected {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  box-shadow: 0 0 0 3px var(--accent-glow);
+}
+
+.iconWrap {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius-full);
+  background: var(--accent-soft);
+  color: var(--accent-deep);
+}
+
+.selected .iconWrap {
+  background: var(--accent);
+  color: #ffffff;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.label {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.blurb {
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--text-muted);
+}
+
+.check {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: var(--radius-full);
+  background: var(--accent);
+  color: #ffffff;
+}
+
+/* Compact: a pill row for Account → Preferences. */
+.compact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.compact .option {
+  align-items: center;
+  gap: 10px;
+  padding: 8px 18px 8px 8px;
+  border-radius: var(--radius-full);
+}
+
+.compact .iconWrap {
+  width: 36px;
+  height: 36px;
+}
+
+.compact .label {
+  font-size: 1rem;
+}
+
+.compact .check {
+  position: static;
+  width: 18px;
+  height: 18px;
+}
+
+@media (max-width: 767px) {
+  .picker:not(.compact) {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .picker:not(.compact) .option {
+    padding: 16px;
+    align-items: center;
+  }
+}

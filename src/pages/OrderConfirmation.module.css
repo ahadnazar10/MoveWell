@@ -1,0 +1,194 @@
+.successHeader {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 28px;
+}
+
+.successIcon {
+  color: var(--success);
+}
+
+.cancelIcon {
+  color: var(--text-muted);
+}
+
+.successHeader h1 {
+  margin-bottom: 4px;
+  font-size: clamp(1.8rem, 3.6vw, 2.6rem);
+  text-transform: uppercase;
+}
+
+.successHeader p {
+  margin: 0;
+}
+
+.orderIdBadge {
+  padding: 1px 8px;
+  background: var(--surface-hover);
+  color: var(--text);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.headerActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.invoiceCard {
+  margin-bottom: 40px;
+  padding: 32px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.invoiceHeader {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--text);
+}
+
+.brandTitle {
+  margin: 0 0 4px;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.invoiceHeader p {
+  margin: 0;
+}
+
+.invoiceMeta {
+  display: flex;
+  gap: 28px;
+  margin: 0;
+}
+
+.invoiceMeta dt {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.invoiceMeta dd {
+  margin: 2px 0 0;
+  font-weight: 600;
+}
+
+.addressBox {
+  margin-bottom: 24px;
+}
+
+.addressBox h3 {
+  margin-bottom: 6px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.addressBox p {
+  margin: 0;
+  line-height: 1.55;
+}
+
+.tableWrap {
+  overflow-x: auto;
+}
+
+.itemsTable {
+  width: 100%;
+  margin-bottom: 24px;
+  border-collapse: collapse;
+}
+
+.itemsTable th {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.itemsTable td {
+  padding: 12px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.itemsTable td:nth-child(n + 2),
+.itemsTable th:nth-child(n + 2) {
+  text-align: right;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* The savings row sits directly under its item. */
+.savingsRow td {
+  padding-top: 0;
+  color: var(--success);
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.itemsTable tr:has(+ .savingsRow) td {
+  border-bottom: none;
+}
+
+.savingsRow td:first-child {
+  text-align: left;
+  white-space: normal;
+}
+
+.summaryBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+  margin: 0;
+}
+
+.summaryRow,
+.totalRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  width: min(300px, 100%);
+}
+
+.summaryRow dt {
+  color: var(--text-muted);
+}
+
+.summaryRow dd,
+.totalRow dd {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.totalRow {
+  padding-top: 10px;
+  border-top: 2px solid var(--text);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 760px) {
+  .successHeader {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media print {
+  .invoiceCard {
+    padding: 0;
+    border: none;
+  }
+}

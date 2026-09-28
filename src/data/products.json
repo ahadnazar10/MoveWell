@@ -1,0 +1,1320 @@
+[
+  {
+    "id": 1,
+    "title": "English Willow Cricket Bat",
+    "description": "A grade. Built for cricket players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Cricket",
+    "brand": "StrikeZone",
+    "price": 436.5,
+    "rating": 4.9,
+    "stock": 32,
+    "specs": {
+      "Material": "English willow",
+      "weight": "1180g",
+      "suitable for": "Leather ball",
+      "skill level": "Intermediate",
+      "warranty": "6 months"
+    },
+    "thumbnail": "/images/01-English Willow Cricket Bat.jpg",
+    "images": [
+      "/images/01-English Willow Cricket Bat.jpg",
+      "/images/01-English Willow Cricket Bat.jpg"
+    ],
+    "discountPercentage": 16
+  },
+  {
+    "id": 2,
+    "title": "Kashmir Willow Cricket Bat",
+    "description": "Youth size. Built for cricket players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Cricket",
+    "brand": "PowerPlay",
+    "price": 573.5,
+    "rating": 4.8,
+    "stock": 21,
+    "specs": {
+      "Material": "Kashmir willow",
+      "weight": "1050g",
+      "suitable for": "Tennis ball",
+      "skill level": "Beginner",
+      "warranty": "3 months"
+    },
+    "thumbnail": "/images/02-Kashmir Willow Cricket Bat.jpg",
+    "images": [
+      "/images/02-Kashmir Willow Cricket Bat.jpg",
+      "/images/02-Kashmir Willow Cricket Bat.jpg"
+    ],
+    "discountPercentage": 27
+  },
+  {
+    "id": 3,
+    "title": "Cricket Batting Pads (Pair)",
+    "description": "Lightweight. Built for cricket players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Cricket",
+    "brand": "StrikeZone",
+    "price": 710.5,
+    "rating": 4.7,
+    "stock": 10,
+    "specs": {
+      "Material": "High-density foam, PU",
+      "size": "Men's",
+      "suitable for": "Leather ball",
+      "warranty": "1 year"
+    },
+    "thumbnail": "/images/03-Cricket Batting Pads (Pair).jpg",
+    "images": [
+      "/images/03-Cricket Batting Pads (Pair).jpg",
+      "/images/03-Cricket Batting Pads (Pair).jpg"
+    ],
+    "discountPercentage": 30
+  },
+  {
+    "id": 4,
+    "title": "Cricket Batting Gloves",
+    "description": "Extra padding on knuckles. Built for cricket players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Cricket",
+    "brand": "PowerPlay",
+    "price": 847.5,
+    "rating": 4.6,
+    "stock": 39,
+    "specs": {
+      "Material": "Leather palm, foam back",
+      "size": "Men's L",
+      "skill level": "Intermediate",
+      "warranty": "6 months"
+    },
+    "thumbnail": "/images/04-Cricket Batting Gloves.jpg",
+    "images": [
+      "/images/04-Cricket Batting Gloves.jpg",
+      "/images/04-Cricket Batting Gloves.jpg"
+    ],
+    "discountPercentage": 14
+  },
+  {
+    "id": 5,
+    "title": "Cricket Helmet with Grille — Steel grille, adjustable — Officially Licensed Tournament Edition with Extended Grip Comfort Technology and 12-Month Manufacturer Warranty (Limited Stock)",
+    "description": "Steel grille, adjustable. Built for cricket players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Cricket",
+    "brand": "StrikeZone",
+    "price": 984.5,
+    "rating": 4.5,
+    "stock": 28,
+    "specs": {
+      "Material": "ABS shell",
+      "size": "M/L",
+      "suitable for": "Leather ball",
+      "warranty": "1 year"
+    },
+    "thumbnail": "/images/05-Cricket Helmet with Grille — Steel grille, adjustable — Officially Licensed Tournament Edition with Extended Grip Comfort Technology and 12-Month Manufacturer Warranty (Limited Stock).jpg",
+    "images": [
+      "/images/05-Cricket Helmet with Grille — Steel grille, adjustable — Officially Licensed Tournament Edition with Extended Grip Comfort Technology and 12-Month Manufacturer Warranty (Limited Stock).jpg",
+      "/images/05-Cricket Helmet with Grille — Steel grille, adjustable — Officially Licensed Tournament Edition with Extended Grip Comfort Technology and 12-Month Manufacturer Warranty (Limited Stock).jpg"
+    ],
+    "discountPercentage": 25
+  },
+  {
+    "id": 6,
+    "title": "Leather Cricket Ball (Pack of 6)",
+    "description": "Match quality, red. Built for cricket players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Cricket",
+    "brand": "PowerPlay",
+    "price": 1121.5,
+    "rating": 4.4,
+    "stock": 17,
+    "specs": {
+      "Material": "Genuine leather",
+      "weight": "156g",
+      "suitable for": "Leather ball",
+      "warranty": "No warranty"
+    },
+    "thumbnail": "/images/06-Leather Cricket Ball (Pack of 6).jpg",
+    "images": [
+      "/images/06-Leather Cricket Ball (Pack of 6).jpg",
+      "/images/06-Leather Cricket Ball (Pack of 6).jpg"
+    ],
+    "discountPercentage": 30
+  },
+  {
+    "id": 7,
+    "title": "Cricket Kit Bag",
+    "description": "Wheeled, 3 compartments. Built for cricket players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Cricket",
+    "brand": "StrikeZone",
+    "price": 1258.5,
+    "rating": 4.3,
+    "stock": 6,
+    "specs": {
+      "Material": "600D polyester",
+      "size": "34\"",
+      "warranty": "1 year"
+    },
+    "thumbnail": "/images/07-Cricket Kit Bag.jpg",
+    "images": [
+      "/images/07-Cricket Kit Bag.jpg",
+      "/images/07-Cricket Kit Bag.jpg"
+    ],
+    "discountPercentage": 0
+  },
+  {
+    "id": 8,
+    "title": "Cricket Stumps Set",
+    "description": "Wooden, with bails. Built for cricket players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Cricket",
+    "brand": "PowerPlay",
+    "price": 1395.5,
+    "rating": 4.2,
+    "stock": 35,
+    "specs": {
+      "Material": "Seasoned wood",
+      "size": "Standard",
+      "warranty": "No warranty"
+    },
+    "thumbnail": "/images/08-Cricket Stumps Set.jpg",
+    "images": [
+      "/images/08-Cricket Stumps Set.jpg",
+      "/images/08-Cricket Stumps Set.jpg"
+    ],
+    "discountPercentage": 23
+  },
+  {
+    "id": 9,
+    "title": "Cricket Wicket Keeping Gloves",
+    "description": "Extra grip palm. Built for cricket players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Cricket",
+    "brand": "StrikeZone",
+    "price": 1532.5,
+    "rating": 4.1,
+    "stock": 24,
+    "specs": {
+      "Material": "Pittard leather",
+      "size": "Men's",
+      "skill level": "Advanced",
+      "warranty": "6 months"
+    },
+    "thumbnail": "/images/09-Cricket Wicket Keeping Gloves.jpg",
+    "images": [
+      "/images/09-Cricket Wicket Keeping Gloves.jpg",
+      "/images/09-Cricket Wicket Keeping Gloves.jpg"
+    ],
+    "discountPercentage": 30
+  },
+  {
+    "id": 10,
+    "title": "Cricket Abdominal Guard",
+    "description": "Ventilated. Built for cricket players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Cricket",
+    "brand": "PowerPlay",
+    "price": 1669.5,
+    "rating": 4,
+    "stock": 13,
+    "specs": {
+      "Material": "PE shell, foam lining",
+      "size": "Men's",
+      "warranty": "3 months"
+    },
+    "thumbnail": "/images/10-Cricket Abdominal Guard.jpg",
+    "images": [
+      "/images/10-Cricket Abdominal Guard.jpg",
+      "/images/10-Cricket Abdominal Guard.jpg"
+    ],
+    "discountPercentage": 10
+  },
+  {
+    "id": 11,
+    "title": "Match Football Size 5",
+    "description": "FIFA quality pro. Built for football players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Football",
+    "brand": "StrikeZone",
+    "price": 1299.5,
+    "rating": 3.9,
+    "stock": 0,
+    "specs": {
+      "Material": "PU synthetic",
+      "size": "5",
+      "suitable for": "Firm ground",
+      "warranty": "6 months"
+    },
+    "thumbnail": "/images/11-Match Football Size 5.jpg",
+    "images": [
+      "/images/11-Match Football Size 5.jpg",
+      "/images/11-Match Football Size 5.jpg"
+    ],
+    "discountPercentage": 21
+  },
+  {
+    "id": 12,
+    "title": "Training Football Size 4",
+    "description": "Youth training ball. Built for football players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Football",
+    "brand": "PowerPlay",
+    "price": 1943.5,
+    "rating": 3.8,
+    "stock": 31,
+    "specs": {
+      "Material": "TPU",
+      "size": "4",
+      "skill level": "Beginner",
+      "warranty": "3 months"
+    },
+    "thumbnail": "/images/12-Training Football Size 4.jpg",
+    "images": [
+      "/images/12-Training Football Size 4.jpg",
+      "/images/12-Training Football Size 4.jpg"
+    ],
+    "discountPercentage": 32
+  },
+  {
+    "id": 13,
+    "title": "Football Studs (Firm Ground)",
+    "description": "Conical studs. Built for football players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Football",
+    "brand": "StrikeZone",
+    "price": 2080.5,
+    "rating": 3.7,
+    "stock": 20,
+    "specs": {
+      "Material": "Synthetic leather upper",
+      "size": "UK 8",
+      "suitable for": "Firm ground",
+      "warranty": "6 months"
+    },
+    "thumbnail": "/images/13-Football Studs (Firm Ground).jpg",
+    "images": [
+      "/images/13-Football Studs (Firm Ground).jpg",
+      "/images/13-Football Studs (Firm Ground).jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Football Shin Guards",
+    "description": "Slip-in with ankle sleeve. Built for football players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Football",
+    "brand": "PowerPlay",
+    "price": 2217.5,
+    "rating": 3.6,
+    "stock": 9,
+    "specs": {
+      "Material": "EVA foam, PP shell",
+      "size": "M",
+      "warranty": "3 months"
+    },
+    "thumbnail": "/images/14-Football Shin Guards.jpg",
+    "images": [
+      "/images/14-Football Shin Guards.jpg",
+      "/images/14-Football Shin Guards.jpg"
+    ],
+    "discountPercentage": 0
+  },
+  {
+    "id": 15,
+    "title": "Goalkeeper Gloves",
+    "description": "Latex palm, finger spines. Built for football players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Football",
+    "brand": "StrikeZone",
+    "price": 2354.5,
+    "rating": 3.5,
+    "stock": 38,
+    "specs": {
+      "Material": "Latex, neoprene",
+      "size": "9",
+      "skill level": "Intermediate",
+      "warranty": "3 months"
+    },
+    "thumbnail": "/images/15-Goalkeeper Gloves.jpg",
+    "images": [
+      "/images/15-Goalkeeper Gloves.jpg",
+      "/images/15-Goalkeeper Gloves.jpg"
+    ],
+    "discountPercentage": 30
+  },
+  {
+    "id": 16,
+    "title": "Football Training Cones (Set of 20)",
+    "description": "Stackable, bright colours. Built for football players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Football",
+    "brand": "PowerPlay",
+    "price": 2491.5,
+    "rating": 3.4,
+    "stock": 27,
+    "specs": {
+      "Material": "PVC",
+      "size": "9 inch",
+      "warranty": "No warranty"
+    },
+    "thumbnail": "/images/16-Football Training Cones (Set of 20).jpg",
+    "images": [
+      "/images/16-Football Training Cones (Set of 20).jpg",
+      "/images/16-Football Training Cones (Set of 20).jpg"
+    ],
+    "discountPercentage": 6
+  },
+  {
+    "id": 17,
+    "title": "Portable Football Goal Post",
+    "description": "Pop-up, carry bag included. Built for football players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Football",
+    "brand": "StrikeZone",
+    "price": 2628.5,
+    "rating": 3.3,
+    "stock": 16,
+    "specs": {
+      "Material": "Fibreglass frame",
+      "size": "6x3 ft",
+      "warranty": "6 months"
+    },
+    "thumbnail": "/images/17-Portable Football Goal Post.jpg",
+    "images": [
+      "/images/17-Portable Football Goal Post.jpg",
+      "/images/17-Portable Football Goal Post.jpg"
+    ],
+    "discountPercentage": 17
+  },
+  {
+    "id": 18,
+    "title": "Football Captain's Armband",
+    "description": "Elastic, one size. Built for football players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Football",
+    "brand": "PowerPlay",
+    "price": 2765.5,
+    "rating": 3.2,
+    "stock": 5,
+    "specs": {
+      "Material": "Elastane",
+      "size": "One size",
+      "warranty": "No warranty"
+    },
+    "images": [],
+    "discountPercentage": 28
+  },
+  {
+    "id": 19,
+    "title": "Agility Ladder",
+    "description": "12 rungs, adjustable. Built for football players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Football",
+    "brand": "StrikeZone",
+    "price": 2902.5,
+    "rating": 4.9,
+    "stock": 34,
+    "specs": {
+      "Material": "Nylon webbing",
+      "size": "4m",
+      "suitable for": "Speed training",
+      "warranty": "No warranty"
+    },
+    "thumbnail": "/images/19-Agility Ladder.jpg",
+    "images": [
+      "/images/19-Agility Ladder.jpg",
+      "/images/19-Agility Ladder.jpg"
+    ],
+    "discountPercentage": 39
+  },
+  {
+    "id": 20,
+    "title": "Football Pump with Needles",
+    "description": "Dual action. Built for football players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Football",
+    "brand": "PowerPlay",
+    "price": 3039.5,
+    "rating": 4.8,
+    "stock": 23,
+    "specs": {
+      "Material": "ABS plastic",
+      "warranty": "3 months"
+    },
+    "thumbnail": "/images/20-Football Pump with Needles.jpg",
+    "images": [
+      "/images/20-Football Pump with Needles.jpg",
+      "/images/20-Football Pump with Needles.jpg"
+    ],
+    "discountPercentage": 15
+  },
+  {
+    "id": 21,
+    "title": "Carbon Fibre Badminton Racket",
+    "description": "Full graphite, medium flex. Built for badminton players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Badminton",
+    "brand": "AceShuttle",
+    "price": 3176.5,
+    "rating": 4.7,
+    "stock": 12,
+    "specs": {
+      "Material": "Full graphite",
+      "weight": "85g",
+      "skill level": "Intermediate",
+      "warranty": "6 months"
+    },
+    "thumbnail": "/images/21-Carbon Fibre Badminton Racket.jpg",
+    "images": [
+      "/images/21-Carbon Fibre Badminton Racket.jpg",
+      "/images/21-Carbon Fibre Badminton Racket.jpg"
+    ],
+    "discountPercentage": 0
+  },
+  {
+    "id": 22,
+    "title": "Aluminium Badminton Racket",
+    "description": "Beginner friendly. Built for badminton players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Badminton",
+    "brand": "FlexFit",
+    "price": 3313.5,
+    "rating": 4.6,
+    "stock": 0,
+    "specs": {
+      "Material": "Aluminium/steel",
+      "weight": "95g",
+      "skill level": "Beginner",
+      "warranty": "3 months"
+    },
+    "thumbnail": "/images/22-Aluminium Badminton Racket.jpg",
+    "images": [
+      "/images/22-Aluminium Badminton Racket.jpg",
+      "/images/22-Aluminium Badminton Racket.jpg"
+    ],
+    "discountPercentage": 37
+  },
+  {
+    "id": 23,
+    "title": "Feather Shuttlecocks (Tube of 12)",
+    "description": "Goose feather, tournament grade. Built for badminton players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Badminton",
+    "brand": "AceShuttle",
+    "price": 3450.5,
+    "rating": 4.5,
+    "stock": 30,
+    "specs": {
+      "Material": "Goose feather, cork",
+      "skill level": "Advanced",
+      "warranty": "No warranty"
+    },
+    "thumbnail": "/images/23-Feather Shuttlecocks (Tube of 12).jpg",
+    "images": [
+      "/images/23-Feather Shuttlecocks (Tube of 12).jpg",
+      "/images/23-Feather Shuttlecocks (Tube of 12).jpg"
+    ],
+    "discountPercentage": 13
+  },
+  {
+    "id": 24,
+    "title": "Nylon Shuttlecocks (Tube of 6)",
+    "description": "Practice grade. Built for badminton players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Badminton",
+    "brand": "FlexFit",
+    "price": 3587.5,
+    "rating": 4.4,
+    "stock": 19,
+    "specs": {
+      "Material": "Nylon, cork",
+      "skill level": "Beginner",
+      "warranty": "No warranty"
+    },
+    "thumbnail": "/images/24-Nylon Shuttlecocks (Tube of 6).jpg",
+    "images": [
+      "/images/24-Nylon Shuttlecocks (Tube of 6).jpg",
+      "/images/24-Nylon Shuttlecocks (Tube of 6).jpg"
+    ],
+    "discountPercentage": 24
+  },
+  {
+    "id": 25,
+    "title": "Badminton Racket Cover Bag",
+    "description": "Padded, holds 2 rackets. Built for badminton players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Badminton",
+    "brand": "AceShuttle",
+    "price": 3724.5,
+    "rating": 4.3,
+    "stock": 8,
+    "specs": {
+      "Material": "Polyester",
+      "warranty": "3 months"
+    },
+    "thumbnail": "/images/25-Badminton Racket Cover Bag.jpg",
+    "images": [
+      "/images/25-Badminton Racket Cover Bag.jpg",
+      "/images/25-Badminton Racket Cover Bag.jpg"
+    ],
+    "discountPercentage": 35
+  },
+  {
+    "id": 26,
+    "title": "Badminton Court Shoes",
+    "description": "Non-marking sole. Built for badminton players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Badminton",
+    "brand": "FlexFit",
+    "price": 3861.5,
+    "rating": 4.2,
+    "stock": 37,
+    "specs": {
+      "Material": "Mesh upper, rubber sole",
+      "size": "UK 9",
+      "suitable for": "Indoor court",
+      "warranty": "6 months"
+    },
+    "thumbnail": "/images/26-Badminton Court Shoes.jpg",
+    "images": [
+      "/images/26-Badminton Court Shoes.jpg",
+      "/images/26-Badminton Court Shoes.jpg"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Badminton Grip Tape (Pack of 3)",
+    "description": "Anti-slip overgrip. Built for badminton players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Badminton",
+    "brand": "AceShuttle",
+    "price": 3998.5,
+    "rating": 4.1,
+    "stock": 26,
+    "specs": {
+      "Material": "PU",
+      "warranty": "No warranty"
+    },
+    "thumbnail": "/images/27-Badminton Grip Tape (Pack of 3).jpg",
+    "images": [
+      "/images/27-Badminton Grip Tape (Pack of 3).jpg",
+      "/images/27-Badminton Grip Tape (Pack of 3).jpg"
+    ],
+    "discountPercentage": 22
+  },
+  {
+    "id": 28,
+    "title": "Badminton Net with Poles",
+    "description": "Regulation size. Built for badminton players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Badminton",
+    "brand": "FlexFit",
+    "price": 4135.5,
+    "rating": 4,
+    "stock": 15,
+    "specs": {
+      "Material": "Nylon net, steel poles",
+      "size": "6.1m",
+      "warranty": "6 months"
+    },
+    "thumbnail": "/images/28-Badminton Net with Poles.jpg",
+    "images": [
+      "/images/28-Badminton Net with Poles.jpg",
+      "/images/28-Badminton Net with Poles.jpg"
+    ],
+    "discountPercentage": 0
+  },
+  {
+    "id": 29,
+    "title": "Badminton Wristband",
+    "description": "Sweat absorbing, pair. Built for badminton players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Badminton",
+    "brand": "AceShuttle",
+    "price": 19.99,
+    "rating": 3.9,
+    "stock": 4,
+    "specs": {
+      "Material": "Cotton terry",
+      "size": "Free size",
+      "warranty": "No warranty"
+    },
+    "thumbnail": "/images/29-Badminton Wristband.jpg",
+    "images": [
+      "/images/29-Badminton Wristband.jpg",
+      "/images/29-Badminton Wristband.jpg"
+    ],
+    "discountPercentage": 9
+  },
+  {
+    "id": 30,
+    "title": "Junior Badminton Racket Set (2 Player)",
+    "description": "With shuttlecocks. Built for badminton players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Badminton",
+    "brand": "FlexFit",
+    "price": 4409.5,
+    "rating": 3.8,
+    "stock": 33,
+    "specs": {
+      "Material": "Aluminium",
+      "skill level": "Beginner",
+      "warranty": "3 months"
+    },
+    "thumbnail": "/images/30-Junior Badminton Racket Set (2 Player).jpg",
+    "images": [
+      "/images/30-Junior Badminton Racket Set (2 Player).jpg",
+      "/images/30-Junior Badminton Racket Set (2 Player).jpg"
+    ],
+    "discountPercentage": 20
+  },
+  {
+    "id": 31,
+    "title": "Adjustable Dumbbell Set (20kg)",
+    "description": "Pair, plate-loaded. Built for gym equipment players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Gym equipment",
+    "brand": "IronCore",
+    "price": 4546.5,
+    "rating": 3.7,
+    "stock": 22,
+    "specs": {
+      "Material": "Cast iron, rubber coating",
+      "weight": "20kg total",
+      "skill level": "Intermediate",
+      "warranty": "1 year"
+    },
+    "thumbnail": "/images/31-Adjustable Dumbbell Set (20kg).jpg",
+    "images": [
+      "/images/31-Adjustable Dumbbell Set (20kg).jpg",
+      "/images/31-Adjustable Dumbbell Set (20kg).jpg"
+    ],
+    "discountPercentage": 31
+  },
+  {
+    "id": 32,
+    "title": "Olympic Barbell 5ft",
+    "description": "Knurled grip. Built for gym equipment players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Gym equipment",
+    "brand": "FlexFit",
+    "price": 4683.5,
+    "rating": 3.6,
+    "stock": 11,
+    "specs": {
+      "Material": "Steel, chrome finish",
+      "weight": "10kg",
+      "suitable for": "Home gym",
+      "warranty": "1 year"
+    },
+    "thumbnail": "/images/32-Olympic Barbell 5ft.jpg",
+    "images": [
+      "/images/32-Olympic Barbell 5ft.jpg",
+      "/images/32-Olympic Barbell 5ft.jpg"
+    ],
+    "discountPercentage": 7
+  },
+  {
+    "id": 33,
+    "title": "Foldable Weight Bench",
+    "description": "Adjustable incline. Built for gym equipment players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Gym equipment",
+    "brand": "IronCore",
+    "price": 4820.5,
+    "rating": 3.5,
+    "stock": 0,
+    "specs": {
+      "Material": "Steel frame, PU pad",
+      "weight": "12kg",
+      "warranty": "1 year"
+    },
+    "thumbnail": "/images/33-Foldable Weight Bench.jpg",
+    "images": [
+      "/images/33-Foldable Weight Bench.jpg",
+      "/images/33-Foldable Weight Bench.jpg"
+    ],
+    "discountPercentage": 18
+  },
+  {
+    "id": 34,
+    "title": "Resistance Bands Set (5 Levels)",
+    "description": "With door anchor. Built for gym equipment players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Gym equipment",
+    "brand": "FlexFit",
+    "price": 4957.5,
+    "rating": 3.4,
+    "stock": 29,
+    "specs": {
+      "Material": "Natural latex",
+      "warranty": "3 months"
+    },
+    "thumbnail": "/images/34-Resistance Bands Set (5 Levels).jpg",
+    "images": [
+      "/images/34-Resistance Bands Set (5 Levels).jpg",
+      "/images/34-Resistance Bands Set (5 Levels).jpg"
+    ],
+    "discountPercentage": 29
+  },
+  {
+    "id": 35,
+    "title": "Kettlebell 12kg",
+    "description": "Cast iron, vinyl coated. Built for gym equipment players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Gym equipment",
+    "brand": "IronCore",
+    "price": 5094.5,
+    "rating": 3.3,
+    "stock": 18,
+    "specs": {
+      "Material": "Cast iron",
+      "weight": "12kg",
+      "skill level": "Intermediate",
+      "warranty": "6 months"
+    },
+    "thumbnail": "/images/35-Kettlebell 12kg.jpg",
+    "images": [
+      "/images/35-Kettlebell 12kg.jpg",
+      "/images/35-Kettlebell 12kg.jpg"
+    ],
+    "discountPercentage": 0
+  },
+  {
+    "id": 36,
+    "title": "Skipping Rope with Ball Bearings",
+    "description": "Adjustable length. Built for gym equipment players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Gym equipment",
+    "brand": "FlexFit",
+    "price": 431.5,
+    "rating": 3.2,
+    "stock": 7,
+    "specs": {
+      "Material": "Steel cable, foam handle",
+      "warranty": "3 months"
+    },
+    "thumbnail": "/images/36-Skipping Rope with Ball Bearings.jpg",
+    "images": [
+      "/images/36-Skipping Rope with Ball Bearings.jpg",
+      "/images/36-Skipping Rope with Ball Bearings.jpg"
+    ],
+    "discountPercentage": 16
+  },
+  {
+    "id": 37,
+    "title": "Push Up Bars (Pair)",
+    "description": "Non-slip foam grip. Built for gym equipment players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Gym equipment",
+    "brand": "IronCore",
+    "price": 568.5,
+    "rating": 4.9,
+    "stock": 36,
+    "specs": {
+      "Material": "Steel, foam",
+      "weight": "1.2kg",
+      "warranty": "6 months"
+    },
+    "thumbnail": "/images/37-Push Up Bars (Pair).jpg",
+    "images": [
+      "/images/37-Push Up Bars (Pair).jpg",
+      "/images/37-Push Up Bars (Pair).jpg"
+    ],
+    "discountPercentage": 27
+  },
+  {
+    "id": 38,
+    "title": "Yoga and Gym Mat 10mm",
+    "description": "Extra cushioning. Built for gym equipment players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Gym equipment",
+    "brand": "FlexFit",
+    "price": 705.5,
+    "rating": 4.8,
+    "stock": 25,
+    "specs": {
+      "Material": "NBR foam",
+      "size": "183x61cm",
+      "warranty": "3 months"
+    },
+    "thumbnail": "/images/38-Yoga and Gym Mat 10mm.jpg",
+    "images": [
+      "/images/38-Yoga and Gym Mat 10mm.jpg",
+      "/images/38-Yoga and Gym Mat 10mm.jpg"
+    ],
+    "discountPercentage": 38
+  },
+  {
+    "id": 39,
+    "title": "Ab Roller Wheel",
+    "description": "Dual wheel, knee pad included. Built for gym equipment players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Gym equipment",
+    "brand": "IronCore",
+    "price": 842.5,
+    "rating": 4.7,
+    "stock": 14,
+    "specs": {
+      "Material": "PP plastic, rubber",
+      "warranty": "3 months"
+    },
+    "thumbnail": "/images/39-Ab Roller Wheel.jpg",
+    "images": [
+      "/images/39-Ab Roller Wheel.jpg",
+      "/images/39-Ab Roller Wheel.jpg"
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Home Gym Pull-Up Bar",
+    "description": "Doorway mounted. Built for gym equipment players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Gym equipment",
+    "brand": "FlexFit",
+    "price": 979.5,
+    "rating": 4.6,
+    "stock": 3,
+    "specs": {
+      "Material": "Steel",
+      "suitable for": "Home gym",
+      "warranty": "6 months"
+    },
+    "thumbnail": "/images/40-Home Gym Pull-Up Bar.jpg",
+    "images": [
+      "/images/40-Home Gym Pull-Up Bar.jpg",
+      "/images/40-Home Gym Pull-Up Bar.jpg"
+    ],
+    "discountPercentage": 25
+  },
+  {
+    "id": 41,
+    "title": "Weight Plates Set (10kg x 2)",
+    "description": "Rubber coated. Built for gym equipment players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Gym equipment",
+    "brand": "IronCore",
+    "price": 1116.5,
+    "rating": 4.5,
+    "stock": 32,
+    "specs": {
+      "Material": "Cast iron, rubber",
+      "weight": "20kg total",
+      "warranty": "1 year"
+    },
+    "thumbnail": "/images/41-Weight Plates Set (10kg x 2).jpg",
+    "images": [
+      "/images/41-Weight Plates Set (10kg x 2).jpg",
+      "/images/41-Weight Plates Set (10kg x 2).jpg"
+    ],
+    "discountPercentage": 36
+  },
+  {
+    "id": 42,
+    "title": "Gym Gloves with Wrist Support",
+    "description": "Breathable mesh back. Built for gym equipment players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Gym equipment",
+    "brand": "FlexFit",
+    "price": 1253.5,
+    "rating": 4.4,
+    "stock": 21,
+    "specs": {
+      "Material": "Leather palm",
+      "size": "L",
+      "warranty": "3 months"
+    },
+    "thumbnail": "/images/42-Gym Gloves with Wrist Support.jpg",
+    "images": [
+      "/images/42-Gym Gloves with Wrist Support.jpg",
+      "/images/42-Gym Gloves with Wrist Support.jpg"
+    ],
+    "discountPercentage": 0
+  },
+  {
+    "id": 43,
+    "title": "Premium Yoga Mat 6mm",
+    "description": "Non-slip, eco TPE. Built for yoga players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Yoga",
+    "brand": "ZenMat",
+    "price": 1390.5,
+    "rating": 4.3,
+    "stock": 10,
+    "specs": {
+      "Material": "TPE",
+      "size": "183x61cm",
+      "skill level": "Beginner",
+      "warranty": "6 months"
+    },
+    "thumbnail": "/images/43-Premium Yoga Mat 6mm.jpg",
+    "images": [
+      "/images/43-Premium Yoga Mat 6mm.jpg",
+      "/images/43-Premium Yoga Mat 6mm.jpg"
+    ],
+    "discountPercentage": 23
+  },
+  {
+    "id": 44,
+    "title": "Cork Yoga Mat 4mm",
+    "description": "Natural cork surface. Built for yoga players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Yoga",
+    "brand": "FlexFit",
+    "price": 1527.5,
+    "rating": 4.2,
+    "stock": 0,
+    "specs": {
+      "Material": "Cork, rubber base",
+      "size": "183x66cm",
+      "warranty": "6 months"
+    },
+    "thumbnail": "/images/44-Cork Yoga Mat 4mm.jpg",
+    "images": [
+      "/images/44-Cork Yoga Mat 4mm.jpg",
+      "/images/44-Cork Yoga Mat 4mm.jpg"
+    ],
+    "discountPercentage": 34
+  },
+  {
+    "id": 45,
+    "title": "Yoga Block Set (2 Pack)",
+    "description": "High-density foam. Built for yoga players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Yoga",
+    "brand": "ZenMat",
+    "price": 1664.5,
+    "rating": 4.1,
+    "stock": 28,
+    "specs": {
+      "Material": "EVA foam",
+      "size": "23x15x7.5cm",
+      "warranty": "No warranty"
+    },
+    "thumbnail": "/images/45-Yoga Block Set (2 Pack).jpg",
+    "images": [
+      "/images/45-Yoga Block Set (2 Pack).jpg",
+      "/images/45-Yoga Block Set (2 Pack).jpg"
+    ],
+    "discountPercentage": 10
+  },
+  {
+    "id": 46,
+    "title": "Yoga Strap 8ft",
+    "description": "D-ring buckle. Built for yoga players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Yoga",
+    "brand": "FlexFit",
+    "price": 1801.5,
+    "rating": 4,
+    "stock": 17,
+    "specs": {
+      "Material": "Cotton webbing",
+      "size": "8ft",
+      "warranty": "No warranty"
+    },
+    "thumbnail": "/images/46-Yoga Strap 8ft.jpg",
+    "images": [
+      "/images/46-Yoga Strap 8ft.jpg",
+      "/images/46-Yoga Strap 8ft.jpg"
+    ],
+    "discountPercentage": 21
+  },
+  {
+    "id": 47,
+    "title": "Meditation Cushion",
+    "description": "Buckwheat filled. Built for yoga players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Yoga",
+    "brand": "ZenMat",
+    "price": 1938.5,
+    "rating": 3.9,
+    "stock": 6,
+    "specs": {
+      "Material": "Cotton cover, buckwheat hulls",
+      "size": "33cm diameter",
+      "warranty": "No warranty"
+    },
+    "thumbnail": "/images/47-Meditation Cushion.jpg",
+    "images": [
+      "/images/47-Meditation Cushion.jpg",
+      "/images/47-Meditation Cushion.jpg"
+    ],
+    "discountPercentage": 32
+  },
+  {
+    "id": 48,
+    "title": "Yoga Wheel",
+    "description": "Back stretch prop. Built for yoga players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Yoga",
+    "brand": "FlexFit",
+    "price": 2075.5,
+    "rating": 3.8,
+    "stock": 35,
+    "specs": {
+      "Material": "ABS core, TPE padding",
+      "size": "32cm diameter",
+      "skill level": "Intermediate",
+      "warranty": "3 months"
+    },
+    "thumbnail": "/images/48-Yoga Wheel.png",
+    "images": [
+      "/images/48-Yoga Wheel.png",
+      "/images/48-Yoga Wheel.png"
+    ],
+    "discountPercentage": 8
+  },
+  {
+    "id": 49,
+    "title": "Yoga Bolster Pillow",
+    "description": "Rectangular, firm support. Built for yoga players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Yoga",
+    "brand": "ZenMat",
+    "price": 2212.5,
+    "rating": 3.7,
+    "stock": 24,
+    "specs": {
+      "Material": "Cotton cover, cotton fill",
+      "size": "65x23x13cm",
+      "warranty": "No warranty"
+    },
+    "thumbnail": "/images/49-Yoga Bolster Pillow.jpg",
+    "images": [
+      "/images/49-Yoga Bolster Pillow.jpg",
+      "/images/49-Yoga Bolster Pillow.jpg"
+    ],
+    "discountPercentage": 0
+  },
+  {
+    "id": 50,
+    "title": "Aromatherapy Yoga Mat Spray",
+    "description": "Lavender scent, 100ml. Built for yoga players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Yoga",
+    "brand": "FlexFit",
+    "price": 2349.5,
+    "rating": 3.6,
+    "stock": 13,
+    "specs": {
+      "Material": "Natural essential oils",
+      "warranty": "No warranty"
+    },
+    "thumbnail": "/images/50-Aromatherapy Yoga Mat Spray.jpg",
+    "images": [
+      "/images/50-Aromatherapy Yoga Mat Spray.jpg",
+      "/images/50-Aromatherapy Yoga Mat Spray.jpg"
+    ],
+    "discountPercentage": 30
+  },
+  {
+    "id": 51,
+    "title": "Yoga Mat Carry Bag",
+    "description": "Adjustable strap. Built for yoga players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Yoga",
+    "brand": "ZenMat",
+    "price": 2486.5,
+    "rating": 3.5,
+    "stock": 42,
+    "specs": {
+      "Material": "Cotton canvas",
+      "warranty": "No warranty"
+    },
+    "thumbnail": "/images/51-Yoga Mat Carry Bag.jpg",
+    "images": [
+      "/images/51-Yoga Mat Carry Bag.jpg",
+      "/images/51-Yoga Mat Carry Bag.jpg"
+    ],
+    "discountPercentage": 6
+  },
+  {
+    "id": 52,
+    "title": "Foam Roller for Yoga",
+    "description": "Muscle recovery. Built for yoga players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Yoga",
+    "brand": "FlexFit",
+    "price": 2623.5,
+    "rating": 3.4,
+    "stock": 31,
+    "specs": {
+      "Material": "EPP foam",
+      "size": "45cm",
+      "skill level": "Intermediate",
+      "warranty": "3 months"
+    },
+    "thumbnail": "/images/52-Foam Roller for Yoga.jpg",
+    "images": [
+      "/images/52-Foam Roller for Yoga.jpg",
+      "/images/52-Foam Roller for Yoga.jpg"
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Men's Dry-Fit Training T-Shirt",
+    "description": "Moisture wicking. Built for activewear players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Activewear",
+    "brand": "FlexFit",
+    "price": 2760.5,
+    "rating": 3.3,
+    "stock": 20,
+    "specs": {
+      "Material": "Polyester blend",
+      "size": "L",
+      "suitable for": "Gym, running",
+      "warranty": "No warranty"
+    },
+    "thumbnail": "/images/53-Men's Dry-Fit Training T-Shirt.jpg",
+    "images": [
+      "/images/53-Men's Dry-Fit Training T-Shirt.jpg",
+      "/images/53-Men's Dry-Fit Training T-Shirt.jpg"
+    ],
+    "discountPercentage": 28
+  },
+  {
+    "id": 54,
+    "title": "Women's High-Waist Leggings",
+    "description": "Squat proof. Built for activewear players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Activewear",
+    "brand": "PowerPlay",
+    "price": 2897.5,
+    "rating": 3.2,
+    "stock": 9,
+    "specs": {
+      "Material": "Nylon-spandex",
+      "size": "M",
+      "suitable for": "Yoga, gym",
+      "warranty": "No warranty"
+    },
+    "thumbnail": "/images/54-Women's High-Waist Leggings.jpg",
+    "images": [
+      "/images/54-Women's High-Waist Leggings.jpg",
+      "/images/54-Women's High-Waist Leggings.jpg"
+    ],
+    "discountPercentage": 39
+  },
+  {
+    "id": 55,
+    "title": "Men's Running Shorts",
+    "description": "Built-in liner, zip pocket. Built for activewear players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Activewear",
+    "brand": "FlexFit",
+    "price": 3034.5,
+    "rating": 4.9,
+    "stock": 0,
+    "specs": {
+      "Material": "Polyester",
+      "size": "L",
+      "suitable for": "Running",
+      "warranty": "No warranty"
+    },
+    "thumbnail": "/images/55-Men's Running Shorts.jpg",
+    "images": [
+      "/images/55-Men's Running Shorts.jpg",
+      "/images/55-Men's Running Shorts.jpg"
+    ],
+    "discountPercentage": 15
+  },
+  {
+    "id": 56,
+    "title": "Women's Sports Bra",
+    "description": "Medium impact, racerback. Built for activewear players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Activewear",
+    "brand": "PowerPlay",
+    "price": 3171.5,
+    "rating": 4.8,
+    "stock": 27,
+    "specs": {
+      "Material": "Nylon-spandex",
+      "size": "M",
+      "suitable for": "Yoga, gym",
+      "warranty": "No warranty"
+    },
+    "thumbnail": "/images/56-Women's Sports Bra.png",
+    "images": [
+      "/images/56-Women's Sports Bra.png",
+      "/images/56-Women's Sports Bra.png"
+    ],
+    "discountPercentage": 0
+  },
+  {
+    "id": 57,
+    "title": "Men's Track Jacket with Full-Length Zip, Breathable Mesh Lining, Two Zipped Side Pockets and Reflective Piping for Early Morning Runs",
+    "description": "Full zip, breathable. Built for activewear players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Activewear",
+    "brand": "FlexFit",
+    "price": 3308.5,
+    "rating": 4.7,
+    "stock": 16,
+    "specs": {
+      "Material": "Polyester",
+      "size": "XL",
+      "suitable for": "Running, outdoor",
+      "warranty": "No warranty"
+    },
+    "thumbnail": "/images/57-Men's Track Jacket.jpg",
+    "images": [
+      "/images/57-Men's Track Jacket.jpg",
+      "/images/57-Men's Track Jacket.jpg"
+    ],
+    "discountPercentage": 37
+  },
+  {
+    "id": 58,
+    "title": "Compression Base Layer Top",
+    "description": "Long sleeve. Built for activewear players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Activewear",
+    "brand": "PowerPlay",
+    "price": 3445.5,
+    "rating": 4.6,
+    "stock": 5,
+    "specs": {
+      "Material": "Spandex blend",
+      "size": "M",
+      "suitable for": "Cricket, football",
+      "warranty": "No warranty"
+    },
+    "thumbnail": "/images/58-Compression Base Layer Top.jpg",
+    "images": [
+      "/images/58-Compression Base Layer Top.jpg",
+      "/images/58-Compression Base Layer Top.jpg"
+    ],
+    "discountPercentage": 13
+  },
+  {
+    "id": 59,
+    "title": "Unisex Ankle Socks (3 Pack)",
+    "description": "Cushioned sole. Built for activewear players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Activewear",
+    "brand": "FlexFit",
+    "price": 3582.5,
+    "rating": 4.5,
+    "stock": 34,
+    "specs": {
+      "Material": "Cotton-spandex",
+      "size": "Free size",
+      "warranty": "No warranty"
+    },
+    "thumbnail": "/images/59-Unisex Ankle Socks (3 Pack).jpg",
+    "images": [
+      "/images/59-Unisex Ankle Socks (3 Pack).jpg",
+      "/images/59-Unisex Ankle Socks (3 Pack).jpg"
+    ],
+    "discountPercentage": 24
+  },
+  {
+    "id": 60,
+    "title": "Men's Gym Tank Top",
+    "description": "Muscle fit, drop armhole. Built for activewear players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Activewear",
+    "brand": "PowerPlay",
+    "price": 3719.5,
+    "rating": 4.4,
+    "stock": 23,
+    "specs": {
+      "Material": "Cotton blend",
+      "size": "M",
+      "suitable for": "Gym",
+      "warranty": "No warranty"
+    },
+    "thumbnail": "/images/60-Men's Gym Tank Top.jpg",
+    "images": [
+      "/images/60-Men's Gym Tank Top.jpg",
+      "/images/60-Men's Gym Tank Top.jpg"
+    ],
+    "discountPercentage": 35
+  },
+  {
+    "id": 61,
+    "title": "Women's Zip-Up Hoodie",
+    "description": "Fleece lined. Built for activewear players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Activewear",
+    "brand": "FlexFit",
+    "price": 3856.5,
+    "rating": 4.3,
+    "stock": 12,
+    "specs": {
+      "Material": "Cotton-polyester",
+      "size": "S",
+      "suitable for": "Outdoor, casual",
+      "warranty": "No warranty"
+    },
+    "thumbnail": "/images/61-Women's Zip-Up Hoodie.jpg",
+    "images": [
+      "/images/61-Women's Zip-Up Hoodie.jpg",
+      "/images/61-Women's Zip-Up Hoodie.jpg"
+    ],
+    "discountPercentage": 11
+  },
+  {
+    "id": 62,
+    "title": "Sports Cap",
+    "description": "Adjustable strap, UV protection. Built for activewear players who want reliable gear without the guesswork — true to size, tested for everyday training and match use.",
+    "category": "Activewear",
+    "brand": "PowerPlay",
+    "price": 3993.5,
+    "rating": 4.2,
+    "stock": 41,
+    "specs": {
+      "Material": "Cotton twill",
+      "size": "Free size",
+      "suitable for": "Running, cricket",
+      "warranty": "No warranty"
+    },
+    "thumbnail": "/images/62-Sports Cap.jpg",
+    "images": [
+      "/images/62-Sports Cap.jpg",
+      "/images/62-Sports Cap.jpg"
+    ],
+    "discountPercentage": 22
+  }
+]

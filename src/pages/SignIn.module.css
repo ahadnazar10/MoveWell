@@ -1,0 +1,27 @@
+.card {
+  max-width: 520px;
+  margin: 32px auto;
+  padding: 40px 32px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-top: 4px solid var(--accent);
+  text-align: center;
+}
+
+.card h1 {
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  text-transform: uppercase;
+}
+
+.icon {
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
