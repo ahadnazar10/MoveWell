@@ -174,12 +174,12 @@ sequenceDiagram
         R->>S: placeOrder (2 s, fails ~1 in 3)
         alt price or stock changed (409 with conflicts)
             S-->>R: reject { status: 409, details.conflicts }
-            R-->>C: reload changed products; show what changed; input kept
+            R-->>C: reload changed products, show what changed, input kept
         else random failure (500)
             S-->>R: reject { status: 500 }
             R-->>C: "try again" (same clientOrderId, so never placed twice)
         else success
-            S->>L: save order with totals recomputed by the service; reduce stock
+            S->>L: save order with totals recomputed by the service, reduce stock
             S-->>R: { orderId, placedAt }
             R-->>C: clear cart, go to /order-confirmation/:orderId
         end
