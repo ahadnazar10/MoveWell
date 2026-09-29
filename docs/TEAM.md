@@ -3,6 +3,16 @@
 MoveWell merges three individual capstone stores. Each associate brought one original
 category and owns one shared layer of the merged app.
 
+## Members
+
+- Ahad Nazar
+- Meghaa Sunil
+- Sajay T
+
+## Ownership
+
+_To confirm: put each member's name against the store they brought and the layer they own._
+
 | Associate | Original category (store) | Shared layer owned | Responsibilities |
 |---|---|---|---|
 | _Name_ | Sports (FitArena) | _e.g. Data service & merge script_ | _e.g. `productsService.js`, `scripts/merge-products.mjs`, catalogue tests_ |

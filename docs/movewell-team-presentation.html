@@ -1,0 +1,1830 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1280" />
+    <title>MoveWell Team Presentation</title>
+    <style>
+      /* PERFICIENT-CSS-START */
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lato:wght@400;700;900&display=swap");
+
+      :root {
+        --darkteal: #075056;
+        --dark: #1b2227;
+        --navy: #024879;
+        --teal: #71d8c5;
+        --sky: #4ab3e9;
+        --royal: #324eb5;
+        --white: #ffffff;
+        --gray: #dfe7ed;
+        --gray2: #f0f4f8;
+        --alert: #fe3a39;
+        --div-grad: linear-gradient(135deg, #eef7ff 0%, #def0ff 55%, #b8d9f0 100%);
+        --font-head:
+          "Franklin Gothic Demi Cond", "Franklin Gothic Medium Cond", "Arial Black",
+          Arial, sans-serif;
+        --font-body: Aptos, Inter, Lato, Calibri, "Segoe UI", Arial, sans-serif;
+        --font-mono: "Cascadia Code", "Fira Code", Consolas, "Courier New", monospace;
+        --slide-w: 1280px;
+        --slide-h: 720px;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        background: #060a0e;
+        overflow: hidden;
+        font-family: var(--font-body);
+      }
+      #deck {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #viewport {
+        position: relative;
+        width: var(--slide-w);
+        height: var(--slide-h);
+        overflow: hidden;
+        transform-origin: center center;
+        border-radius: 2px;
+        box-shadow:
+          0 32px 80px rgba(0, 0, 0, 0.65),
+          0 0 0 1px rgba(255, 255, 255, 0.05);
+      }
+
+      .slide {
+        position: absolute;
+        inset: 0;
+        width: var(--slide-w);
+        height: var(--slide-h);
+        display: flex;
+        flex-direction: column;
+        opacity: 0;
+        pointer-events: none;
+        transition:
+          opacity 0.35s ease,
+          transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+        transform: translateX(48px);
+        background: var(--white);
+        overflow: hidden;
+      }
+      .slide.active {
+        opacity: 1;
+        pointer-events: all;
+        transform: translateX(0);
+      }
+      .slide.prev {
+        opacity: 0;
+        transform: translateX(-48px);
+      }
+      .slide.divider,
+      .slide.thankyou {
+        transform: scale(0.96) translateY(12px);
+      }
+      .slide.divider.active,
+      .slide.thankyou.active {
+        transform: scale(1) translateY(0);
+      }
+      .slide.divider.prev,
+      .slide.thankyou.prev {
+        opacity: 0;
+        transform: scale(1.04) translateY(-8px);
+      }
+
+      .logo {
+        position: absolute;
+        z-index: 10;
+        bottom: 26px;
+        left: 48px;
+      }
+      .logo svg {
+        height: 38px;
+        width: auto;
+        display: block;
+        color: var(--darkteal);
+      }
+      .slide.cover .logo svg,
+      .slide.nextsession .logo svg,
+      .slide.section-overview .logo svg {
+        color: rgba(255, 255, 255, 0.65);
+      }
+      .slide.divider .logo,
+      .slide.thankyou .logo {
+        display: none;
+      }
+
+      .slide.cover {
+        background: var(--darkteal);
+        padding: 0;
+        flex-direction: row;
+      }
+      .cover-content {
+        position: relative;
+        z-index: 2;
+        width: 58%;
+        padding: 68px 72px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+      }
+      .cover-content .pill {
+        display: inline-flex;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        padding: 5px 16px;
+        border-radius: 100px;
+        margin-bottom: 36px;
+        width: fit-content;
+      }
+      .cover h1 {
+        font-family: var(--font-head);
+        font-size: 96px;
+        font-weight: 900;
+        color: var(--white);
+        line-height: 0.95;
+        text-transform: uppercase;
+        letter-spacing: -1px;
+        margin-bottom: 24px;
+      }
+      .cover .subtitle {
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.6);
+        max-width: 460px;
+        line-height: 1.65;
+        margin-bottom: 48px;
+      }
+      .cover-meta {
+        display: flex;
+        gap: 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.15);
+        padding-top: 24px;
+        width: fit-content;
+      }
+      .cover-meta-item {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        padding-right: 32px;
+        margin-right: 32px;
+        border-right: 1px solid rgba(255, 255, 255, 0.15);
+      }
+      .cover-meta-item:last-child {
+        border-right: none;
+        margin-right: 0;
+      }
+      .cover-meta-item .m-label {
+        font-size: 10px;
+        font-weight: 700;
+        color: rgba(255, 255, 255, 0.5);
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+      }
+      .cover-meta-item .m-value {
+        font-size: 14px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.85);
+      }
+      .cover-graphic {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 44%;
+        height: 100%;
+        overflow: hidden;
+        pointer-events: none;
+        z-index: 1;
+      }
+      .cover-brand {
+        display: flex;
+        align-items: center;
+        gap: 0;
+        margin-bottom: 16px;
+      }
+      .cover-brand svg {
+        height: 36px;
+        width: auto;
+        color: var(--white);
+      }
+      .cover-bg,
+      .cover-dots,
+      .cover-rule {
+        display: none;
+      }
+
+      .s-header {
+        padding: 40px 64px 0;
+        flex-shrink: 0;
+      }
+      .s-header .eyebrow {
+        font-family: var(--font-body);
+        font-size: 11.5px;
+        font-weight: 700;
+        color: var(--dark);
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+        display: none;
+      }
+      .s-header .eyebrow.visible {
+        display: block;
+      }
+      .s-header h2 {
+        font-family: var(--font-head);
+        font-size: 56px;
+        font-weight: 900;
+        color: var(--dark);
+        line-height: 0.95;
+        text-transform: uppercase;
+        letter-spacing: -0.5px;
+      }
+      .s-rule {
+        height: 0;
+        margin: 8px 64px 0;
+        flex-shrink: 0;
+      }
+      .s-body {
+        flex: 1;
+        padding: 20px 64px 52px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .note-box {
+        background: rgba(7, 80, 86, 0.04);
+        border: 1px solid rgba(7, 80, 86, 0.12);
+        border-left: 3px solid var(--darkteal);
+        border-radius: 6px;
+        padding: 16px 20px;
+        margin-top: 16px;
+      }
+      .note-box p {
+        font-size: 18px;
+        color: var(--dark);
+        line-height: 1.55;
+      }
+      .note-box strong {
+        color: var(--darkteal);
+      }
+
+      .data-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 18px;
+      }
+      .data-table th {
+        background: var(--darkteal);
+        color: var(--white);
+        font-family: var(--font-head);
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        padding: 12px 16px;
+        text-align: left;
+        border: none;
+      }
+      .data-table td {
+        background: var(--white);
+        color: var(--dark);
+        padding: 10px 16px;
+        border-bottom: 1px solid var(--gray);
+        vertical-align: top;
+        line-height: 1.5;
+      }
+      .data-table tr:last-child td {
+        border-bottom: none;
+      }
+      .data-table tr:nth-child(even) td {
+        background: var(--gray2);
+      }
+
+      .slide.divider {
+        background: var(--div-grad);
+        padding: 0;
+      }
+      .divider-inner {
+        position: relative;
+        z-index: 2;
+        padding: 0 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        width: 56%;
+      }
+      .divider-eyebrow {
+        font-family: var(--font-body);
+        font-size: 11px;
+        font-weight: 700;
+        color: var(--dark);
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+      .divider-line {
+        display: none;
+      }
+      .slide.divider h2 {
+        font-family: var(--font-head);
+        font-size: 80px;
+        font-weight: 900;
+        color: var(--dark);
+        line-height: 0.93;
+        text-transform: uppercase;
+        letter-spacing: -1px;
+        margin-bottom: 20px;
+      }
+      .slide.divider .div-sub {
+        font-size: 16px;
+        color: rgba(27, 34, 39, 0.55);
+        max-width: 420px;
+        line-height: 1.65;
+      }
+      .divider-grid {
+        position: absolute;
+        left: 30%;
+        top: 0;
+        width: 75%;
+        height: 100%;
+        overflow: hidden;
+        pointer-events: none;
+      }
+      .divider-grid::before {
+        content: "";
+        position: absolute;
+        top: -40%;
+        left: -20%;
+        right: -20%;
+        bottom: -40%;
+        background-image: repeating-linear-gradient(
+          -30deg,
+          transparent 0px,
+          transparent 108px,
+          rgba(255, 255, 255, 0.85) 108px,
+          rgba(255, 255, 255, 0.85) 110px
+        );
+      }
+      .divider-grid::after {
+        content: "";
+        position: absolute;
+        top: -40%;
+        left: -20%;
+        right: -20%;
+        bottom: -40%;
+        background-image: repeating-linear-gradient(
+          30deg,
+          transparent 0px,
+          transparent 108px,
+          rgba(255, 255, 255, 0.85) 108px,
+          rgba(255, 255, 255, 0.85) 110px
+        );
+      }
+      .divider-bg-num {
+        position: absolute;
+        left: 80px;
+        bottom: 28px;
+        font-family: var(--font-head);
+        font-size: 140px;
+        font-weight: 900;
+        color: rgba(7, 80, 86, 0.08);
+        line-height: 1;
+        letter-spacing: -4px;
+        pointer-events: none;
+        user-select: none;
+        z-index: 1;
+      }
+
+      .slide.thankyou {
+        background: var(--div-grad);
+        padding: 0;
+      }
+      .ty-bg {
+        position: absolute;
+        inset: 0;
+        overflow: hidden;
+        pointer-events: none;
+      }
+      .ty-bg::before {
+        content: "";
+        position: absolute;
+        left: 25%;
+        top: -40%;
+        right: -20%;
+        bottom: -40%;
+        background-image:
+          repeating-linear-gradient(
+            -30deg,
+            transparent 0px,
+            transparent 108px,
+            rgba(255, 255, 255, 0.85) 108px,
+            rgba(255, 255, 255, 0.85) 110px
+          ),
+          repeating-linear-gradient(
+            30deg,
+            transparent 0px,
+            transparent 108px,
+            rgba(255, 255, 255, 0.85) 108px,
+            rgba(255, 255, 255, 0.85) 110px
+          );
+      }
+      .ty-bg::after {
+        display: none;
+      }
+      .ty-content {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        height: 100%;
+        padding: 72px 80px;
+        text-align: left;
+        gap: 0;
+        width: 58%;
+      }
+      .ty-icon {
+        width: 56px;
+        height: 56px;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 28px;
+        margin-bottom: 28px;
+        background: rgba(7, 80, 86, 0.1);
+      }
+      .ty-content h2 {
+        font-family: var(--font-head);
+        font-size: 80px;
+        font-weight: 900;
+        color: var(--dark);
+        line-height: 0.93;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: -1px;
+      }
+      .ty-content .ty-sub {
+        font-size: 16px;
+        color: rgba(27, 34, 39, 0.55);
+        max-width: 380px;
+        line-height: 1.7;
+        margin-bottom: 48px;
+      }
+      .ty-meta {
+        display: flex;
+        gap: 0;
+        border-top: 1px solid rgba(27, 34, 39, 0.12);
+        padding-top: 24px;
+      }
+      .ty-meta-item {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        padding: 0 28px;
+        border-right: 1px solid rgba(27, 34, 39, 0.12);
+      }
+      .ty-meta-item:first-child {
+        padding-left: 0;
+      }
+      .ty-meta-item:last-child {
+        border-right: none;
+      }
+      .ty-meta-item .t-label {
+        font-size: 10px;
+        font-weight: 700;
+        color: var(--darkteal);
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+      }
+      .ty-meta-item .t-value {
+        font-size: 13.5px;
+        color: var(--dark);
+        font-weight: 500;
+      }
+
+      #progress {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 2px;
+        background: var(--darkteal);
+        transition: width 0.35s ease;
+        z-index: 100;
+      }
+      #counter {
+        position: fixed;
+        bottom: 10px;
+        right: 24px;
+        font-size: 11px;
+        color: rgba(255, 255, 255, 0.22);
+        letter-spacing: 1px;
+        z-index: 100;
+        pointer-events: none;
+        font-family: var(--font-body);
+      }
+      #dots {
+        position: fixed;
+        right: 14px;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        z-index: 100;
+      }
+      .dot {
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.2);
+        cursor: pointer;
+        transition:
+          background 0.2s,
+          transform 0.2s;
+      }
+      .dot.active {
+        background: var(--darkteal);
+        transform: scale(1.5);
+      }
+      #hint {
+        position: fixed;
+        bottom: 10px;
+        right: 14px;
+        font-size: 10px;
+        color: rgba(255, 255, 255, 0.16);
+        z-index: 100;
+        pointer-events: none;
+        font-family: var(--font-body);
+      }
+
+      @media print {
+        html,
+        body {
+          background: white;
+          overflow: visible;
+        }
+        #deck {
+          position: static;
+        }
+        #viewport {
+          transform: none !important;
+          box-shadow: none;
+        }
+        .slide {
+          position: relative;
+          opacity: 1;
+          transform: none;
+          pointer-events: all;
+          page-break-after: always;
+          width: 100%;
+          height: 560px;
+        }
+        #progress,
+        #counter,
+        #dots,
+        #hint {
+          display: none;
+        }
+      }
+
+      /* ── QUIZ SOLO ───────────────────────────────────────────────────────────── */
+      .quiz-solo {
+        max-width: 900px;
+        margin: 0 auto;
+        background: var(--white);
+        border: 1px solid var(--gray);
+        border-top: 6px solid var(--darkteal);
+        border-radius: 8px;
+        padding: 22px 40px 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        box-shadow: 0 4px 14px rgba(27, 34, 39, 0.06);
+      }
+      .quiz-solo .q-num {
+        font-size: 11px;
+        font-weight: 700;
+        color: var(--darkteal);
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+      }
+      .quiz-solo .q-text {
+        font-family: var(--font-body);
+        font-size: 19px;
+        font-weight: 600;
+        color: var(--dark);
+        line-height: 1.45;
+        text-transform: none;
+        padding-bottom: 12px;
+        border-bottom: 1px solid var(--gray);
+      }
+      .quiz-solo ol {
+        list-style: none;
+        counter-reset: opt;
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        margin-top: 2px;
+      }
+      .quiz-solo ol li {
+        counter-increment: opt;
+        display: block;
+        position: relative;
+        font-size: 15.5px;
+        color: var(--dark);
+        line-height: 1.38;
+        padding: 9px 14px 9px 52px;
+        background: var(--gray2);
+        border-radius: 6px;
+      }
+      .quiz-solo ol li::before {
+        content: counter(opt, upper-alpha);
+        position: absolute;
+        left: 13px;
+        top: 9px;
+        width: 26px;
+        height: 26px;
+        background: var(--darkteal);
+        color: var(--white);
+        border-radius: 4px;
+        font-family: var(--font-head);
+        font-size: 13px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .quiz-solo ol li code {
+        font-family: var(--font-mono);
+        font-size: 0.88em;
+        background: var(--white);
+        color: var(--navy);
+        padding: 2px 6px;
+        border-radius: 3px;
+      }
+      .quiz-solo .q-hint {
+        display: none;
+      }
+
+      /* ── COMPACT variant for slides with longer content ─────────────────────── */
+      .quiz-solo.compact-q {
+        padding: 14px 32px 18px;
+        gap: 8px;
+      }
+      .quiz-solo.compact-q .q-text {
+        font-size: 16px;
+        line-height: 1.4;
+        padding-bottom: 8px;
+      }
+      .quiz-solo.compact-q ol {
+        gap: 4px;
+        margin-top: 0;
+      }
+      .quiz-solo.compact-q ol li {
+        font-size: 14px;
+        line-height: 1.35;
+        padding: 7px 12px 7px 50px;
+      }
+
+      /* ── ANSWER REVEAL SLIDE ────────────────────────────────────────────────── */
+      .answer-solo {
+        max-width: 960px;
+        margin: 0 auto;
+        background: var(--white);
+        border: 1px solid var(--gray);
+        border-top: 5px solid var(--darkteal);
+        border-radius: 8px;
+        padding: 24px 48px 28px;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        box-shadow: 0 6px 20px rgba(7, 80, 86, 0.08);
+      }
+      .answer-solo .a-num {
+        font-size: 10px;
+        font-weight: 700;
+        color: var(--darkteal);
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+      }
+      .answer-solo .a-correct-label {
+        font-size: 13px;
+        font-weight: 700;
+        color: var(--darkteal);
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .answer-solo .a-correct-label::before {
+        content: "✓";
+        width: 26px;
+        height: 26px;
+        background: var(--darkteal);
+        color: var(--white);
+        border-radius: 50%;
+        font-size: 14px;
+        font-weight: 900;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .answer-solo .a-correct-text {
+        font-family: var(--font-body);
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--dark);
+        line-height: 1.35;
+        background: linear-gradient(135deg, #e6f7f3 0%, #f0faf8 100%);
+        border: 2px solid var(--teal);
+        border-radius: 8px;
+        padding: 14px 20px;
+      }
+      .answer-solo .a-explanation {
+        font-size: 15px;
+        color: var(--dark);
+        line-height: 1.55;
+        background: var(--gray2);
+        border-radius: 8px;
+        padding: 16px 20px;
+        border-left: 4px solid var(--sky);
+      }
+      .answer-solo .a-distractor-note {
+        font-size: 13.5px;
+        color: #4b5563;
+        line-height: 1.5;
+        padding: 0 4px;
+      }
+      .answer-solo .a-distractor-note strong {
+        color: var(--dark);
+      }
+      .answer-solo .a-q-text {
+        font-size: 14px;
+        color: #6b7280;
+        line-height: 1.4;
+        font-style: italic;
+        padding-bottom: 8px;
+        border-bottom: 1px solid var(--gray);
+      }
+      .answer-solo code {
+        font-family: var(--font-mono);
+        font-size: 0.88em;
+        background: var(--gray2);
+        color: var(--navy);
+        padding: 2px 6px;
+        border-radius: 3px;
+      }
+
+      /* Domain badge on dividers */
+      .div-domain-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: rgba(255, 255, 255, 0.12);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 20px;
+        padding: 6px 16px;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 2.2px;
+        color: rgba(255, 255, 255, 0.85);
+        text-transform: uppercase;
+        margin-top: 18px;
+      }
+
+      /* ── MOVEWELL TEAM DECK ADDITIONS ───────────────────────────────────────── */
+      .cover-graphic.mw {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .mw-stack {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        width: 340px;
+      }
+      .mw-store {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 22px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.07);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        color: #fff;
+      }
+      .mw-store .n {
+        font-family: var(--font-head);
+        font-size: 26px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+      }
+      .mw-store .c {
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.6);
+      }
+      .mw-store .k {
+        font-family: var(--font-head);
+        font-size: 30px;
+        color: var(--teal);
+      }
+      .mw-arrow {
+        text-align: center;
+        color: rgba(255, 255, 255, 0.45);
+        font-size: 22px;
+        line-height: 1;
+      }
+      .mw-result {
+        padding: 20px 22px;
+        border-radius: 8px;
+        background: var(--teal);
+        color: var(--dark);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .mw-result .n {
+        font-family: var(--font-head);
+        font-size: 34px;
+        text-transform: uppercase;
+      }
+      .mw-result .k {
+        font-family: var(--font-head);
+        font-size: 34px;
+      }
+
+      .lead {
+        font-size: 18px;
+        color: #4b5563;
+        line-height: 1.55;
+        max-width: 980px;
+        margin-bottom: 22px;
+      }
+      .lead strong {
+        color: var(--dark);
+      }
+
+      .steps {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+      }
+      .step {
+        background: var(--white);
+        border: 1px solid var(--gray);
+        border-top: 5px solid var(--darkteal);
+        border-radius: 8px;
+        padding: 20px 20px 22px;
+        box-shadow: 0 4px 14px rgba(27, 34, 39, 0.06);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .step:nth-child(2) {
+        border-top-color: var(--sky);
+      }
+      .step:nth-child(3) {
+        border-top-color: var(--royal);
+      }
+      .step:nth-child(4) {
+        border-top-color: var(--teal);
+      }
+      .step .num {
+        font-family: var(--font-head);
+        font-size: 44px;
+        color: rgba(7, 80, 86, 0.18);
+        line-height: 1;
+      }
+      .step h3 {
+        font-family: var(--font-head);
+        font-size: 22px;
+        text-transform: uppercase;
+        color: var(--dark);
+        line-height: 1.05;
+      }
+      .step p {
+        font-size: 15px;
+        color: #374151;
+        line-height: 1.5;
+      }
+      .step code,
+      .code-inline {
+        font-family: var(--font-mono);
+        font-size: 0.86em;
+        background: var(--gray2);
+        color: var(--navy);
+        padding: 1px 5px;
+        border-radius: 3px;
+      }
+
+      .data-table.tight {
+        font-size: 15px;
+      }
+      .data-table.tight td {
+        padding: 8px 14px;
+        line-height: 1.4;
+      }
+      .data-table.tight th {
+        padding: 10px 14px;
+        font-size: 12px;
+      }
+      .data-table code {
+        font-family: var(--font-mono);
+        font-size: 0.85em;
+        background: var(--gray2);
+        color: var(--navy);
+        padding: 1px 5px;
+        border-radius: 3px;
+      }
+      .data-table tr.total td {
+        background: rgba(113, 216, 197, 0.18) !important;
+        font-weight: 700;
+      }
+
+      .two-col {
+        display: grid;
+        grid-template-columns: 1.05fr 1fr;
+        gap: 28px;
+        align-items: start;
+      }
+      .code-card {
+        background: var(--dark);
+        color: #e5edf3;
+        border-radius: 8px;
+        padding: 18px 22px;
+        font-family: var(--font-mono);
+        font-size: 13.5px;
+        line-height: 1.6;
+        white-space: pre;
+        box-shadow: 0 6px 20px rgba(7, 80, 86, 0.12);
+      }
+      .code-card .k {
+        color: var(--teal);
+      }
+      .code-card .s {
+        color: #f9c97a;
+      }
+      .code-card .c {
+        color: #7c8b96;
+      }
+      .dec-list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .dec-list li {
+        background: var(--gray2);
+        border-left: 4px solid var(--darkteal);
+        border-radius: 6px;
+        padding: 11px 16px;
+        font-size: 15px;
+        color: var(--dark);
+        line-height: 1.45;
+      }
+      .dec-list li strong {
+        color: var(--darkteal);
+      }
+
+      .card-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+      }
+      .card-grid.three {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      .info-card {
+        background: var(--white);
+        border: 1px solid var(--gray);
+        border-radius: 8px;
+        padding: 18px 20px;
+        box-shadow: 0 4px 14px rgba(27, 34, 39, 0.05);
+      }
+      .info-card h4 {
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 2.4px;
+        text-transform: uppercase;
+        color: var(--darkteal);
+        margin-bottom: 10px;
+      }
+      .info-card ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+      .info-card li {
+        font-size: 15px;
+        color: var(--dark);
+        line-height: 1.4;
+        padding-left: 16px;
+        position: relative;
+      }
+      .info-card li::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 8px;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: var(--teal);
+      }
+      .info-card.keep {
+        border-top: 5px solid var(--darkteal);
+      }
+      .info-card.ext {
+        border-top: 5px solid var(--sky);
+      }
+
+      .dept {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        border-radius: 8px;
+        padding: 18px 20px;
+        color: var(--dark);
+        border: 1px solid var(--gray);
+        background: var(--white);
+      }
+      .dept .tag {
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 2.4px;
+        text-transform: uppercase;
+      }
+      .dept h3 {
+        font-family: var(--font-head);
+        font-size: 28px;
+        text-transform: uppercase;
+        line-height: 1;
+      }
+      .dept p {
+        font-size: 14.5px;
+        color: #4b5563;
+        line-height: 1.45;
+      }
+      .dept.sports {
+        border-top: 6px solid #ea7a1c;
+      }
+      .dept.sports .tag {
+        color: #b45309;
+      }
+      .dept.foot {
+        border-top: 6px solid #7c3aed;
+      }
+      .dept.foot .tag {
+        color: #6d28d9;
+      }
+      .dept.health {
+        border-top: 6px solid #2563eb;
+      }
+      .dept.health .tag {
+        color: #1d4ed8;
+      }
+      .feature-row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        margin-top: 16px;
+      }
+      .feature {
+        background: rgba(7, 80, 86, 0.04);
+        border: 1px solid rgba(7, 80, 86, 0.12);
+        border-left: 4px solid var(--darkteal);
+        border-radius: 6px;
+        padding: 14px 18px;
+      }
+      .feature h4 {
+        font-family: var(--font-head);
+        font-size: 20px;
+        text-transform: uppercase;
+        color: var(--darkteal);
+        margin-bottom: 6px;
+      }
+      .feature p {
+        font-size: 14px;
+        color: var(--dark);
+        line-height: 1.45;
+      }
+
+      .team-row {
+        display: flex;
+        gap: 14px;
+        margin-top: 8px;
+      }
+      .team-chip {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .team-avatar {
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        background: var(--darkteal);
+        color: #fff;
+        font-family: var(--font-head);
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      /* PERFICIENT-CSS-END */
+    </style>
+
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol id="perficient-logo" viewBox="0 0 1000 300">
+        <g fill="currentColor">
+          <path
+            d="M88.3,70.5l-28.84,18.13,66.41,40.02c3.69,2.22,5.94,6.21,5.94,10.52v80.26l31.16-20.82v-76.94c0-4.34-2.29-8.36-6.03-10.57l-68.63-40.59Z"
+          />
+          <path
+            d="M107.19,142.44l-25.6-15.2v62.05l10.17,6.07.16-27.42,16.99,10.45c1.01.62,2.31-.11,2.31-1.29v-27.59c0-2.9-1.53-5.59-4.02-7.07Z"
+          />
+        </g>
+        <g fill="currentColor">
+          <path
+            d="M212,198.33v-82.93h42.77c6.87,0,12.81,1.14,17.83,3.43,5.01,2.29,8.87,5.55,11.55,9.77,2.68,4.23,4.03,9.26,4.03,15.11s-1.34,10.9-4.03,15.17c-2.68,4.26-6.54,7.56-11.55,9.89-5.02,2.33-10.96,3.49-17.83,3.49h-21.92v26.06h-20.85ZM232.85,155.09h21.09c2.68,0,4.99-.45,6.93-1.36,1.93-.91,3.43-2.19,4.5-3.85s1.6-3.67,1.6-6.04-.51-4.4-1.54-6.1c-1.03-1.7-2.51-3-4.44-3.91-1.93-.91-4.25-1.36-6.93-1.36h-21.21v22.63Z"
+          />
+          <path
+            d="M297.31,198.33v-82.93h66.7v17.77h-45.85v15.17h37.32v16.71h-37.32v15.52h47.51v17.77h-68.36Z"
+          />
+          <path
+            d="M375.07,198.33v-82.93h43.36c6.87,0,12.8,1.14,17.77,3.43,4.98,2.29,8.83,5.55,11.55,9.77,2.72,4.23,4.09,9.3,4.09,15.23s-1.4,10.68-4.21,14.75c-2.8,4.07-6.97,7.21-12.5,9.42l19.19,30.33h-24.29l-16.11-26.06h-18.01v26.06h-20.85ZM395.93,155.09h21.56c4.18,0,7.42-1.01,9.71-3.02,2.29-2.01,3.44-4.76,3.44-8.23s-1.15-6.44-3.44-8.41c-2.29-1.97-5.49-2.96-9.6-2.96h-21.68v22.63Z"
+          />
+          <path
+            d="M462.21,198.33v-82.93h65.4v17.77h-44.55v15.99h37.55v16.59h-37.55v32.58h-20.85Z"
+          />
+          <path d="M536.89,198.33v-82.93h20.85v82.93h-20.85Z" />
+          <path
+            d="M613.7,199.04c-9.48,0-17.71-1.76-24.7-5.27-6.99-3.51-12.4-8.43-16.23-14.75-3.83-6.32-5.75-13.7-5.75-22.15s1.97-15.72,5.92-22.03c3.95-6.32,9.54-11.26,16.76-14.81,7.23-3.55,15.62-5.33,25.17-5.33,7.9,0,14.95,1.3,21.15,3.91,6.2,2.61,11.27,6.26,15.22,10.96,3.95,4.7,6.28,10.17,6.99,16.41h-20.97c-1.11-4.34-3.65-7.76-7.64-10.25-3.99-2.49-8.99-3.73-14.99-3.73-5.29,0-9.91,1.01-13.86,3.02-3.95,2.01-7.01,4.9-9.18,8.65-2.17,3.75-3.26,8.16-3.26,13.21s1.07,9.56,3.2,13.27c2.13,3.71,5.13,6.57,9,8.59s8.49,3.02,13.86,3.02c6.08,0,11.14-1.24,15.16-3.73,4.03-2.49,6.59-5.9,7.7-10.25h20.97c-.71,6.24-3.1,11.71-7.17,16.41-4.07,4.7-9.3,8.35-15.7,10.96-6.4,2.61-13.63,3.91-21.68,3.91Z"
+          />
+          <path d="M665.86,198.33v-82.93h20.85v82.93h-20.85Z" />
+          <path
+            d="M698.3,198.33v-82.93h66.7v17.77h-45.85v15.17h37.32v16.71h-37.32v15.52h47.51v17.77h-68.36Z"
+          />
+          <path
+            d="M774.87,198.33v-82.93h18.95l43.01,49.88v-49.88h20.38v82.93h-18.95l-43.01-49.88v49.88h-20.38Z"
+          />
+          <path
+            d="M893.25,198.33v-65.16h-28.91v-17.77h78.67v17.77h-28.91v65.16h-20.85Z"
+          />
+        </g>
+      </symbol>
+    </svg>
+  </head>
+  <body>
+    <div id="deck">
+      <div id="viewport">
+        <!-- ============================================================
+     SLIDE 1: COVER
+     ============================================================ -->
+        <div class="slide cover active">
+          <div class="cover-content">
+            <div class="cover-brand">
+              <svg><use href="#perficient-logo" /></svg>
+            </div>
+            <span class="pill">CAPSTONE 1 &middot; TEAM PROJECT</span>
+            <h1>MOVEWELL</h1>
+            <p class="subtitle">
+              Three individual stores &mdash; FitArena, StrideHub and MediKart &mdash;
+              merged into one active-living shop for Sports, Footwear and Health.
+            </p>
+            <div class="cover-meta">
+              <div class="cover-meta-item">
+                <span class="m-label">TEAM</span
+                ><span class="m-value"
+                  >Ahad Nazar &middot; Meghaa Sunil &middot; Sanjay T</span
+                >
+              </div>
+              <div class="cover-meta-item">
+                <span class="m-label">BASE</span><span class="m-value">FitArena</span>
+              </div>
+              <div class="cover-meta-item">
+                <span class="m-label">PRODUCTS</span><span class="m-value">178</span>
+              </div>
+            </div>
+          </div>
+          <div class="cover-graphic mw">
+            <div class="mw-stack">
+              <div class="mw-store">
+                <div>
+                  <div class="n">FitArena</div>
+                  <div class="c">Sports</div>
+                </div>
+                <div class="k">62</div>
+              </div>
+              <div class="mw-store">
+                <div>
+                  <div class="n">StrideHub</div>
+                  <div class="c">Footwear</div>
+                </div>
+                <div class="k">50</div>
+              </div>
+              <div class="mw-store">
+                <div>
+                  <div class="n">MediKart</div>
+                  <div class="c">Health</div>
+                </div>
+                <div class="k">66</div>
+              </div>
+              <div class="mw-arrow">&#x2193;</div>
+              <div class="mw-result">
+                <div class="n">MoveWell</div>
+                <div class="k">178</div>
+              </div>
+            </div>
+          </div>
+          <div class="logo">
+            <svg><use href="#perficient-logo" /></svg>
+          </div>
+        </div>
+
+        <!-- ============================================================
+     SLIDE 2: THE APPROACH
+     ============================================================ -->
+        <div class="slide">
+          <div class="s-header">
+            <div class="eyebrow visible">THE APPROACH</div>
+            <h2>EXTEND, DON&rsquo;T REWRITE</h2>
+          </div>
+          <div class="s-rule"></div>
+          <div class="s-body">
+            <p class="lead">
+              We used <strong>FitArena as the base</strong>, gave Claude the three
+              stores&rsquo; <span class="code-inline">products.json</span> files and
+              followed four steps.
+            </p>
+            <div class="steps">
+              <div class="step">
+                <div class="num">01</div>
+                <h3>Pick the base</h3>
+                <p>
+                  FitArena provides the whole technical stack: React 18 + Vite, Redux
+                  Toolkit, React Router v6, the service layer, cart, checkout, orders,
+                  admin and tests.
+                </p>
+              </div>
+              <div class="step">
+                <div class="num">02</div>
+                <h3>Merge the catalogues</h3>
+                <p>
+                  FitArena, StrideHub and MediKart JSON go through
+                  <code>merge-products.mjs</code> and come out as one
+                  <code>movewell-products.json</code>. The source files are not modified.
+                </p>
+              </div>
+              <div class="step">
+                <div class="num">03</div>
+                <h3>Preserve FitArena</h3>
+                <p>
+                  We kept the existing ids, routes, cart, checkout and storage keys, so
+                  carts and orders already saved in shoppers&rsquo; browsers still work.
+                </p>
+              </div>
+              <div class="step">
+                <div class="num">04</div>
+                <h3>Transform to MoveWell</h3>
+                <p>
+                  We added three categories, a new homepage, and two features that span
+                  categories: <strong>Fitness Goals</strong> and
+                  <strong>MoveWell Kits</strong>.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="logo">
+            <svg><use href="#perficient-logo" /></svg>
+          </div>
+        </div>
+
+        <!-- ============================================================
+     SLIDE 3: ONE UNIFIED CATALOGUE
+     ============================================================ -->
+        <div class="slide">
+          <div class="s-header">
+            <div class="eyebrow visible">STEP 2 &middot; DATA</div>
+            <h2>ONE UNIFIED CATALOGUE</h2>
+          </div>
+          <div class="s-rule"></div>
+          <div class="s-body">
+            <p class="lead">
+              All three files already used <strong>the same field names</strong>. The
+              differences were in the values: id format, what
+              <span class="code-inline">category</span> meant, spec key casing and missing
+              images.
+            </p>
+            <table class="data-table tight">
+              <thead>
+                <tr>
+                  <th>Store</th>
+                  <th>MoveWell category</th>
+                  <th>Products</th>
+                  <th>Original ids</th>
+                  <th>MoveWell ids</th>
+                  <th>Original &ldquo;category&rdquo; meant</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>FitArena</strong></td>
+                  <td>sports</td>
+                  <td>62</td>
+                  <td><code>1</code>&ndash;<code>62</code></td>
+                  <td>unchanged</td>
+                  <td>Cricket, Football, Badminton, Gym, Yoga, Activewear</td>
+                </tr>
+                <tr>
+                  <td><strong>StrideHub</strong></td>
+                  <td>footwear</td>
+                  <td>50</td>
+                  <td><code>"prod-001"</code>&hellip;</td>
+                  <td><code>1000 + n</code></td>
+                  <td>Sports, Casual, Formal shoes, Sandals, Heels, Kids</td>
+                </tr>
+                <tr>
+                  <td><strong>MediKart</strong></td>
+                  <td>health</td>
+                  <td>66</td>
+                  <td><code>"p-001"</code>&hellip;</td>
+                  <td><code>2000 + n</code></td>
+                  <td>
+                    Vitamins, Pain relief, Diabetes care, Devices, First aid, Baby care
+                  </td>
+                </tr>
+                <tr class="total">
+                  <td>MoveWell</td>
+                  <td>3 categories</td>
+                  <td>178</td>
+                  <td colspan="2">unique integers, checked by the script</td>
+                  <td>moved to <code>subcategory</code></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="note-box">
+              <p>
+                <strong>Traceability:</strong> every record keeps
+                <span class="code-inline">source</span> and
+                <span class="code-inline">sourceId</span>, so each MoveWell product can be
+                traced back to its original store. To rebuild the catalogue, run
+                <span class="code-inline">node scripts/merge-products.mjs</span>.
+              </p>
+            </div>
+          </div>
+          <div class="logo">
+            <svg><use href="#perficient-logo" /></svg>
+          </div>
+        </div>
+
+        <!-- ============================================================
+     SLIDE 4: UNIFIED SCHEMA
+     ============================================================ -->
+        <div class="slide">
+          <div class="s-header">
+            <div class="eyebrow visible">STEP 2 &middot; SCHEMA</div>
+            <h2>THE UNIFIED PRODUCT</h2>
+          </div>
+          <div class="s-rule"></div>
+          <div class="s-body">
+            <div class="two-col">
+              <div class="code-card">
+                { <span class="k">id</span>: 1001,
+                <span class="c">// integer, unique</span> <span class="k">title</span>:
+                <span class="s">"RunPro Elite"</span>, <span class="k">category</span>:
+                <span class="s">"footwear"</span>,
+                <span class="c">// sports|footwear|health</span>
+                <span class="k">subcategory</span>: <span class="s">"Sports shoes"</span>,
+                <span class="k">brand</span>: <span class="s">"RunFast"</span>,
+                <span class="k">price</span>: 5999, <span class="c">// rupees</span>
+                <span class="k">discountPercentage</span>: 15,
+                <span class="k">rating</span>: 4.8, <span class="k">stock</span>: 42,
+                <span class="k">specs</span>: { Size, Colour, Material, … },
+                <span class="k">goals</span>: [<span class="s">"running"</span>],
+                <span class="c">// running|gym|yoga</span>
+                <span class="k">thumbnail</span>, <span class="k">images</span>,
+                <span class="k">source</span>: <span class="s">"StrideHub"</span>,
+                <span class="k">sourceId</span>: <span class="s">"prod-001"</span> }
+              </div>
+              <ul class="dec-list">
+                <li>
+                  <strong>Kept FitArena&rsquo;s field names.</strong> All three stores
+                  already shared them, so renaming would have touched almost every
+                  component for no gain.
+                </li>
+                <li>
+                  <strong>MRP is calculated, not stored.</strong>
+                  <span class="code-inline">originalPrice()</span> computes it, so price
+                  and MRP always come from one value.
+                </li>
+                <li>
+                  <strong>Spec keys are normalised.</strong> The first letter is
+                  upper-cased (<span class="code-inline">colour</span> &rarr;
+                  <span class="code-inline">Colour</span>), values are untouched and empty
+                  values are dropped.
+                </li>
+                <li>
+                  <strong>Goals come from the data.</strong> They are read from existing
+                  subcategories, specs and descriptions, and medicines are never tagged.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="logo">
+            <svg><use href="#perficient-logo" /></svg>
+          </div>
+        </div>
+
+        <!-- ============================================================
+     SLIDE 5: CONFLICTS
+     ============================================================ -->
+        <div class="slide">
+          <div class="s-header">
+            <div class="eyebrow visible">CONFLICTS.MD</div>
+            <h2>CONFLICTS &amp; RESOLUTIONS</h2>
+          </div>
+          <div class="s-rule"></div>
+          <div class="s-body">
+            <table class="data-table tight">
+              <thead>
+                <tr>
+                  <th style="width: 24%">Conflict</th>
+                  <th style="width: 36%">What broke</th>
+                  <th>Resolution</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>String vs integer ids</strong></td>
+                  <td>
+                    FitArena parses ids with <code>Number(id)</code> everywhere, so ids
+                    like &ldquo;prod-001&rdquo; were rejected
+                  </td>
+                  <td>
+                    Per-store integer ranges (1000+, 2000+); the script fails on any id
+                    clash
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>&ldquo;category&rdquo; meant 3 things</strong></td>
+                  <td>
+                    Each store used it for its own types; old links used
+                    <code>?category=Cricket</code>
+                  </td>
+                  <td>
+                    category is now the department and the old value moved to subcategory;
+                    old links still work
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>Copied MediKart specs</strong></td>
+                  <td>
+                    Ibuprofen listed &ldquo;Composition: Paracetamol&rdquo;, which is a
+                    wrong medical fact
+                  </td>
+                  <td>
+                    Specs that are identical across a whole category move to
+                    <code>sourceCategorySpecs</code> and are hidden
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>Missing image files</strong></td>
+                  <td>The Footwear and Health image files were not supplied</td>
+                  <td>
+                    The script generates an SVG card for each product; FitArena&rsquo;s
+                    photos are unchanged
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>Saved browser data</strong></td>
+                  <td>
+                    Old admin records, the <code>nextId</code> counter and the
+                    <code>fitarena:</code> storage prefix
+                  </td>
+                  <td>
+                    Old records are read into the new schema, new ids skip used ranges and
+                    storage keys are kept
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>Missing discount field &amp; old tests</strong></td>
+                  <td>
+                    22 products had no discount field, and tests expected
+                    &ldquo;Cricket&rdquo; as a category
+                  </td>
+                  <td>
+                    Missing discounts stored as <code>0</code>; tests updated and new
+                    tests added
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="note-box" style="margin-top: 12px; padding: 10px 18px">
+              <p style="font-size: 15px">
+                <strong>No conflict:</strong> cart, checkout, orders, reviews, wishlist,
+                pricing (all in rupees), field names and routing.
+              </p>
+            </div>
+          </div>
+          <div class="logo">
+            <svg><use href="#perficient-logo" /></svg>
+          </div>
+        </div>
+
+        <!-- ============================================================
+     SLIDE 6: PRESERVED FITARENA
+     ============================================================ -->
+        <div class="slide">
+          <div class="s-header">
+            <div class="eyebrow visible">STEP 3 &middot; PRESERVE</div>
+            <h2>FITARENA, STILL WORKING</h2>
+          </div>
+          <div class="s-rule"></div>
+          <div class="s-body">
+            <div class="card-grid">
+              <div class="info-card keep">
+                <h4>Kept as-is</h4>
+                <ul>
+                  <li>
+                    Checkout: address &rarr; payment &rarr; review, with stock and price
+                    re-checked
+                  </li>
+                  <li>
+                    Orders with the 60-second cancel, reviews, wishlist and addresses
+                  </li>
+                  <li>
+                    Delivery PIN, theme, shopper / store manager switch, cross-tab sync
+                  </li>
+                  <li>
+                    Routes: <span class="code-inline">/</span>,
+                    <span class="code-inline">/products</span>, cart, checkout, account,
+                    admin
+                  </li>
+                  <li>
+                    FitArena ids 1&ndash;62 and the
+                    <span class="code-inline">fitarena:</span> storage keys, so saved
+                    carts survive
+                  </li>
+                </ul>
+              </div>
+              <div class="info-card ext">
+                <h4>Extended, not duplicated</h4>
+                <ul>
+                  <li>
+                    <strong>One</strong>
+                    <span class="code-inline">productsService</span> with new subcategory
+                    and goal filters
+                  </li>
+                  <li>
+                    <strong>One</strong> <span class="code-inline">cartSlice</span> for
+                    every category, plus <span class="code-inline">addKitToCart</span>
+                  </li>
+                  <li>
+                    <strong>One</strong>
+                    <span class="code-inline">productsSlice</span> plus a new
+                    <span class="code-inline">profileSlice</span> for the fitness goal
+                  </li>
+                  <li>
+                    Only 2 new routes: <span class="code-inline">/goals</span> and
+                    <span class="code-inline">/kits</span> (lazy-loaded)
+                  </li>
+                  <li>
+                    Admin form: a Category select, a Type field and Fitness-goal
+                    checkboxes
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="note-box">
+              <p>
+                <strong>No second cart and no per-category routes.</strong> Categories
+                reuse
+                <span class="code-inline">/products?category=sports|footwear|health</span
+                >, so filters, sorting and paging keep working unchanged.
+              </p>
+            </div>
+          </div>
+          <div class="logo">
+            <svg><use href="#perficient-logo" /></svg>
+          </div>
+        </div>
+
+        <!-- ============================================================
+     SLIDE 7: TRANSFORM INTO MOVEWELL
+     ============================================================ -->
+        <div class="slide">
+          <div class="s-header">
+            <div class="eyebrow visible">STEP 4 &middot; TRANSFORM</div>
+            <h2>BECOMING MOVEWELL</h2>
+          </div>
+          <div class="s-rule"></div>
+          <div class="s-body">
+            <div class="card-grid three">
+              <div class="dept sports">
+                <span class="tag">Sports &middot; FitArena</span>
+                <h3>62 products</h3>
+                <p>Cricket, Football, Badminton, Gym equipment, Yoga, Activewear</p>
+              </div>
+              <div class="dept foot">
+                <span class="tag">Footwear &middot; StrideHub</span>
+                <h3>50 products</h3>
+                <p>Sports, Casual, Formal shoes, Sandals, Heels, Kids shoes</p>
+              </div>
+              <div class="dept health">
+                <span class="tag">Health &middot; MediKart</span>
+                <h3>66 products</h3>
+                <p>Vitamins, Pain relief, Diabetes care, Devices, First aid, Baby care</p>
+              </div>
+            </div>
+            <div class="feature-row">
+              <div class="feature">
+                <h4>New homepage</h4>
+                <p>
+                  &ldquo;Move better. Live better.&rdquo; hero, shop-by-category cards, a
+                  goal picker, featured products from all three categories, kits, and a
+                  Why MoveWell section.
+                </p>
+              </div>
+              <div class="feature">
+                <h4>Fitness Goals</h4>
+                <p>
+                  Running, Gym or Yoga. The goal is saved in
+                  <span class="code-inline">profileSlice</span> and synced across tabs.
+                  Recommendations alternate Sports, Footwear and Health so no store
+                  dominates.
+                </p>
+              </div>
+              <div class="feature">
+                <h4>MoveWell Kits</h4>
+                <p>
+                  Marathon, Gym and Yoga starter kits. Kit slots are filled by department
+                  and goal (not fixed ids) with the best-rated in-stock product. A kit
+                  adds normal lines to the cart.
+                </p>
+              </div>
+            </div>
+            <div class="note-box" style="margin-top: 14px; padding: 10px 18px">
+              <p style="font-size: 15px">
+                <strong>Also:</strong> the header, catalogue filters, product cards,
+                product details and cart are all category-aware. Health products carry a
+                &ldquo;not medical advice&rdquo; note, and the design is re-themed with a
+                deep-teal brand and one colour per category.
+              </p>
+            </div>
+          </div>
+          <div class="logo">
+            <svg><use href="#perficient-logo" /></svg>
+          </div>
+        </div>
+
+        <!-- ============================================================
+     SLIDE 8: CLOSING
+     ============================================================ -->
+        <div class="slide thankyou">
+          <div class="ty-bg"></div>
+          <div class="ty-content">
+            <div class="ty-icon">&#x1F3C3;</div>
+            <h2>THANK<br />YOU</h2>
+            <p class="ty-sub">
+              Three stores, one cart and 178 products in a single MoveWell experience.
+              Questions?
+            </p>
+            <div class="ty-meta">
+              <div class="ty-meta-item">
+                <span class="t-label">TEAM</span><span class="t-value">Ahad Nazar</span>
+              </div>
+              <div class="ty-meta-item">
+                <span class="t-label">TEAM</span><span class="t-value">Meghaa Sunil</span>
+              </div>
+              <div class="ty-meta-item">
+                <span class="t-label">TEAM</span><span class="t-value">Sanjay T</span>
+              </div>
+              <div class="ty-meta-item">
+                <span class="t-label">DOCS</span
+                ><span class="t-value">MERGE.md &middot; CONFLICTS.md</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /viewport -->
+    </div>
+    <!-- /deck -->
+
+    <div id="progress"></div>
+    <div id="counter">1 / 8</div>
+    <div id="dots"></div>
+    <div id="hint">&#x2190; &#x2192; &middot; Space &middot; F</div>
+
+    <!-- PERFICIENT-NAV-START -->
+    <script>
+      (function () {
+        const slides = Array.from(document.querySelectorAll(".slide"));
+        const viewport = document.getElementById("viewport");
+        const prog = document.getElementById("progress");
+        const ctr = document.getElementById("counter");
+        const dotsEl = document.getElementById("dots");
+        let cur = 0;
+        const total = slides.length;
+
+        slides.forEach(function (_, i) {
+          const d = document.createElement("div");
+          d.className = "dot" + (i === 0 ? " active" : "");
+          d.onclick = function () {
+            go(i);
+          };
+          dotsEl.appendChild(d);
+        });
+
+        function scale() {
+          const s = Math.min(window.innerWidth / 1280, window.innerHeight / 720) * 0.97;
+          viewport.style.transform = "scale(" + s + ")";
+        }
+        scale();
+        window.addEventListener("resize", scale);
+        document.addEventListener("fullscreenchange", scale);
+
+        function go(n) {
+          if (n < 0 || n >= total) return;
+          slides[cur].classList.remove("active");
+          slides[cur].classList.add("prev");
+          const old = cur;
+          setTimeout(function () {
+            slides[old].classList.remove("prev");
+          }, 450);
+          cur = n;
+          slides[cur].classList.add("active");
+          prog.style.width = ((cur + 1) / total) * 100 + "%";
+          ctr.textContent = cur + 1 + " / " + total;
+          document.querySelectorAll(".dot").forEach(function (d, i) {
+            d.classList.toggle("active", i === cur);
+          });
+        }
+
+        document.addEventListener("keydown", function (e) {
+          if (["ArrowRight", " ", "PageDown"].includes(e.key)) {
+            e.preventDefault();
+            go(cur + 1);
+          }
+          if (["ArrowLeft", "PageUp"].includes(e.key)) {
+            e.preventDefault();
+            go(cur - 1);
+          }
+          if (e.key === "Home") go(0);
+          if (e.key === "End") go(total - 1);
+          if (e.key === "f" || e.key === "F") {
+            document.fullscreenElement
+              ? document.exitFullscreen()
+              : document.documentElement.requestFullscreen().catch(function () {});
+          }
+        });
+
+        viewport.addEventListener("click", function (e) {
+          e.clientX / window.innerWidth > 0.5 ? go(cur + 1) : go(cur - 1);
+        });
+
+        var tx = 0;
+        document.addEventListener("touchstart", function (e) {
+          tx = e.touches[0].clientX;
+        });
+        document.addEventListener("touchend", function (e) {
+          var dx = e.changedTouches[0].clientX - tx;
+          if (Math.abs(dx) > 50) {
+            dx < 0 ? go(cur + 1) : go(cur - 1);
+          }
+        });
+
+        go(0);
+      })();
+    </script>
+    <!-- PERFICIENT-NAV-END -->
+  </body>
+</html>

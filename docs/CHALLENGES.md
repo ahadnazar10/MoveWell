@@ -1,6 +1,8 @@
-# FitArena: Level-ups (CHALLENGES.md)
+# MoveWell: Level-ups (CHALLENGES.md)
 
 Three level-ups from three different modules: **L2** (Module 2), **L4** (Module 4) and **L7** (Module 5). Each entry gives the problem, how to reproduce it, the fix, and the test that proves it.
+
+These level-ups were built in FitArena, the codebase MoveWell is built on. The merge kept them as they were: search, the cart and checkout are shared by every department, so each fix now covers all 178 Sports, Footwear and Health products. A MoveWell Kit becomes ordinary cart lines (`addKitToCart` calls the stock-capped `addToCart` per product), so L4's quantity rules and L7's price and stock checks apply to kit items too. The unit tests below still pass (`npm test`, 29 September 2026). The self-test runs quoted here were made on the FitArena build (see `TEST_PLAN.md` §3).
 
 ---
 

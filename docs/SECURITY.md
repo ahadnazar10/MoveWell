@@ -1,4 +1,6 @@
-# FitArena: Security Checklist (SECURITY.md)
+# MoveWell: Security Checklist (SECURITY.md)
+
+The checks below were made on the FitArena codebase and re-checked after the MoveWell merge (29 September 2026). The merge added no dependencies, no network calls and no new place where user input is rendered.
 
 | Check | Status | How |
 |---|---|---|
@@ -8,12 +10,14 @@
 | Payment details never stored | Done | Card number, expiry and CVV live only in the checkout reducer's memory, are never written to storage or sent in the order, and are cleared after the order is placed. The order records only the method ("card" or "cod"). |
 | Redirects stay on this site | Done | The sign-in page only returns to same-site paths (`utils/safeReturnPath.js`): full URLs, `//host` and backslashes are refused. Tested. |
 | Uploaded files are checked | Done | Admin image picks accept image types only, up to 5 MB each. |
+| Merged product data is safe to render | Done | `scripts/merge-products.mjs` runs locally with Node's `fs` and `path` only (no network). Product text from StrideHub and MediKart is rendered as JSX text like FitArena's. Text written into the generated SVG images is XML-escaped (`escapeXml`), and the SVGs are loaded as `<img>` sources, so they cannot run script. |
+| Health information is not presented as medical advice | Done | MediKart specs that were copied across a whole category are hidden rather than shown as product facts (`CONFLICTS.md` §3). Medicines are never given a fitness goal, and every health product page and the footer say the information is not medical advice. |
 | npm audit run and results noted | Done | See below. |
 | AI-suggested dependencies checked on npm before installing | Partly | `@phosphor-icons/react` was confirmed to exist on npm with `npm view` (name and latest version) before installing. `playwright` is Microsoft's official package, added as a dev dependency on request. A fuller review (publisher, downloads, repository) is still to do. |
 
-## npm audit (26 September 2026)
+## npm audit (first run 26 September 2026, re-run 29 September 2026)
 
-`npm audit` reports 7 findings (1 critical, 1 high, 5 moderate). Every fix needs a major-version upgrade (`npm audit fix --force`), so none were applied automatically.
+`npm audit` reports 7 findings (1 critical, 1 high, 5 moderate), the same findings on both runs; the merge added no packages. Every fix needs a major-version upgrade (`npm audit fix --force`), so none were applied automatically.
 
 | Package | Severity | Ships to users? | Assessment |
 |---|---|---|---|

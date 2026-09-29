@@ -106,4 +106,5 @@ and filtered `category: "Yoga"`, which the new department meaning broke.
 - **StrideHub and MediKart code.** Fill in the state, routing and styling comparison in `MERGE.md` §4 from the original repositories. Only their product data was available here.
 - **Real product photos.** Replace the generated footwear and health SVGs with real photos when they are available.
 - **MediKart specs.** Correct the per-product `Composition`, `Dosage form` and `Pack size` values (§3).
-- **Playwright self-test.** Update the admin steps in `e2e/selftest.mjs` to the new Category select (Sports, Footwear or Health) and the Type field.
+- **Playwright self-test.** Update `e2e/selftest.mjs` for MoveWell and re-run it: the admin steps (new Category select and Type field), the hero-carousel checks (the home page no longer uses it) and the 62-product counts. `TEST_PLAN.md` §3 lists each affected check and the new MoveWell checks to add.
+- **axe and Lighthouse.** Re-run on the MoveWell production build. The figures in `TEST_PLAN.md` §2 are from the FitArena build.

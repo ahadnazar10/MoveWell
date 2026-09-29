@@ -1,8 +1,8 @@
-# FitArena: AI Journal (AI_JOURNAL.md)
+# MoveWell: AI Journal (AI_JOURNAL.md)
 
-How AI assistants were used on FitArena, what was kept, changed or rejected, and where the AI was wrong. Entries 1 to 4 cover the four uses the brief requires (boilerplate, debugging, documentation, refactoring). Section 5 lists the "Caught it" cases.
+How AI assistants were used on MoveWell and on FitArena, the codebase it is built on: what was kept, changed or rejected, and where the AI was wrong. Entries 1 to 4 cover the four uses the FitArena brief requires (boilerplate, debugging, documentation, refactoring), and section 5 lists the "Caught it" cases from that work. Section 6 covers the MoveWell merge.
 
-Assistants: Antigravity (early refactoring session, section 0) and Claude (Claude Code) for the redesign and the requirements pass on 26 and 27 September 2026.
+Assistants: Antigravity (early refactoring session, section 0) and Claude (Claude Code) for the FitArena redesign and requirements pass on 26 and 27 September 2026, and for the MoveWell merge (section 6).
 
 ---
 
@@ -66,7 +66,7 @@ Assistants: Antigravity (early refactoring session, section 0) and Claude (Claud
 
 **Prompts.** "create a doc file saying why you went with the approach, how is it better and what other alternatives you considered"; "make sure these docs are correct and up to date".
 
-**Summary of the output.** JSDoc on every hook in `src/hooks/` and on the main service and storage functions (`readStorage`, `getProducts`, `getCatalogueFacets`, `placeOrder`, `serviceThunk`, …); `README.md`; `docs/APPROACH_DECISIONS.md` and its `.docx` copy; rewrites of `architecture.md`, `CHALLENGES.md`, `TEST_PLAN.md`, `SECURITY.md`, `EDGE_CASES.md` and `CODE_REVIEW.md`; `docs/wireframes/`.
+**Summary of the output.** JSDoc on every hook in `src/hooks/` and on the main service and storage functions (`readStorage`, `getProducts`, `getCatalogueFacets`, `placeOrder`, `serviceThunk`, …); `README.md`; `docs/APPROACH_DECISIONS.md` and its `.docx` copy (neither is in the MoveWell repository; the decisions are in `ADR.md`); rewrites of `architecture.md`, `CHALLENGES.md`, `TEST_PLAN.md`, `SECURITY.md`, `EDGE_CASES.md` and `CODE_REVIEW.md`; `docs/wireframes/`.
 
 **Kept, changed or rejected, and why.**
 - Kept the structure and the measured numbers (tests, Lighthouse, self-test).
@@ -120,3 +120,31 @@ export function TabPanel({ value, children }) {
 | C6 | Blamed the slow first test run on the OneDrive-synced folder and raised a timeout instead of finding the cause. | The same pattern returned; timing a cold run showed thousands of icon modules being loaded. | Root cause fixed (Debugging bug 4) and the timeout put back to 30 s. |
 | C7 | A global `.section { padding: 48px 0 }` rule silently removed `.container`'s side padding, so page content touched the screen edges at 1280 px. | Screenshot review at 1280 px. | Changed to `padding-block`. |
 | C8 | In the first self-test run, 15 checks "failed" and the script crashed before the admin checks. Most were mistakes in Claude's own test script (wrong selectors, not waiting for data, seeding that wiped storage in every new tab). | Each failure was reproduced by hand before changing app code. | Only real app issues were fixed (CR-5, CR-6 in `CODE_REVIEW.md`); the script was corrected for the rest. Final run: 78/78. |
+
+---
+
+## 6. MoveWell merge
+
+**Goal.** Turn FitArena into MoveWell, one shop for Sports, Footwear and Health, without losing any FitArena feature.
+
+**Approach given to Claude.** Use FitArena as the base. Give Claude the FitArena, StrideHub and MediKart `products.json` files, merge them into one unified catalogue and keep the existing FitArena functionality. Then turn the app into MoveWell by adding the three categories, a new home page and features that span categories: Fitness Goals and MoveWell Kits.
+
+**Summary of the output.**
+- `scripts/merge-products.mjs`, which builds `src/data/movewell-products.json` (178 products) and generated SVG images for Footwear and Health. The source JSON files are not modified.
+- The unified schema: `category` = department, the store's own category in `subcategory`, integer ids in per-store ranges, and `goals`, `source` and `sourceId` fields (`MERGE.md` §3).
+- Extensions to the existing layers instead of new ones: `productsService` (department, type and goal filters, recommendations, kits), `productsSlice` (recommendations and kits), `addKitToCart`, a new `profileSlice`, the `/goals` and `/kits` routes, the new home page, category-aware cards, filters, product page and admin form, and re-themed design tokens (`MERGE.md` §5).
+- Updated and new unit tests: 93 → 104, all passing.
+- `docs/MERGE.md`, `docs/CONFLICTS.md` and `docs/TEAM.md`, plus updates to the other docs so they describe MoveWell.
+
+**Data problems found during the merge** (details and fixes in `CONFLICTS.md`):
+- String ids in StrideHub and MediKart, which every FitArena layer would have rejected.
+- `category` meaning something different in each store.
+- MediKart `Composition`, `Dosage form` and `Pack size` copied across whole categories (e.g. Ibuprofen listed as "Paracetamol 500mg"). These are hidden rather than shown as product facts.
+- Image files for Footwear and Health not supplied.
+- Browser data saved by the FitArena build (admin edits, `nextId`, the `fitarena:` storage prefix).
+
+**What is still open.**
+- `MERGE.md` §4 (StrideHub and MediKart state, routing and styling) needs their original repositories. Claude did not describe code it had not seen.
+- The Playwright self-test was not updated or re-run for MoveWell (`TEST_PLAN.md` §3).
+
+**Kept, changed or rejected, and why.** _Team to fill in: which parts of the merge output were kept as generated, which were changed after review, and anything rejected._

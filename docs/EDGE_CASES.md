@@ -1,8 +1,8 @@
-# FitArena: Edge Cases (EDGE_CASES.md)
+# MoveWell: Edge Cases (EDGE_CASES.md)
 
-Edge cases brainstormed with Claude and checked in the running app or by tests. **Status:** *Handled* = worked when checked; *Fixed* = was broken, now fixed; *N/A* = does not apply to this app. "Verified by" points to the unit test file, the self-test id in `TEST_PLAN.md` (for example ST 4.4), or a manual check.
+Edge cases brainstormed with Claude and checked in the running app or by tests. Rows 1 to 39 were found and checked on the FitArena build and still apply, because MoveWell keeps that code for every department. Rows 40 to 50 come from the MoveWell merge (see `CONFLICTS.md`). **Status:** *Handled* = worked when checked; *Fixed* = was broken, now fixed; *N/A* = does not apply to this app. "Verified by" points to the unit test file, the self-test id in `TEST_PLAN.md` (for example ST 4.4), or a manual check.
 
-| # | Edge case | Risk | How FitArena handles it | Status | Verified by |
+| # | Edge case | Risk | How MoveWell handles it | Status | Verified by |
 |---|---|---|---|---|---|
 | 1 | Product stock is 0 | Buying an out-of-stock item | Card and product page show "Out of stock"; Add to cart disabled | Handled | ST 1.10 |
 | 2 | Stock is 1 to 4 | Overselling | "Only N left" below 5; quantity capped at stock; asking for more focuses and selects the input with a message | Handled | ST 1.10, ST 3.4 |
@@ -43,3 +43,14 @@ Edge cases brainstormed with Claude and checked in the running app or by tests. 
 | 37 | Order id generation with a stubbed or unlucky `Math.random` | Endless loop | Ids step forward from a random start and always end | Fixed | `ordersService.test.js` |
 | 38 | A page crashes while rendering | Blank screen | Error boundary per page with Try again; header and footer keep working; navigating away recovers | Handled | Browser probe (forced crash with a malformed stored product, before row 35's fix) |
 | 39 | Two shoppers on the same device | Shared cart | N/A: no accounts, one browser = one shopper | N/A | |
+| 40 | Old link or bookmark `/products?category=Cricket` | Empty results after `category` became the department | A non-department `category` value is matched against `subcategory`, so the link shows Sports → Cricket | Fixed | `productsService.test.js` ("legacy ?category=Yoga link still works") |
+| 41 | Admin edit saved by the FitArena build (`category: "Cricket"`, no `subcategory` or `goals`) | Product vanishes from its department or crashes a filter | Read into the new schema as `sports` / `Cricket` with `goals: []` | Fixed | `productsService.test.js` ("reads a pre-merge FitArena admin edit") |
+| 42 | Two source products mapping to the same MoveWell id | One product silently replaces another | Per-store id ranges (1000 + n, 2000 + n); the merge script throws on a clash | Handled | `merge-products.mjs`, `productsService.test.js` ("without losing products or reusing an id") |
+| 43 | Admin `nextId` saved by FitArena (63 and up) reaching the new id ranges (1001+) | A new product overwrites a StrideHub or MediKart product | `createProduct` skips any id the merged seed already uses | Fixed | Code (`createProduct` in `productsService.js`) |
+| 44 | StrideHub and MediKart image files were not supplied | Every Footwear and Health card shows "Image unavailable" | The merge script generates an SVG card per product; the placeholder still covers broken paths | Fixed | `public/images/footwear/`, `public/images/health/` |
+| 45 | MediKart specs copied across a whole category (e.g. Ibuprofen listing "Composition: Paracetamol") | Wrong medicine facts shown to shoppers | Keys identical across a whole category move to `sourceCategorySpecs` and are not shown | Fixed | `merge-products.mjs`, `CONFLICTS.md` §3 |
+| 46 | Medicines tagged with a fitness goal | Health products recommended as if they treat something | Goals are only derived for general first-aid, support and recovery items, never medicines; health product pages show a "not medical advice" note | Handled | `merge-products.mjs` (`deriveGoals`), product page |
+| 47 | A kit slot's best product is out of stock or deleted by an admin | Kit shows an unavailable item | Slots are filled from the live catalogue with the best in-stock match; a slot with no match is left out | Handled | `productsService.test.js` ("getKits fills every kit … in-stock") |
+| 48 | Adding a kit when some items are already at the stock limit or out of stock | Cart above stock, or the whole kit fails | Each item goes through the stock-capped `addToCart`; skipped items are reported in the toast | Handled | `cartSlice.test.js` ("adds a cross-category kit …") |
+| 49 | Stored or cross-tab fitness goal that is not Running, Gym or Yoga | Broken recommendations | Unknown values are ignored | Handled | `profileSlice.test.js` |
+| 50 | Carts, wishlists and orders saved before the merge | Emptied cart, broken order history | FitArena ids 1 to 62 and the `fitarena:` storage keys were kept unchanged | Handled | `CONFLICTS.md` §1 and §5 |

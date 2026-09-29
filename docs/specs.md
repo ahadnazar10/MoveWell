@@ -1,4 +1,28 @@
-# FitArena — Technical Spec
+# FitArena — Technical Spec (MoveWell's original plan)
+
+> **MoveWell note (29 September 2026).** This is the original plan for FitArena,
+> the codebase MoveWell is built on, and it is kept as written for the record.
+> MoveWell extends it with the StrideHub (Footwear) and MediKart (Health)
+> catalogues, a new home page, Fitness Goals and MoveWell Kits. For what was
+> actually built, see `architecture.md` and `ADR.md`; for the merge, see
+> `MERGE.md` and `CONFLICTS.md`. The main places where MoveWell differs from
+> this plan:
+>
+> - **Dataset (§4.1).** `src/data/movewell-products.json` holds 178 products.
+>   `category` is the department (`sports`, `footwear` or `health`), and the six
+>   FitArena categories are now `subcategory` values alongside the StrideHub and
+>   MediKart types. Products also carry `goals`, `source` and `sourceId`.
+> - **Data service (§4.2).** It also has `getSubcategories`,
+>   `getCatalogueFacets`, `getRecommendations({ goal })` and `getKits()`, and
+>   `getProducts` accepts `subcategory` and `goal`.
+> - **State (§3).** There is a new `profileSlice` (fitness goal), and
+>   `productsSlice` also caches recommendations and kits. `catalogueMetaSlice`
+>   was never built; facets live in `productsSlice`.
+> - **Routing (§6).** `/goals` and `/kits` were added. Admin uses `/admin?edit=id`
+>   rather than `/admin/products/:id`.
+> - **Stack (§2).** The app runs on React 18 with CSS Modules; form actions
+>   (§5) were replaced by an uncontrolled form read with `FormData` (`ADR.md`
+>   decision log, Module 8).
 
 Source brief: `09_Sports_and_fitness_FitArena.docx` (Perficient Global AI First
 Academy, AI Skills Pillar). This file is the single source of truth for **how**

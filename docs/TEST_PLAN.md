@@ -1,17 +1,23 @@
-# FitArena: Test Plan and Self-Test Results (TEST_PLAN.md)
+# MoveWell: Test Plan and Self-Test Results (TEST_PLAN.md)
 
-Last run: 27 September 2026, on the final code.
+| Suite | Last run | Code it ran on | Result |
+|---|---|---|---|
+| Unit and integration tests (§1) | 29 September 2026 | MoveWell | 104 of 104 pass |
+| ESLint | 29 September 2026 | MoveWell | No errors or warnings |
+| axe, Lighthouse, layout (§2) | 27 September 2026 | FitArena, before the merge | See §2; not yet re-run on MoveWell |
+| Playwright self-test (§3) | 27 September 2026 | FitArena, before the merge | 78 of 78; the script needs updating for MoveWell (§3) |
 
 ## 1. Automated tests (`npm test`)
 
-Vitest and React Testing Library in jsdom. **93 tests in 12 files, all passing** (about 13 s). Anything time-based uses fake timers, so nothing really waits; the one exception is the integration test, which waits for placeOrder's fixed 2-second delay.
+Vitest and React Testing Library in jsdom. **104 tests in 13 files, all passing** (29 September 2026). The FitArena build had 93 tests in 12 files; the merge updated the catalogue tests to the new `category` meaning and added tests for departments, types, goals, legacy links, merge integrity, recommendations, kits and the fitness goal. Anything time-based uses fake timers, so nothing really waits; the one exception is the integration test, which waits for placeOrder's fixed 2-second delay.
 
 | File | What it proves |
 |---|---|
 | `services/__tests__/simulate.test.js` | Delay, random failure (500), per-call overrides, call log |
-| `services/__tests__/productsService.test.js` | Pagination, category, several brands, search, Newest and Relevance order, facet counts, 404, stock, reserveStock (success, 500, 409), admin overlay, corrupt or malformed stored data ignored |
+| `services/__tests__/productsService.test.js` | Pagination; department, type (subcategory) and fitness-goal filters; legacy `?category=Yoga` links; several brands; search; Newest and Relevance order; department, type and brand facet counts scoped to the department; merge integrity (178 products, unique ids, StrideHub and MediKart id mapping); FitArena admin edits read into the new schema; recommendations mixing departments; kits filled from all three departments with in-stock, goal-matched products; the three departments in order; 404; stock; reserveStock (success, 500, 409); admin overlay; corrupt or malformed stored data ignored |
 | `services/__tests__/ordersService.test.js` | ORD- ids, stock decrement, idempotent retries, 409 on stock, 409 with the changed price (L7), totals recomputed by the service, newest first, cancel window, cancel restocks |
-| `features/cart/__tests__/cartSlice.test.js` | Add, merge, remove, set, clear, ten rapid + clicks = ten (L4), clamping, add-to-cart capped at stock, product never changed, malformed cross-tab data ignored, totals selector |
+| `features/cart/__tests__/cartSlice.test.js` | Add, merge, remove, set, clear, ten rapid + clicks = ten (L4), clamping, add-to-cart capped at stock, a cross-category kit added as ordinary lines (items at the stock limit or out of stock skipped), product never changed, malformed cross-tab data ignored, totals selector |
+| `features/profile/__tests__/profileSlice.test.js` | No goal at first; set and clear a goal; values that are not a MoveWell goal ignored |
 | `features/wishlist/__tests__/wishlistSlice.test.js` | Initial state, replace from another tab |
 | `features/checkout/__tests__/checkoutReducer.test.js` | Input kept across steps, one clientOrderId, blur validation, billing only when different, saved address skips validation, card only when paying by card, card cleared after the order |
 | `features/checkout/__tests__/checkoutValidation.test.js` | Required fields, email, 10-digit phone, 6-digit PIN, 16-digit card, expiry in the future |
@@ -23,6 +29,8 @@ Vitest and React Testing Library in jsdom. **93 tests in 12 files, all passing**
 
 ## 2. Other automated checks
 
+These results are from the FitArena build (27 September 2026). The MoveWell home page, Goals and Kits pages, filters and re-themed colours have not been re-measured yet. Re-run axe and Lighthouse on the production build, in light and dark, before relying on these numbers for MoveWell.
+
 - **Accessibility (axe-core):** every checkout step, the admin table and form, and the cart, in light and dark: 0 violations.
 - **Lighthouse (production build):** home Performance 87 to 89, Accessibility 100, Best Practices 100; product page 95 / 100 / 100; catalogue 92 / 100 / 100 (27 September 2026).
 - **Layout:** every route at 360, 390, 768, 1280 and 1440 px: one `h1`, no horizontal scroll. Wireframes of each page are in `docs/wireframes/`.
@@ -30,6 +38,25 @@ Vitest and React Testing Library in jsdom. **93 tests in 12 files, all passing**
 ## 3. Self-test on the production build
 
 **How it was run.** A Playwright script (Chrome) drove the app through every Core item and the three level-ups. The production build (`npm run build && npm run preview`) was used for everything except the rows marked DEV, which need the developer controls (failure rate, search delay) and so ran on `npm run dev`. The status tracker and 30-second stock refresh used Playwright's fake clock instead of waiting. The Actual column is what the run observed ("As expected" means every assertion in that check held). Re-run it with `npm run selftest` (see the header of `e2e/selftest.mjs` for the two servers it needs); results are written to `e2e/selftest-results.json`. The steps below are enough to repeat any check by hand.
+
+**Status for MoveWell.** The run below was made on the FitArena build on 27 September 2026, before the merge. It is kept as the record of that build and is **not** a MoveWell result. `e2e/selftest.mjs` has not been updated or re-run since. Checks that no longer match the MoveWell app:
+
+| Check | Why it no longer matches | What to change |
+|---|---|---|
+| 1.1, 1.2, 1.3 | The home page no longer uses `HeroCarousel`; the MoveWell hero is static | Replace with checks for the MoveWell home sections (Shop by category, goal picker, featured mix, kits) |
+| 1.7, 8.7 | The catalogue has 178 products, not 62 | Expect "Showing 12 of 178 products" and the new table count |
+| 2.3 | The Category filter now lists departments; "Cricket" is a Type | Check department counts and Type counts |
+| 8.2 to 8.7 (admin form steps) | The admin form has a Category select (Sports, Footwear, Health), a Type field and Fitness-goal checkboxes (`CONFLICTS.md` §9) | Update the form steps |
+
+Links that use `?category=Cricket` still work through the legacy mapping. New MoveWell checks to add:
+
+| Check | Steps | Expected |
+|---|---|---|
+| Department pages | Open Sports, Footwear and Health from the header | Only that department's products; Type filter scoped to it |
+| Fitness goal | Pick Gym on the home page; refresh; open a second tab | Goal kept after refresh and shown in the other tab; picks mix Sports, Footwear and Health |
+| MoveWell Kits | Add the Marathon Starter Kit | One cart line per kit item, capped at stock; totals equal the sum of the items |
+| Product page per department | Open a footwear and a health product | Specs in department order; "Good for" goal chips; "not medical advice" note on health products |
+| Old saved data | Load the app with a cart and admin edit saved by the FitArena build | Cart items and the edited product still appear |
 
 **Checks that need a person** (not automated, not yet done):
 
@@ -44,7 +71,7 @@ Vitest and React Testing Library in jsdom. **93 tests in 12 files, all passing**
 
 <!-- SELF-TEST RESULTS -->
 
-**Result: 78 of 78 checks passed.**
+**Result on the FitArena build (27 September 2026): 78 of 78 checks passed.**
 
 ### Module 1: Home and catalogue
 

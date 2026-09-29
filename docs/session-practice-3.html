@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1280">
+<title>Practice Session 3 — All Domains | Claude Certification Sessions</title>
+<style>
+/* PERFICIENT-CSS-START */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lato:wght@400;700;900&display=swap');
+
+:root {
+  --darkteal:  #075056;
+  --dark:      #1B2227;
+  --navy:      #024879;
+  --teal:      #71D8C5;
+  --sky:       #4AB3E9;
+  --royal:     #324EB5;
+  --white:     #FFFFFF;
+  --gray:      #DFE7ED;
+  --gray2:     #F0F4F8;
+  --alert:     #FE3A39;
+  --div-grad: linear-gradient(135deg, #EEF7FF 0%, #DEF0FF 55%, #B8D9F0 100%);
+  --font-head: 'Franklin Gothic Demi Cond', 'Franklin Gothic Medium Cond', 'Arial Black', Arial, sans-serif;
+  --font-body: Aptos, Inter, Lato, Calibri, 'Segoe UI', Arial, sans-serif;
+  --font-mono: 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace;
+  --slide-w: 1280px;
+  --slide-h: 720px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 100%; height: 100%; background: #060a0e; overflow: hidden; font-family: var(--font-body); }
+#deck { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; }
+#viewport { position: relative; width: var(--slide-w); height: var(--slide-h); overflow: hidden; transform-origin: center center; border-radius: 2px; box-shadow: 0 32px 80px rgba(0,0,0,0.65), 0 0 0 1px rgba(255,255,255,0.05); }
+
+.slide { position: absolute; inset: 0; width: var(--slide-w); height: var(--slide-h); display: flex; flex-direction: column; opacity: 0; pointer-events: none; transition: opacity 0.35s ease, transform 0.35s cubic-bezier(0.4,0,0.2,1); transform: translateX(48px); background: var(--white); overflow: hidden; }
+.slide.active  { opacity: 1; pointer-events: all; transform: translateX(0); }
+.slide.prev    { opacity: 0; transform: translateX(-48px); }
+.slide.divider, .slide.thankyou { transform: scale(0.96) translateY(12px); }
+.slide.divider.active, .slide.thankyou.active  { transform: scale(1) translateY(0); }
+.slide.divider.prev, .slide.thankyou.prev    { opacity: 0; transform: scale(1.04) translateY(-8px); }
+
+.logo { position: absolute; z-index: 10; bottom: 26px; left: 48px; }
+.logo svg { height: 38px; width: auto; display: block; color: var(--darkteal); }
+.slide.cover .logo svg, .slide.nextsession .logo svg, .slide.section-overview .logo svg { color: rgba(255,255,255,0.65); }
+.slide.divider .logo, .slide.thankyou .logo { display: none; }
+
+.slide.cover { background: var(--darkteal); padding: 0; flex-direction: row; }
+.cover-content { position: relative; z-index: 2; width: 58%; padding: 68px 72px; display: flex; flex-direction: column; justify-content: center; height: 100%; }
+.cover-content .pill { display: inline-flex; align-items: center; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.25); color: rgba(255,255,255,0.9); font-size: 11px; font-weight: 700; letter-spacing: 2.5px; text-transform: uppercase; padding: 5px 16px; border-radius: 100px; margin-bottom: 36px; width: fit-content; }
+.cover h1 { font-family: var(--font-head); font-size: 96px; font-weight: 900; color: var(--white); line-height: 0.95; text-transform: uppercase; letter-spacing: -1px; margin-bottom: 24px; }
+.cover .subtitle { font-size: 16px; font-weight: 400; color: rgba(255,255,255,0.6); max-width: 460px; line-height: 1.65; margin-bottom: 48px; }
+.cover-meta { display: flex; gap: 0; border-top: 1px solid rgba(255,255,255,0.15); padding-top: 24px; width: fit-content; }
+.cover-meta-item { display: flex; flex-direction: column; gap: 4px; padding-right: 32px; margin-right: 32px; border-right: 1px solid rgba(255,255,255,0.15); }
+.cover-meta-item:last-child { border-right: none; margin-right: 0; }
+.cover-meta-item .m-label { font-size: 10px; font-weight: 700; color: rgba(255,255,255,0.5); letter-spacing: 2.5px; text-transform: uppercase; }
+.cover-meta-item .m-value { font-size: 14px; font-weight: 500; color: rgba(255,255,255,0.85); }
+.cover-graphic { position: absolute; right: 0; top: 0; width: 44%; height: 100%; overflow: hidden; pointer-events: none; z-index: 1; }
+.cover-brand { display: flex; align-items: center; gap: 0; margin-bottom: 16px; }
+.cover-brand svg { height: 36px; width: auto; color: var(--white); }
+.cover-bg, .cover-dots, .cover-rule { display: none; }
+
+.s-header { padding: 40px 64px 0; flex-shrink: 0; }
+.s-header .eyebrow { font-family: var(--font-body); font-size: 11.5px; font-weight: 700; color: var(--dark); letter-spacing: 2.5px; text-transform: uppercase; margin-bottom: 8px; display: none; }
+.s-header .eyebrow.visible { display: block; }
+.s-header h2 { font-family: var(--font-head); font-size: 56px; font-weight: 900; color: var(--dark); line-height: 0.95; text-transform: uppercase; letter-spacing: -0.5px; }
+.s-rule { height: 0; margin: 8px 64px 0; flex-shrink: 0; }
+.s-body { flex: 1; padding: 20px 64px 52px; display: flex; flex-direction: column; justify-content: center; }
+
+.note-box { background: rgba(7,80,86,0.04); border: 1px solid rgba(7,80,86,0.12); border-left: 3px solid var(--darkteal); border-radius: 6px; padding: 16px 20px; margin-top: 16px; }
+.note-box p { font-size: 18px; color: var(--dark); line-height: 1.55; }
+.note-box strong { color: var(--darkteal); }
+
+.data-table { width: 100%; border-collapse: collapse; font-size: 18px; }
+.data-table th { background: var(--darkteal); color: var(--white); font-family: var(--font-head); font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; padding: 12px 16px; text-align: left; border: none; }
+.data-table td { background: var(--white); color: var(--dark); padding: 10px 16px; border-bottom: 1px solid var(--gray); vertical-align: top; line-height: 1.5; }
+.data-table tr:last-child td { border-bottom: none; }
+.data-table tr:nth-child(even) td { background: var(--gray2); }
+
+.slide.divider { background: var(--div-grad); padding: 0; }
+.divider-inner { position: relative; z-index: 2; padding: 0 80px; display: flex; flex-direction: column; justify-content: center; height: 100%; width: 56%; }
+.divider-eyebrow { font-family: var(--font-body); font-size: 11px; font-weight: 700; color: var(--dark); letter-spacing: 2.5px; text-transform: uppercase; margin-bottom: 20px; }
+.divider-line { display: none; }
+.slide.divider h2 { font-family: var(--font-head); font-size: 80px; font-weight: 900; color: var(--dark); line-height: 0.93; text-transform: uppercase; letter-spacing: -1px; margin-bottom: 20px; }
+.slide.divider .div-sub { font-size: 16px; color: rgba(27,34,39,0.55); max-width: 420px; line-height: 1.65; }
+.divider-grid { position: absolute; left: 30%; top: 0; width: 75%; height: 100%; overflow: hidden; pointer-events: none; }
+.divider-grid::before { content: ''; position: absolute; top: -40%; left: -20%; right: -20%; bottom: -40%; background-image: repeating-linear-gradient(-30deg, transparent 0px, transparent 108px, rgba(255,255,255,0.85) 108px, rgba(255,255,255,0.85) 110px); }
+.divider-grid::after { content: ''; position: absolute; top: -40%; left: -20%; right: -20%; bottom: -40%; background-image: repeating-linear-gradient(30deg, transparent 0px, transparent 108px, rgba(255,255,255,0.85) 108px, rgba(255,255,255,0.85) 110px); }
+.divider-bg-num { position: absolute; left: 80px; bottom: 28px; font-family: var(--font-head); font-size: 140px; font-weight: 900; color: rgba(7,80,86,0.08); line-height: 1; letter-spacing: -4px; pointer-events: none; user-select: none; z-index: 1; }
+
+.slide.thankyou { background: var(--div-grad); padding: 0; }
+.ty-bg { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+.ty-bg::before { content: ''; position: absolute; left: 25%; top: -40%; right: -20%; bottom: -40%; background-image: repeating-linear-gradient(-30deg, transparent 0px, transparent 108px, rgba(255,255,255,0.85) 108px, rgba(255,255,255,0.85) 110px), repeating-linear-gradient(30deg, transparent 0px, transparent 108px, rgba(255,255,255,0.85) 108px, rgba(255,255,255,0.85) 110px); }
+.ty-bg::after { display: none; }
+.ty-content { position: relative; z-index: 2; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; height: 100%; padding: 72px 80px; text-align: left; gap: 0; width: 58%; }
+.ty-icon { width: 56px; height: 56px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 28px; margin-bottom: 28px; background: rgba(7,80,86,0.1); }
+.ty-content h2 { font-family: var(--font-head); font-size: 80px; font-weight: 900; color: var(--dark); line-height: 0.93; margin-bottom: 20px; text-transform: uppercase; letter-spacing: -1px; }
+.ty-content .ty-sub { font-size: 16px; color: rgba(27,34,39,0.55); max-width: 380px; line-height: 1.7; margin-bottom: 48px; }
+.ty-meta { display: flex; gap: 0; border-top: 1px solid rgba(27,34,39,0.12); padding-top: 24px; }
+.ty-meta-item { display: flex; flex-direction: column; gap: 4px; padding: 0 28px; border-right: 1px solid rgba(27,34,39,0.12); }
+.ty-meta-item:first-child { padding-left: 0; }
+.ty-meta-item:last-child { border-right: none; }
+.ty-meta-item .t-label { font-size: 10px; font-weight: 700; color: var(--darkteal); letter-spacing: 2.5px; text-transform: uppercase; }
+.ty-meta-item .t-value { font-size: 13.5px; color: var(--dark); font-weight: 500; }
+
+#progress { position: fixed; bottom: 0; left: 0; height: 2px; background: var(--darkteal); transition: width 0.35s ease; z-index: 100; }
+#counter { position: fixed; bottom: 10px; right: 24px; font-size: 11px; color: rgba(255,255,255,0.22); letter-spacing: 1px; z-index: 100; pointer-events: none; font-family: var(--font-body); }
+#dots { position: fixed; right: 14px; top: 50%; transform: translateY(-50%); display: flex; flex-direction: column; gap: 7px; z-index: 100; }
+.dot { width: 5px; height: 5px; border-radius: 50%; background: rgba(255,255,255,0.2); cursor: pointer; transition: background 0.2s, transform 0.2s; }
+.dot.active { background: var(--darkteal); transform: scale(1.5); }
+#hint { position: fixed; bottom: 10px; right: 14px; font-size: 10px; color: rgba(255,255,255,0.16); z-index: 100; pointer-events: none; font-family: var(--font-body); }
+
+@media print {
+  html, body { background: white; overflow: visible; }
+  #deck { position: static; }
+  #viewport { transform: none !important; box-shadow: none; }
+  .slide { position: relative; opacity: 1; transform: none; pointer-events: all; page-break-after: always; width: 100%; height: 560px; }
+  #progress, #counter, #dots, #hint { display: none; }
+}
+
+/* ── QUIZ SOLO ───────────────────────────────────────────────────────────── */
+.quiz-solo {
+  max-width: 900px; margin: 0 auto;
+  background: var(--white); border: 1px solid var(--gray);
+  border-top: 6px solid var(--darkteal);
+  border-radius: 8px;
+  padding: 22px 40px 24px;
+  display: flex; flex-direction: column; gap: 12px;
+  box-shadow: 0 4px 14px rgba(27,34,39,0.06);
+}
+.quiz-solo .q-num { font-size: 11px; font-weight: 700; color: var(--darkteal); letter-spacing: 2.8px; text-transform: uppercase; }
+.quiz-solo .q-text {
+  font-family: var(--font-body);
+  font-size: 19px; font-weight: 600; color: var(--dark);
+  line-height: 1.45; text-transform: none;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--gray);
+}
+.quiz-solo ol { list-style: none; counter-reset: opt; display: flex; flex-direction: column; gap: 7px; margin-top: 2px; }
+.quiz-solo ol li {
+  counter-increment: opt;
+  display: block; position: relative;
+  font-size: 15.5px; color: var(--dark); line-height: 1.38;
+  padding: 9px 14px 9px 52px;
+  background: var(--gray2); border-radius: 6px;
+}
+.quiz-solo ol li::before {
+  content: counter(opt, upper-alpha);
+  position: absolute; left: 13px; top: 9px;
+  width: 26px; height: 26px;
+  background: var(--darkteal); color: var(--white);
+  border-radius: 4px;
+  font-family: var(--font-head); font-size: 13px; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+}
+.quiz-solo ol li code { font-family: var(--font-mono); font-size: 0.88em; background: var(--white); color: var(--navy); padding: 2px 6px; border-radius: 3px; }
+.quiz-solo .q-hint { display: none; }
+
+/* ── COMPACT variant for slides with longer content ─────────────────────── */
+.quiz-solo.compact-q { padding: 14px 32px 18px; gap: 8px; }
+.quiz-solo.compact-q .q-text { font-size: 16px; line-height: 1.4; padding-bottom: 8px; }
+.quiz-solo.compact-q ol { gap: 4px; margin-top: 0; }
+.quiz-solo.compact-q ol li { font-size: 14px; line-height: 1.35; padding: 7px 12px 7px 50px; }
+
+/* ── ANSWER REVEAL SLIDE ────────────────────────────────────────────────── */
+.answer-solo {
+  max-width: 960px; margin: 0 auto;
+  background: var(--white); border: 1px solid var(--gray);
+  border-top: 5px solid var(--darkteal);
+  border-radius: 8px;
+  padding: 24px 48px 28px;
+  display: flex; flex-direction: column; gap: 14px;
+  box-shadow: 0 6px 20px rgba(7,80,86,0.08);
+}
+.answer-solo .a-num { font-size: 10px; font-weight: 700; color: var(--darkteal); letter-spacing: 2.8px; text-transform: uppercase; }
+.answer-solo .a-correct-label { font-size: 13px; font-weight: 700; color: var(--darkteal); letter-spacing: 1.5px; text-transform: uppercase; display: flex; align-items: center; gap: 10px; }
+.answer-solo .a-correct-label::before { content: '✓'; width: 26px; height: 26px; background: var(--darkteal); color: var(--white); border-radius: 50%; font-size: 14px; font-weight: 900; display: inline-flex; align-items: center; justify-content: center; }
+.answer-solo .a-correct-text { font-family: var(--font-body); font-size: 18px; font-weight: 600; color: var(--dark); line-height: 1.35; background: linear-gradient(135deg, #e6f7f3 0%, #f0faf8 100%); border: 2px solid var(--teal); border-radius: 8px; padding: 14px 20px; }
+.answer-solo .a-explanation { font-size: 15px; color: var(--dark); line-height: 1.55; background: var(--gray2); border-radius: 8px; padding: 16px 20px; border-left: 4px solid var(--sky); }
+.answer-solo .a-distractor-note { font-size: 13.5px; color: #4B5563; line-height: 1.5; padding: 0 4px; }
+.answer-solo .a-distractor-note strong { color: var(--dark); }
+.answer-solo .a-q-text { font-size: 14px; color: #6B7280; line-height: 1.4; font-style: italic; padding-bottom: 8px; border-bottom: 1px solid var(--gray); }
+.answer-solo code { font-family: var(--font-mono); font-size: 0.88em; background: var(--gray2); color: var(--navy); padding: 2px 6px; border-radius: 3px; }
+
+/* Domain badge on dividers */
+.div-domain-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.25); border-radius: 20px; padding: 6px 16px; font-size: 11px; font-weight: 700; letter-spacing: 2.2px; color: rgba(255,255,255,0.85); text-transform: uppercase; margin-top: 18px; }
+
+/* PERFICIENT-CSS-END */
+</style>
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="perficient-logo" viewBox="0 0 1000 300">
+    <g fill="currentColor">
+      <path d="M88.3,70.5l-28.84,18.13,66.41,40.02c3.69,2.22,5.94,6.21,5.94,10.52v80.26l31.16-20.82v-76.94c0-4.34-2.29-8.36-6.03-10.57l-68.63-40.59Z"/>
+      <path d="M107.19,142.44l-25.6-15.2v62.05l10.17,6.07.16-27.42,16.99,10.45c1.01.62,2.31-.11,2.31-1.29v-27.59c0-2.9-1.53-5.59-4.02-7.07Z"/>
+    </g>
+    <g fill="currentColor">
+      <path d="M212,198.33v-82.93h42.77c6.87,0,12.81,1.14,17.83,3.43,5.01,2.29,8.87,5.55,11.55,9.77,2.68,4.23,4.03,9.26,4.03,15.11s-1.34,10.9-4.03,15.17c-2.68,4.26-6.54,7.56-11.55,9.89-5.02,2.33-10.96,3.49-17.83,3.49h-21.92v26.06h-20.85ZM232.85,155.09h21.09c2.68,0,4.99-.45,6.93-1.36,1.93-.91,3.43-2.19,4.5-3.85s1.6-3.67,1.6-6.04-.51-4.4-1.54-6.1c-1.03-1.7-2.51-3-4.44-3.91-1.93-.91-4.25-1.36-6.93-1.36h-21.21v22.63Z"/>
+      <path d="M297.31,198.33v-82.93h66.7v17.77h-45.85v15.17h37.32v16.71h-37.32v15.52h47.51v17.77h-68.36Z"/>
+      <path d="M375.07,198.33v-82.93h43.36c6.87,0,12.8,1.14,17.77,3.43,4.98,2.29,8.83,5.55,11.55,9.77,2.72,4.23,4.09,9.3,4.09,15.23s-1.4,10.68-4.21,14.75c-2.8,4.07-6.97,7.21-12.5,9.42l19.19,30.33h-24.29l-16.11-26.06h-18.01v26.06h-20.85ZM395.93,155.09h21.56c4.18,0,7.42-1.01,9.71-3.02,2.29-2.01,3.44-4.76,3.44-8.23s-1.15-6.44-3.44-8.41c-2.29-1.97-5.49-2.96-9.6-2.96h-21.68v22.63Z"/>
+      <path d="M462.21,198.33v-82.93h65.4v17.77h-44.55v15.99h37.55v16.59h-37.55v32.58h-20.85Z"/>
+      <path d="M536.89,198.33v-82.93h20.85v82.93h-20.85Z"/>
+      <path d="M613.7,199.04c-9.48,0-17.71-1.76-24.7-5.27-6.99-3.51-12.4-8.43-16.23-14.75-3.83-6.32-5.75-13.7-5.75-22.15s1.97-15.72,5.92-22.03c3.95-6.32,9.54-11.26,16.76-14.81,7.23-3.55,15.62-5.33,25.17-5.33,7.9,0,14.95,1.3,21.15,3.91,6.2,2.61,11.27,6.26,15.22,10.96,3.95,4.7,6.28,10.17,6.99,16.41h-20.97c-1.11-4.34-3.65-7.76-7.64-10.25-3.99-2.49-8.99-3.73-14.99-3.73-5.29,0-9.91,1.01-13.86,3.02-3.95,2.01-7.01,4.9-9.18,8.65-2.17,3.75-3.26,8.16-3.26,13.21s1.07,9.56,3.2,13.27c2.13,3.71,5.13,6.57,9,8.59s8.49,3.02,13.86,3.02c6.08,0,11.14-1.24,15.16-3.73,4.03-2.49,6.59-5.9,7.7-10.25h20.97c-.71,6.24-3.1,11.71-7.17,16.41-4.07,4.7-9.3,8.35-15.7,10.96-6.4,2.61-13.63,3.91-21.68,3.91Z"/>
+      <path d="M665.86,198.33v-82.93h20.85v82.93h-20.85Z"/>
+      <path d="M698.3,198.33v-82.93h66.7v17.77h-45.85v15.17h37.32v16.71h-37.32v15.52h47.51v17.77h-68.36Z"/>
+      <path d="M774.87,198.33v-82.93h18.95l43.01,49.88v-49.88h20.38v82.93h-18.95l-43.01-49.88v49.88h-20.38Z"/>
+      <path d="M893.25,198.33v-65.16h-28.91v-17.77h78.67v17.77h-28.91v65.16h-20.85Z"/>
+    </g>
+  </symbol>
+</svg>
+</head>
+<body>
+
+<div id="deck">
+<div id="viewport">
+
+<!-- ============================================================
+     SLIDE 1: COVER
+     ============================================================ -->
+<div class="slide cover active">
+  <div class="cover-content">
+    <div class="cover-brand"><svg><use href="#perficient-logo"/></svg></div>
+    <span class="pill">PRACTICE SESSION 3</span>
+    <h1>EXAM PRACTICE<br>ALL DOMAINS</h1>
+    <p class="subtitle">13 fresh exam-style questions covering all five domains. Mixed difficulty &mdash; some straightforward, others requiring multi-step reasoning.</p>
+    <div class="cover-meta">
+      <div class="cover-meta-item"><span class="m-label">SERIES</span><span class="m-value">Claude Certification</span></div>
+      <div class="cover-meta-item"><span class="m-label">DOMAINS</span><span class="m-value">D1 &middot; D2 &middot; D3 &middot; D4 &middot; D5</span></div>
+      <div class="cover-meta-item"><span class="m-label">QUESTIONS</span><span class="m-value">13</span></div>
+    </div>
+  </div>
+  <div class="cover-graphic"></div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q1 - QUESTION
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 2 &middot; QUESTION 1 OF 13</div><h2>QUICK CHECK</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="quiz-solo">
+      <div class="q-num">QUESTION 1 &mdash; TOOL DESIGN &amp; MCP INTEGRATION</div>
+      <div class="q-text">A travel booking agent has access to 12 tools including <code>search_flights</code>, <code>search_hotels</code>, <code>book_flight</code>, <code>book_hotel</code>, <code>cancel_booking</code>, and 7 others for loyalty programs, seat selection, and upgrades. The agent frequently calls the wrong tool on first attempt &mdash; for example, calling <code>book_flight</code> before <code>search_flights</code>, or calling <code>cancel_booking</code> when the user asked about rebooking options. Adding more tools for edge cases made the problem worse.<br><br>What is the most effective architectural change to reduce tool misrouting?</div>
+      <ol>
+        <li>Add detailed few-shot examples showing the correct tool sequence for each booking workflow.</li>
+        <li>Rewrite all 12 tool descriptions with explicit &ldquo;use this ONLY when&rdquo; boundaries and input/output specifications.</li>
+        <li>Split the agent into role-scoped subagents (search agent, booking agent, post-booking agent) with 4&ndash;5 tools each.</li>
+        <li>Implement a rule engine that validates tool call sequences and rejects invalid transitions.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q1 - ANSWER
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 2 &middot; ANSWER 1 OF 13</div><h2>CORRECT ANSWER</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="answer-solo">
+      <div class="a-num">QUESTION 1 &mdash; TOOL DESIGN &amp; MCP INTEGRATION</div>
+      <div class="a-q-text">12-tool agent misroutes frequently; adding more tools worsened the problem. Most effective architectural change?</div>
+      <div class="a-correct-label">Correct Answer: C</div>
+      <div class="a-correct-text">Split the agent into role-scoped subagents (search agent, booking agent, post-booking agent) with 4&ndash;5 tools each.</div>
+      <div class="a-explanation">The root issue is tool count &mdash; 12 tools exceed the optimal 4&ndash;5 per agent threshold where selection accuracy degrades. Splitting into role-scoped subagents with focused tool sets resolves the routing problem architecturally by reducing cognitive load per agent. The scenario confirms this: adding more tools made it worse.</div>
+      <div class="a-distractor-note"><strong>Why the others are wrong:</strong> <strong>A</strong> &mdash; few-shot examples are probabilistic and do not fix the fundamental tool overload; the model still faces 12 choices per turn. <strong>B</strong> &mdash; better descriptions help with similar tools but do not address the cognitive load of choosing among 12 options simultaneously. <strong>D</strong> &mdash; a rule engine catches invalid sequences after the fact but adds complexity without reducing the selection burden that causes misrouting.</div>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q2 - QUESTION
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 1 &middot; QUESTION 2 OF 13</div><h2>QUICK CHECK</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="quiz-solo compact-q">
+      <div class="q-num">QUESTION 2 &mdash; AGENTIC ARCHITECTURE &amp; ORCHESTRATION</div>
+      <div class="q-text">A code migration agent uses <code>fork_session</code> to explore two refactoring strategies in parallel. After both branches complete, the coordinator selects the approach with fewer breaking test failures. However, when the coordinator attempts to apply the winning strategy, it regenerates the code from scratch instead of using the fork&rsquo;s output &mdash; introducing new bugs that were not present in the fork&rsquo;s version.<br><br>What is the most likely root cause?</div>
+      <ol>
+        <li><code>fork_session</code> branches are read-only snapshots &mdash; their file modifications cannot be directly applied to the main session&rsquo;s working directory.</li>
+        <li>The coordinator&rsquo;s context was summarized between the fork completion and the application phase, losing the specific implementation details.</li>
+        <li>The coordinator&rsquo;s prompt does not include explicit instructions to reuse fork output rather than regenerating.</li>
+        <li>The <code>fork_session</code> output was not serialized into a format the coordinator could consume as structured input.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q2 - ANSWER
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 1 &middot; ANSWER 2 OF 13</div><h2>CORRECT ANSWER</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="answer-solo">
+      <div class="a-num">QUESTION 2 &mdash; AGENTIC ARCHITECTURE &amp; ORCHESTRATION</div>
+      <div class="a-q-text">Coordinator uses <code>fork_session</code> to explore strategies; winning fork&rsquo;s code gets regenerated from scratch instead of reused. Most likely root cause?</div>
+      <div class="a-correct-label">Correct Answer: C</div>
+      <div class="a-correct-text">The coordinator&rsquo;s prompt does not include explicit instructions to reuse fork output rather than regenerating.</div>
+      <div class="a-explanation"><code>fork_session</code> branches the <em>conversation history</em>, not the filesystem. Files written inside a fork are real and remain in the shared working directory &mdash; any session in the same directory can see them. So the winning approach&rsquo;s edits are already on disk; the coordinator regenerates only because nothing in its prompt tells it to build on the files that are already there. The fix is to instruct the coordinator to reuse the existing working-directory changes (or capture which fork won and point it at those files).</div>
+      <div class="a-distractor-note"><strong>Why the others are wrong:</strong> <strong>A</strong> &mdash; false: forks are not read-only snapshots. Forking branches the conversation, not the filesystem, so a fork&rsquo;s file edits <em>do</em> persist in the shared working directory. <strong>B</strong> &mdash; no summarization event is described, and the winning code is on disk regardless of context state. <strong>D</strong> &mdash; serialization is irrelevant; the files already exist in the working directory &mdash; they do not need to be serialized as structured input.</div>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q3 - QUESTION
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 3 &middot; QUESTION 3 OF 13</div><h2>QUICK CHECK</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="quiz-solo">
+      <div class="q-num">QUESTION 3 &mdash; CLAUDE CODE CONFIGURATION &amp; WORKFLOWS</div>
+      <div class="q-text">A team uses Claude Code with a <code>CLAUDE.md</code> that includes <code>@import ./standards/typescript.md</code> and <code>@import ./standards/testing.md</code>. A developer reports that Claude Code ignores the testing standards entirely &mdash; writing tests without the required patterns. The typescript standards work correctly. Both imported files exist and have valid content.<br><br>What should the developer check first?</div>
+      <ol>
+        <li>Whether <code>testing.md</code> exceeds the per-import token limit, causing Claude Code to silently truncate the file.</li>
+        <li>Whether there is a conflicting rule in <code>.claude/rules/</code> that overrides the testing imports with different conventions.</li>
+        <li>Whether the developer&rsquo;s <code>~/.claude/CLAUDE.md</code> contains testing instructions that conflict with the project-level import.</li>
+        <li>Whether the <code>testing.md</code> file path is relative to the CLAUDE.md location and the file is readable from that path.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q3 - ANSWER
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 3 &middot; ANSWER 3 OF 13</div><h2>CORRECT ANSWER</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="answer-solo">
+      <div class="a-num">QUESTION 3 &mdash; CLAUDE CODE CONFIGURATION &amp; WORKFLOWS</div>
+      <div class="a-q-text">One <code>@import</code> works, another is ignored. Both files exist. What to check first?</div>
+      <div class="a-correct-label">Correct Answer: D</div>
+      <div class="a-correct-text">Whether the <code>testing.md</code> file path is relative to the CLAUDE.md location and the file is readable from that path.</div>
+      <div class="a-explanation"><code>@import</code> uses paths relative to the importing file&rsquo;s location. If the path does not resolve correctly (e.g., wrong relative path, case sensitivity on Linux), the import silently fails. Since one import works and the other does not from the same file, a path resolution issue is the simplest and most likely explanation.</div>
+      <div class="a-distractor-note"><strong>Why the others are wrong:</strong> <strong>A</strong> &mdash; invents a per-import token limit that is not the standard debugging path; this would be an unusual failure mode. <strong>B</strong> &mdash; conflicting rules would not cause an import to be ignored entirely; they would produce inconsistent behaviour where both sets of rules partially apply. <strong>C</strong> &mdash; a user-level conflict would cause mixed behaviour, not complete absence of testing standards; and it does not explain why one import works and the other does not.</div>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q4 - QUESTION
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 5 &middot; QUESTION 4 OF 13</div><h2>QUICK CHECK</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="quiz-solo compact-q">
+      <div class="q-num">QUESTION 4 &mdash; CONTEXT MANAGEMENT &amp; RELIABILITY</div>
+      <div class="q-text">An insurance claim processing agent handles multi-step claims involving document collection, coverage verification, and payout calculation. After processing 8&ndash;10 claims in a single session, the agent begins confusing details between claims &mdash; applying the coverage limits from Claim #3 to Claim #7&rsquo;s payout calculation, or referencing a policyholder name from an earlier claim.<br><br>What is the most effective fix?</div>
+      <ol>
+        <li>Add explicit instructions to the system prompt reminding the agent to verify claim boundaries before referencing any data point.</li>
+        <li>Implement a structured &ldquo;active claim&rdquo; context block that is cleared and repopulated at the start of each new claim within the session.</li>
+        <li>Process each claim in a fresh session with no carry-over context from previous claims.</li>
+        <li>Reduce the session to a maximum of 5 claims before forcing a new session to prevent cross-contamination.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q4 - ANSWER
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 5 &middot; ANSWER 4 OF 13</div><h2>CORRECT ANSWER</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="answer-solo">
+      <div class="a-num">QUESTION 4 &mdash; CONTEXT MANAGEMENT &amp; RELIABILITY</div>
+      <div class="a-q-text">Agent confuses details between claims after processing 8&ndash;10 in one session. Most effective fix?</div>
+      <div class="a-correct-label">Correct Answer: B</div>
+      <div class="a-correct-text">Implement a structured &ldquo;active claim&rdquo; context block that is cleared and repopulated at the start of each new claim within the session.</div>
+      <div class="a-explanation">The failure is cross-claim contamination from accumulated context. A persistent &ldquo;active claim&rdquo; block that gets cleared and repopulated per claim gives the agent a deterministic reference point while allowing session continuity for workflow efficiency. This is a structural fix that prevents confusion without sacrificing the benefits of session persistence.</div>
+      <div class="a-distractor-note"><strong>Why the others are wrong:</strong> <strong>A</strong> &mdash; prompt instructions are probabilistic; they reduce confusion but cannot guarantee the agent will always correctly identify claim boundaries in a growing context. <strong>C</strong> &mdash; works but is heavy-handed; loses continuity benefits like shared reference data and workflow state. <strong>D</strong> &mdash; an arbitrary cap treats the symptom without fixing the root cause; the agent could still confuse claims 1&ndash;5.</div>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q5 - QUESTION
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 4 &middot; QUESTION 5 OF 13</div><h2>QUICK CHECK</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="quiz-solo compact-q">
+      <div class="q-num">QUESTION 5 &mdash; PROMPT ENGINEERING &amp; STRUCTURED OUTPUT</div>
+      <div class="q-text">A content moderation pipeline uses Claude to classify user posts into categories: safe, mild, moderate, severe. The system uses a detailed rubric in the prompt. Evaluation shows that &ldquo;mild&rdquo; and &ldquo;moderate&rdquo; categories have 62% inter-rater agreement with human moderators, while &ldquo;safe&rdquo; and &ldquo;severe&rdquo; achieve 94%. The rubric defines mild as &ldquo;potentially uncomfortable content&rdquo; and moderate as &ldquo;content that may be inappropriate for some audiences.&rdquo;<br><br>What is the most effective change to improve classification accuracy for the ambiguous categories?</div>
+      <ol>
+        <li>Add confidence scores to each classification and route low-confidence items to human review.</li>
+        <li>Add a chain-of-thought requirement where the model must explain its reasoning before selecting a category.</li>
+        <li>Replace the prose rubric definitions for mild/moderate with 3&ndash;4 concrete examples per category showing the boundary between them, including examples that are deliberately close to the boundary.</li>
+        <li>Collapse mild and moderate into a single &ldquo;flagged&rdquo; category and let human reviewers make the final severity distinction.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q5 - ANSWER
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 4 &middot; ANSWER 5 OF 13</div><h2>CORRECT ANSWER</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="answer-solo">
+      <div class="a-num">QUESTION 5 &mdash; PROMPT ENGINEERING &amp; STRUCTURED OUTPUT</div>
+      <div class="a-q-text">Mild/moderate categories have 62% agreement vs 94% for safe/severe. Rubric uses vague prose definitions. Most effective fix?</div>
+      <div class="a-correct-label">Correct Answer: C</div>
+      <div class="a-correct-text">Replace the prose rubric definitions for mild/moderate with 3&ndash;4 concrete examples per category showing the boundary between them, including examples that are deliberately close to the boundary.</div>
+      <div class="a-explanation">The failure is ambiguous boundary definitions &mdash; &ldquo;potentially uncomfortable&rdquo; vs &ldquo;may be inappropriate&rdquo; are almost synonymous in natural language. Few-shot examples with deliberate boundary cases give the model a concrete reference for distinguishing the categories. This is the gold standard fix for inconsistent classification on ambiguous boundaries.</div>
+      <div class="a-distractor-note"><strong>Why the others are wrong:</strong> <strong>A</strong> &mdash; confidence scores route uncertainty to humans but do not fix the underlying ambiguity; the model remains unable to distinguish the categories reliably. <strong>B</strong> &mdash; chain-of-thought may help reasoning but does not fix the root cause: the rubric itself lacks clear boundaries. <strong>D</strong> &mdash; collapsing categories avoids the problem rather than solving it; it reduces classification granularity that may be needed for downstream decisions.</div>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q6 - QUESTION
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 1 &middot; QUESTION 6 OF 13</div><h2>QUICK CHECK</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="quiz-solo compact-q">
+      <div class="q-num">QUESTION 6 &mdash; AGENTIC ARCHITECTURE &amp; ORCHESTRATION</div>
+      <div class="q-text">A deployment automation agent follows a strict sequence: run tests &rarr; build artifact &rarr; push to staging &rarr; run smoke tests &rarr; promote to production. The agent uses an agentic loop with tool calls for each step. In production, the agent occasionally promotes to production even when smoke tests return failures &mdash; approximately 2% of deployments. The system prompt clearly states: &ldquo;Never promote if smoke tests fail.&rdquo;<br><br>What is the most effective fix?</div>
+      <ol>
+        <li>Implement a programmatic gate between the smoke test results and the promote tool that blocks promotion unless all smoke tests pass.</li>
+        <li>Add retry logic for smoke tests &mdash; the 2% failure rate suggests transient test flakiness rather than real promotion errors.</li>
+        <li>Strengthen the system prompt with an absolute prohibition: &ldquo;Under NO circumstances promote to production if ANY smoke test fails. This is a non-negotiable safety requirement.&rdquo;</li>
+        <li>Add a human approval step before every production promotion regardless of smoke test results.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q6 - ANSWER
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 1 &middot; ANSWER 6 OF 13</div><h2>CORRECT ANSWER</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="answer-solo">
+      <div class="a-num">QUESTION 6 &mdash; AGENTIC ARCHITECTURE &amp; ORCHESTRATION</div>
+      <div class="a-q-text">Agent promotes to production 2% of the time despite system prompt prohibition when smoke tests fail. Most effective fix?</div>
+      <div class="a-correct-label">Correct Answer: A</div>
+      <div class="a-correct-text">Implement a programmatic gate between the smoke test results and the promote tool that blocks promotion unless all smoke tests pass.</div>
+      <div class="a-explanation">A 2% skip rate despite clear prompt instructions is the classic &ldquo;probabilistic vs deterministic&rdquo; pattern. System prompt instructions have a non-zero failure rate by definition. A programmatic gate makes the violation structurally impossible &mdash; the promote tool physically cannot execute unless smoke tests pass, regardless of what the model decides.</div>
+      <div class="a-distractor-note"><strong>Why the others are wrong:</strong> <strong>B</strong> &mdash; misdiagnoses the problem; the issue is not flaky tests but the agent ignoring failed results &mdash; retrying tests does not fix the promotion logic. <strong>C</strong> &mdash; stronger wording is still a prompt instruction, which is probabilistic by nature; the current instruction already fails 2% of the time and rephrasing cannot drive that to 0%. <strong>D</strong> &mdash; disproportionate for a 2% issue that can be fixed deterministically; adds human bottleneck to 100% of deployments to catch a problem in 2%.</div>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q7 - QUESTION
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 3 &middot; QUESTION 7 OF 13</div><h2>QUICK CHECK</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="quiz-solo">
+      <div class="q-num">QUESTION 7 &mdash; CLAUDE CODE CONFIGURATION &amp; WORKFLOWS</div>
+      <div class="q-text">An engineer creates a custom slash command at <code>.claude/commands/security-review.md</code> that instructs Claude Code to perform a comprehensive security audit of changed files. When teammates try to use <code>/project:security-review</code>, they get a &ldquo;command not found&rdquo; error. The engineer confirms the file exists in the repository and teammates have pulled the latest changes. The teammates are using an active Claude Code session they started earlier in the day.<br><br>What is the most likely cause?</div>
+      <ol>
+        <li>The command file is missing the required YAML frontmatter with <code>description</code> and <code>allowed-tools</code> fields.</li>
+        <li>The file needs to be registered in the project&rsquo;s <code>CLAUDE.md</code> using <code>@command ./commands/security-review.md</code> syntax.</li>
+        <li>The command filename contains a hyphen which is not supported &mdash; project commands must use underscores or camelCase.</li>
+        <li>The invocation syntax is wrong &mdash; a project command defined at <code>.claude/commands/security-review.md</code> is invoked as <code>/security-review</code>, not <code>/project:security-review</code>.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q7 - ANSWER
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 3 &middot; ANSWER 7 OF 13</div><h2>CORRECT ANSWER</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="answer-solo">
+      <div class="a-num">QUESTION 7 &mdash; CLAUDE CODE CONFIGURATION &amp; WORKFLOWS</div>
+      <div class="a-q-text">New custom command gets &ldquo;command not found&rdquo; for teammates who pulled the latest changes. Most likely cause?</div>
+      <div class="a-correct-label">Correct Answer: D</div>
+      <div class="a-correct-text">The invocation syntax is wrong &mdash; a project command defined at <code>.claude/commands/security-review.md</code> is invoked as <code>/security-review</code>, not <code>/project:security-review</code>.</div>
+      <div class="a-explanation">A command file at <code>.claude/commands/security-review.md</code> is invoked by its filename: <code>/security-review</code>. There is no <code>/project:</code> namespace prefix, so <code>/project:security-review</code> resolves to no command and returns &ldquo;command not found.&rdquo; The file exists and is correctly placed &mdash; the caller is simply typing the wrong command name.</div>
+      <div class="a-distractor-note"><strong>Why the others are wrong:</strong> <strong>A</strong> &mdash; YAML frontmatter is optional for basic commands; its absence would not produce a &ldquo;command not found&rdquo; error. <strong>B</strong> &mdash; commands are auto-discovered from the <code>.claude/commands/</code> directory; they do not need to be registered anywhere. <strong>C</strong> &mdash; hyphens are valid in command filenames; the naming convention is flexible. (Note: a freshly pulled command runs as soon as the file is on disk; it just will not appear in the <code>/</code> autocomplete menu until the next session &mdash; but that would not cause &ldquo;command not found&rdquo; when typed correctly.)</div>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q8 - QUESTION
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 2 &middot; QUESTION 8 OF 13</div><h2>QUICK CHECK</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="quiz-solo">
+      <div class="q-num">QUESTION 8 &mdash; TOOL DESIGN &amp; MCP INTEGRATION</div>
+      <div class="q-text">A data analysis agent has a <code>query_database</code> tool that accepts SQL strings. The tool description says: &ldquo;Executes SQL queries against the analytics database. Returns results as JSON.&rdquo; In production, the agent frequently generates queries referencing tables and columns that do not exist, causing 30% of queries to fail with schema errors. The agent has no information about the database schema.<br><br>What is the most effective fix?</div>
+      <ol>
+        <li>Add schema information (table names, column names, types) to the tool description so the model knows what is available when generating queries.</li>
+        <li>Create a separate <code>get_schema</code> tool that the agent must call before generating any query, returning available tables and columns.</li>
+        <li>Add few-shot examples showing correct queries for common analysis patterns.</li>
+        <li>Implement automatic query validation that checks generated SQL against the schema before execution and returns schema hints on failure.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q8 - ANSWER
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 2 &middot; ANSWER 8 OF 13</div><h2>CORRECT ANSWER</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="answer-solo">
+      <div class="a-num">QUESTION 8 &mdash; TOOL DESIGN &amp; MCP INTEGRATION</div>
+      <div class="a-q-text">Agent generates SQL referencing nonexistent tables/columns (30% failure rate). No schema info available. Most effective fix?</div>
+      <div class="a-correct-label">Correct Answer: B</div>
+      <div class="a-correct-text">Create a separate <code>get_schema</code> tool that the agent must call before generating any query, returning available tables and columns.</div>
+      <div class="a-explanation">The agent lacks schema information entirely &mdash; it is generating SQL blind. A dedicated <code>get_schema</code> tool lets the agent discover the schema dynamically before querying. This scales with schema changes and does not bloat the tool description with static data that may become stale.</div>
+      <div class="a-distractor-note"><strong>Why the others are wrong:</strong> <strong>A</strong> &mdash; putting schema in the tool description bloats it and becomes stale as the schema evolves; dynamic discovery is more maintainable. <strong>C</strong> &mdash; few-shot examples help with known patterns but do not generalize to novel queries against unknown tables. <strong>D</strong> &mdash; validation catches errors after the fact but does not prevent them; the agent still generates bad queries and requires retry cycles.</div>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q9 - QUESTION
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 5 &middot; QUESTION 9 OF 13</div><h2>QUICK CHECK</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="quiz-solo compact-q">
+      <div class="q-num">QUESTION 9 &mdash; CONTEXT MANAGEMENT &amp; RELIABILITY</div>
+      <div class="q-text">A research agent is tasked with analyzing a 200-page technical specification. It reads the document in chunks, accumulating findings from previous chunks in its context as it processes each subsequent chunk. Reviewers notice that findings from pages 80&ndash;140 are consistently thinner and less detailed than findings from the beginning (pages 1&ndash;40) and end (pages 160&ndash;200) of the document. No errors occur during processing.<br><br>What is the most likely explanation and fix?</div>
+      <ol>
+        <li>The document&rsquo;s middle section contains less substantive content &mdash; the thin findings accurately reflect less important material.</li>
+        <li>The agent&rsquo;s context window fills up by the middle sections, causing implicit truncation. Fix: use a model with a larger context window.</li>
+        <li>The &ldquo;lost in the middle&rdquo; effect causes the model to process the beginning and end of its context more reliably. Fix: place a running summary at the START of each chunk&rsquo;s prompt containing accumulated key findings.</li>
+        <li>The chunking strategy creates uneven chunk sizes with the middle chunks being smaller. Fix: ensure all chunks have equal token counts.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q9 - ANSWER
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 5 &middot; ANSWER 9 OF 13</div><h2>CORRECT ANSWER</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="answer-solo">
+      <div class="a-num">QUESTION 9 &mdash; CONTEXT MANAGEMENT &amp; RELIABILITY</div>
+      <div class="a-q-text">Research agent produces thinner findings for pages 80&ndash;140 vs beginning/end of a 200-page document. No errors. Most likely explanation?</div>
+      <div class="a-correct-label">Correct Answer: C</div>
+      <div class="a-correct-text">The &ldquo;lost in the middle&rdquo; effect causes the model to process the beginning and end of its context more reliably. Fix: place a running summary at the START of each chunk&rsquo;s prompt containing accumulated key findings.</div>
+      <div class="a-explanation">The &ldquo;lost in the middle&rdquo; pattern is well-documented &mdash; models attend more reliably to the beginning and end of their context window. When processing sequential chunks, accumulated context from earlier chunks pushes middle-section content into the less-attended zone. The fix is to ensure key summaries are placed at the START of each prompt so findings from all sections receive equal processing attention.</div>
+      <div class="a-distractor-note"><strong>Why the others are wrong:</strong> <strong>A</strong> &mdash; assuming the document&rsquo;s middle is less important is a dangerous assumption; technical specifications rarely have content-light middle sections. <strong>B</strong> &mdash; context window overflow would cause errors or complete truncation, not selectively thinner findings from a specific section. <strong>D</strong> &mdash; uneven chunk sizes would produce quality variance across random positions, not the systematic beginning-strong/middle-weak/end-strong pattern described.</div>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q10 - QUESTION
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 4 &middot; QUESTION 10 OF 13</div><h2>QUICK CHECK</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="quiz-solo compact-q">
+      <div class="q-num">QUESTION 10 &mdash; PROMPT ENGINEERING &amp; STRUCTURED OUTPUT</div>
+      <div class="q-text">A legal document extraction pipeline must extract party names, effective dates, and governing law clauses from contracts. The pipeline uses <code>tool_use</code> with a JSON schema to guarantee valid output structure. Quality review reveals that when a contract does not explicitly state a governing law, the model fabricates a plausible jurisdiction (e.g., &ldquo;State of Delaware&rdquo;) rather than leaving the field empty. This occurs in approximately 15% of extractions.<br><br>What is the most effective fix?</div>
+      <ol>
+        <li>Change the <code>governing_law</code> field in the schema to nullable/optional with an enum that includes an explicit &ldquo;not_specified&rdquo; value, and add a description stating: &ldquo;Use not_specified if no governing law clause is found in the document.&rdquo;</li>
+        <li>Add a system prompt instruction: &ldquo;If governing law is not explicitly stated in the document, output null for that field.&rdquo;</li>
+        <li>Include few-shot examples showing correct handling of contracts that lack a governing law clause.</li>
+        <li>Add a post-processing validation step that cross-references extracted governing law against a database of known jurisdictions.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q10 - ANSWER
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 4 &middot; ANSWER 10 OF 13</div><h2>CORRECT ANSWER</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="answer-solo">
+      <div class="a-num">QUESTION 10 &mdash; PROMPT ENGINEERING &amp; STRUCTURED OUTPUT</div>
+      <div class="a-q-text">Model fabricates governing law jurisdiction when contract does not state one (15% of extractions). Pipeline uses <code>tool_use</code> with JSON schema. Most effective fix?</div>
+      <div class="a-correct-label">Correct Answer: A</div>
+      <div class="a-correct-text">Change the <code>governing_law</code> field in the schema to nullable/optional with an enum that includes an explicit &ldquo;not_specified&rdquo; value, and add a description stating: &ldquo;Use not_specified if no governing law clause is found in the document.&rdquo;</div>
+      <div class="a-explanation"><code>tool_use</code> guarantees valid JSON structure but does NOT prevent semantic fabrication. The fix is schema design: making the field nullable with an explicit &ldquo;not_specified&rdquo; enum value gives the model a legitimate output option when information is absent. Without this option, the model is forced to produce a value and will fabricate one to satisfy the schema constraint.</div>
+      <div class="a-distractor-note"><strong>Why the others are wrong:</strong> <strong>B</strong> &mdash; a system prompt instruction is probabilistic; it may reduce fabrication but cannot drive it to zero when the schema still requires a value. <strong>C</strong> &mdash; few-shot examples help but do not structurally prevent fabrication; the model can still choose to fill in a plausible value. <strong>D</strong> &mdash; validates format correctness (is this a real jurisdiction?) but cannot detect fabrication when the fabricated value is a valid jurisdiction &mdash; &ldquo;State of Delaware&rdquo; would pass validation.</div>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q11 - QUESTION
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 1 &middot; QUESTION 11 OF 13</div><h2>QUICK CHECK</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="quiz-solo compact-q">
+      <div class="q-num">QUESTION 11 &mdash; AGENTIC ARCHITECTURE &amp; ORCHESTRATION</div>
+      <div class="q-text">A customer onboarding agent must complete three steps in order: verify identity, run credit check, open account. The agent uses tool calls for each step. A new compliance audit requires that every identity verification result must include a <code>verification_score</code> field that is logged before the credit check proceeds. Currently, the identity verification tool returns varied response formats &mdash; sometimes including the score, sometimes not.<br><br>What is the most effective way to ensure the <code>verification_score</code> is always logged before proceeding?</div>
+      <ol>
+        <li>Add a system prompt instruction requiring the agent to extract and log the verification score before calling the credit check tool.</li>
+        <li>Add validation in the credit check tool that rejects requests where no verification score was logged.</li>
+        <li>Create a separate <code>log_verification_score</code> tool that the agent must call between verification and credit check.</li>
+        <li>Implement a PostToolUse hook on the identity verification tool that normalizes the response to always include <code>verification_score</code> and logs it before the model processes the result.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q11 - ANSWER
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 1 &middot; ANSWER 11 OF 13</div><h2>CORRECT ANSWER</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="answer-solo">
+      <div class="a-num">QUESTION 11 &mdash; AGENTIC ARCHITECTURE &amp; ORCHESTRATION</div>
+      <div class="a-q-text">Identity verification tool returns varied formats; compliance requires <code>verification_score</code> always logged before credit check. Most effective approach?</div>
+      <div class="a-correct-label">Correct Answer: D</div>
+      <div class="a-correct-text">Implement a PostToolUse hook on the identity verification tool that normalizes the response to always include <code>verification_score</code> and logs it before the model processes the result.</div>
+      <div class="a-explanation">PostToolUse hooks intercept AFTER tool execution but BEFORE the model processes the result &mdash; perfect for normalizing response formats and logging mandatory fields. This is deterministic (always fires on every call to the tool) and handles the varied response format problem at its source. The logging happens automatically regardless of what the model decides to do next.</div>
+      <div class="a-distractor-note"><strong>Why the others are wrong:</strong> <strong>A</strong> &mdash; probabilistic; the model may forget or fail to extract the score, especially when the response format varies. <strong>B</strong> &mdash; catches the violation but does not fix the root cause (inconsistent response format); creates a failure loop where the agent cannot proceed. <strong>C</strong> &mdash; adds an extra step the agent could skip; still relies on the model choosing to call it, making it probabilistic.</div>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q12 - QUESTION
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 3 &middot; QUESTION 12 OF 13</div><h2>QUICK CHECK</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="quiz-solo compact-q">
+      <div class="q-num">QUESTION 12 &mdash; CLAUDE CODE CONFIGURATION &amp; WORKFLOWS</div>
+      <div class="q-text">A team wants Claude Code to automatically run <code>npm test -- --related</code> after every file edit to catch regressions immediately. They also want a pre-commit hook that blocks commits if any TypeScript type errors exist. These automations must work identically for all team members without any manual setup beyond cloning the repo.<br><br>What is the correct implementation approach?</div>
+      <ol>
+        <li>Add both automations to the project-level <code>CLAUDE.md</code> as natural language instructions: &ldquo;After editing, run tests. Before committing, check types.&rdquo;</li>
+        <li>Create a custom slash command <code>/test-and-commit</code> that runs both checks sequentially when invoked by the developer.</li>
+        <li>Configure both as Claude Code hooks in <code>.claude/settings.json</code> &mdash; a PostToolUse hook on Edit that runs tests, and a PreToolUse hook matching <code>Bash(git commit *)</code> that runs <code>tsc --noEmit</code> and blocks the commit (exit code 2) on type errors.</li>
+        <li>Add shell scripts to <code>.husky/</code> for the commit hook and rely on the developer to run tests manually after each edit.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q12 - ANSWER
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 3 &middot; ANSWER 12 OF 13</div><h2>CORRECT ANSWER</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="answer-solo">
+      <div class="a-num">QUESTION 12 &mdash; CLAUDE CODE CONFIGURATION &amp; WORKFLOWS</div>
+      <div class="a-q-text">Team needs automatic post-edit tests and pre-commit type checking for all members, no manual setup. Correct approach?</div>
+      <div class="a-correct-label">Correct Answer: C</div>
+      <div class="a-correct-text">Configure both as Claude Code hooks in <code>.claude/settings.json</code> &mdash; a PostToolUse hook on Edit that runs tests, and a PreToolUse hook matching <code>Bash(git commit *)</code> that runs <code>tsc --noEmit</code> and blocks the commit (exit code 2) on type errors.</div>
+      <div class="a-explanation">Claude Code hooks in project-level settings fire automatically and deterministically, are version-controlled in <code>.claude/settings.json</code>, and apply to every teammate who clones the repo &mdash; zero manual setup. PostToolUse on Edit runs tests after each edit. There is <em>no</em> &ldquo;PreCommit&rdquo; hook event in Claude Code; commits run through the Bash tool, so a commit is gated with a <strong>PreToolUse</strong> hook that matches <code>Bash(git commit *)</code>, runs <code>tsc --noEmit</code>, and returns exit code 2 to block when types fail.</div>
+      <div class="a-distractor-note"><strong>Why the others are wrong:</strong> <strong>A</strong> &mdash; natural language instructions in CLAUDE.md are probabilistic; Claude Code may or may not follow them consistently, especially under complex multi-file edits. <strong>B</strong> &mdash; a custom slash command requires manual invocation; it does not run automatically after edits or before commits. <strong>D</strong> &mdash; Husky handles only the commit hook, not the post-edit test automation; it also requires <code>npm install</code> to set up hooks, which is additional manual setup. <em>Exam note: &ldquo;PreCommit&rdquo; is not a valid Claude Code hook event &mdash; watch for invented hook names.</em></div>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q13 - QUESTION
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 1 &middot; QUESTION 13 OF 13</div><h2>QUICK CHECK</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="quiz-solo compact-q">
+      <div class="q-num">QUESTION 13 &mdash; AGENTIC ARCHITECTURE &amp; ORCHESTRATION</div>
+      <div class="q-text">A report generation agent spawns a data collection subagent that gathers metrics from 5 APIs. The subagent successfully retrieves data from all 5 sources. When the coordinator passes this data to a formatting subagent, the final report only contains data from 3 of the 5 sources. Logs confirm the data collection subagent returned all 5 datasets to the coordinator. The formatting subagent&rsquo;s prompt includes clear instructions to include all provided data.<br><br>What is the most likely root cause?</div>
+      <ol>
+        <li>The coordinator is summarizing the data collection results before passing them to the formatting subagent, and the summarization drops 2 of the 5 datasets.</li>
+        <li>The formatting subagent&rsquo;s context window cannot accommodate all 5 datasets simultaneously, causing silent truncation of the last 2.</li>
+        <li>The formatting subagent&rsquo;s template has hardcoded sections for only 3 data sources and ignores additional datasets.</li>
+        <li>Two of the 5 datasets use a different schema format that the formatting subagent cannot parse.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     Q13 - ANSWER
+     ============================================================ -->
+<div class="slide">
+  <div class="s-header"><div class="eyebrow visible">DOMAIN 1 &middot; ANSWER 13 OF 13</div><h2>CORRECT ANSWER</h2></div>
+  <div class="s-rule"></div>
+  <div class="s-body">
+    <div class="answer-solo">
+      <div class="a-num">QUESTION 13 &mdash; AGENTIC ARCHITECTURE &amp; ORCHESTRATION</div>
+      <div class="a-q-text">Coordinator received all 5 datasets but formatting subagent only produces 3 in the report. Formatting prompt says to include all data. Most likely root cause?</div>
+      <div class="a-correct-label">Correct Answer: A</div>
+      <div class="a-correct-text">The coordinator is summarizing the data collection results before passing them to the formatting subagent, and the summarization drops 2 of the 5 datasets.</div>
+      <div class="a-explanation">This is the coordinator decomposition failure pattern. The coordinator received all 5 datasets but when passing them to the formatting subagent, it summarized or selectively forwarded only 3. Since subagents do not inherit coordinator history, everything must be explicitly passed &mdash; and the coordinator&rsquo;s summarization is the point where data was lost. The failure trace leads to the handoff, not the formatting agent.</div>
+      <div class="a-distractor-note"><strong>Why the others are wrong:</strong> <strong>B</strong> &mdash; context window overflow would produce truncation artifacts or errors, not a clean 3-of-5 output with no errors. <strong>C</strong> &mdash; unlikely given the prompt includes &ldquo;clear instructions to include all provided data&rdquo; &mdash; a hardcoded template contradicts the stated flexibility. <strong>D</strong> &mdash; schema format differences would produce parsing errors or malformed output, not silent omission of entire datasets.</div>
+    </div>
+  </div>
+  <div class="logo"><svg><use href="#perficient-logo"/></svg></div>
+</div>
+
+<!-- ============================================================
+     CLOSING SLIDE
+     ============================================================ -->
+<div class="slide thankyou">
+  <div class="ty-bg"></div>
+  <div class="ty-content">
+    <div class="ty-icon">&#x1F393;</div>
+    <h2>GOOD<br>LUCK</h2>
+    <p class="ty-sub">Review your answers, revisit the domains where you hesitated, and trust the patterns.</p>
+    <div class="ty-meta">
+      <div class="ty-meta-item"><span class="t-label">DOCS</span><span class="t-value">docs.anthropic.com</span></div>
+      <div class="ty-meta-item"><span class="t-label">PRACTICE</span><span class="t-value">learn.sharedai.run</span></div>
+      <div class="ty-meta-item"><span class="t-label">TRAINING</span><span class="t-value">Skilljar Courses</span></div>
+      <div class="ty-meta-item"><span class="t-label">PASSING</span><span class="t-value">720 / 1,000</span></div>
+    </div>
+  </div>
+</div>
+
+</div><!-- /viewport -->
+</div><!-- /deck -->
+
+<div id="progress"></div>
+<div id="counter">1 / 5</div>
+<div id="dots"></div>
+<div id="hint">&#x2190; &#x2192; &middot; Space &middot; F</div>
+
+<!-- PERFICIENT-NAV-START -->
+<script>
+(function(){
+  const slides   = Array.from(document.querySelectorAll('.slide'));
+  const viewport = document.getElementById('viewport');
+  const prog     = document.getElementById('progress');
+  const ctr      = document.getElementById('counter');
+  const dotsEl   = document.getElementById('dots');
+  let cur        = 0;
+  const total    = slides.length;
+
+  slides.forEach(function(_, i) {
+    const d = document.createElement('div');
+    d.className = 'dot' + (i === 0 ? ' active' : '');
+    d.onclick = function() { go(i); };
+    dotsEl.appendChild(d);
+  });
+
+  function scale() {
+    const s = Math.min(window.innerWidth / 1280, window.innerHeight / 720) * 0.97;
+    viewport.style.transform = 'scale(' + s + ')';
+  }
+  scale();
+  window.addEventListener('resize', scale);
+  document.addEventListener('fullscreenchange', scale);
+
+  function go(n) {
+    if (n < 0 || n >= total) return;
+    slides[cur].classList.remove('active');
+    slides[cur].classList.add('prev');
+    const old = cur;
+    setTimeout(function() { slides[old].classList.remove('prev'); }, 450);
+    cur = n;
+    slides[cur].classList.add('active');
+    prog.style.width = ((cur + 1) / total * 100) + '%';
+    ctr.textContent  = (cur + 1) + ' / ' + total;
+    document.querySelectorAll('.dot').forEach(function(d, i) {
+      d.classList.toggle('active', i === cur);
+    });
+  }
+
+  document.addEventListener('keydown', function(e) {
+    if (['ArrowRight', ' ', 'PageDown'].includes(e.key)) { e.preventDefault(); go(cur + 1); }
+    if (['ArrowLeft', 'PageUp'].includes(e.key))          { e.preventDefault(); go(cur - 1); }
+    if (e.key === 'Home') go(0);
+    if (e.key === 'End')  go(total - 1);
+    if (e.key === 'f' || e.key === 'F') {
+      document.fullscreenElement
+        ? document.exitFullscreen()
+        : document.documentElement.requestFullscreen().catch(function(){});
+    }
+  });
+
+  viewport.addEventListener('click', function(e) {
+    e.clientX / window.innerWidth > 0.5 ? go(cur + 1) : go(cur - 1);
+  });
+
+  var tx = 0;
+  document.addEventListener('touchstart', function(e) { tx = e.touches[0].clientX; });
+  document.addEventListener('touchend', function(e) {
+    var dx = e.changedTouches[0].clientX - tx;
+    if (Math.abs(dx) > 50) { dx < 0 ? go(cur + 1) : go(cur - 1); }
+  });
+
+  go(0);
+})();
+</script>
+<!-- PERFICIENT-NAV-END -->
+</body>
+</html>

@@ -10,7 +10,8 @@ MoveWell combines three individual capstone stores into one active-living shop:
 
 The rule throughout: **FitArena is extended, not rewritten.** StrideHub and MediKart
 bring their catalogues and category-specific data; MoveWell is the single customer
-experience on top.
+experience on top. The main decisions are also recorded as ADRs 8 to 11 in `ADR.md`, and
+the conflicts met along the way are in `CONFLICTS.md`.
 
 ---
 
